@@ -1,0 +1,198 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	CTA One
+====================================================================
+
+***/
+
+.cta-one{
+	position:relative;
+	text-align:center;
+	background-size: cover;
+	padding: 120px 0px 120px;
+	background-attachment: fixed;
+}
+
+.cta-one:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	opacity: 0.60;
+	background-color: var(--color-two);
+}
+
+.cta-one_title{
+	position:relative;
+	color: var(--white-color);
+}
+
+.cta-one_text{
+	position:relative;
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 35px;
+	color: var(--white-color);
+}
+
+/*** 
+
+====================================================================
+	CTA Two
+====================================================================
+
+***/
+
+.cta-two{
+	position:relative;
+	background-size: cover;
+	padding: 120px 0px 120px;
+	background-attachment: fixed;
+}
+
+.cta-two_image:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	opacity: 0.60;
+	background-color: var(--color-two);
+}
+
+.cta-two_image{
+	background-size: cover;
+}
+
+.cta-two_phone{
+	position:relative;
+	font-size: 18px;
+	color: var(--white-color);
+}
+
+.cta-two_phone a{
+	position:relative;
+	font-weight: 600;
+	color: var(--main-color);
+}
+
+.cta-two_title{
+	position:relative;
+	margin-top: 20px;
+	color: var(--white-color);
+}
+
+.cta-two_text{
+	position:relative;
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 35px;
+	color: var(--white-color);
+}
+
+/*** 
+
+====================================================================
+	CTA Three
+====================================================================
+
+***/
+
+.cta-three{
+	position:relative;
+	margin-top: -96px;
+	z-index:10;
+}
+
+.cta-three .inner-container{
+	position:relative;
+	padding: 60px 70px;
+	border-radius: 150px;
+	background-color: var(--main-color);
+}
+
+.cta-three_heading{
+	position:relative;
+	margin-bottom: 10px;
+}
+
+.cta-three_title{
+	position:relative;
+	font-size: 20px;
+	color: var(--color-two);
+}
+
+/* Newsletter Box */
+
+.newsletter-box{
+    position: relative;
+}
+
+.newsletter-box .form-group {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.newsletter-box .form-group input[type="text"],
+.newsletter-box .form-group input[type="email"] {
+    position: relative;
+    line-height: 43px;
+    display: block;
+    height: 64px;
+    width: 100%;
+	width: 450px;
+	border-radius: 50px;
+    box-shadow: inherit;
+    font-size: 16px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    padding: 10px 30px;
+    color:var(--white-color);
+    background: rgba(var(--black-color-rgb), 0.20);
+}
+
+.newsletter-box .form-group button {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+	bottom: 5px;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 20px;
+    background:none;
+	color: var(--white-color);
+}
+
+/*** 
+
+====================================================================
+	CTA Four
+====================================================================
+
+***/
+
+.cta-four{
+	position:relative;
+	z-index:10;
+	padding: 120px 0px 120px;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.cta-four .sec-title{
+	position:relative;
+	max-width: 950px;
+}

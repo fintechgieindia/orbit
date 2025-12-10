@@ -1,0 +1,114 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Faq One
+====================================================================
+
+***/
+
+.features-one{
+	position:relative;
+	padding: 0px 0px 80px;
+}
+
+.feature-block_one{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.feature-block_one-inner{
+	position:relative;
+	padding: 25px 30px;
+	background-color: #f5f5f5;
+}
+
+.feature-block_one-inner:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0;
+	-webkit-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+	transform: scale(1,0.2);
+	background-color: var(--color-two);
+}
+
+.feature-block_one-inner:after{
+	position:absolute;
+	content:'';
+	left:0px;
+	right:0px;
+	bottom:-10px;
+	height:40px;
+	z-index:-1;
+	opacity:0;
+	-webkit-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+	transform: scale(0.1,1);
+	background-color: var(--main-color);
+}
+
+.feature-block_one-inner:hover::after{
+	opacity:1;
+	transform: scale(1,1);
+}
+
+.feature-block_one-inner:hover::before{
+	opacity:1;
+	transform: scale(1,1);
+}
+
+.feature-block_one-content{
+	position:relative;
+	padding-left: 85px;
+}
+
+.feature-block_one-icon{
+	position:absolute;
+	left:0px;
+	top:10px;
+	font-size: 60px;
+	line-height:1em;
+	font-weight: normal;
+	color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
+
+.feature-block_one-inner:hover .feature-block_one-icon{
+	animation: swing 1s;
+}
+
+.feature-block_one-inner:hover .feature-block_one-designation{
+	color: var(--white-color);
+}
+
+.feature-block_one-inner:hover .feature-block_one-title{
+	color: var(--white-color);
+}
+
+.feature-block_one-designation{
+	position:relative;
+	color: var(--color-two);
+}
+
+.feature-block_one-title{
+	position:relative;
+	margin-top: 5px;
+	color: var(--color-two);
+}
+
+.feature-block_one-title a{
+	position:relative;
+	color: var(--color-two);
+}

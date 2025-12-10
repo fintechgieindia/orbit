@@ -1,0 +1,44 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Clients One
+====================================================================
+
+***/
+
+.clients-one{
+	position:relative;
+	z-index:1;
+}
+
+.clients-one .inner-container{
+	position:relative;
+	overflow: hidden;
+	padding: 55px 50px 55px;
+	background-color: var(--white-color);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
+}
+
+/*** 
+
+====================================================================
+	Clients Two
+====================================================================
+
+***/
+
+.clients-two{
+	position:relative;
+	z-index:1;
+	text-align:center;
+	padding: 55px 50px 55px;
+	background-color: #f5f5f5;
+}
+
+.clients-two .inner-container{
+	position:relative;
+	overflow: hidden;
+}
+

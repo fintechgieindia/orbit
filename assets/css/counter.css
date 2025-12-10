@@ -1,0 +1,67 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Counter One
+====================================================================
+
+***/
+
+.counter-one{
+	position:relative;
+	border-top: 1px solid rgba(var(--black-color-rgb), 0.08);
+	border-bottom: 1px solid rgba(var(--black-color-rgb), 0.08);
+}
+
+.counter-one .auto-container{
+	max-width: 1600px;
+}
+
+.counter-block{
+	position:relative;
+}
+
+.counter-block:last-child .inner{
+	border: none;
+}
+
+.counter-block .inner{
+	position:relative;
+	padding: 40px 0px;
+	border-right: 1px solid rgba(var(--black-color-rgb), 0.08);
+}
+
+.counter-block .content{
+	position:relative;
+	padding-left: 80px;
+	padding-right: 30px;
+}
+
+.counter-block .icon{
+	position:absolute;
+	left:0px;
+	top:8px;
+	font-size: 60px;
+	line-height:1em;
+	color: var(--color-two);
+	font-family: "flaticon_qonstruct";
+}
+
+.counter-block .inner:hover .icon{
+	animation: jello 1s;
+}
+
+.counter-block .count-box{
+	position:relative;
+	font-size: 40px;
+	font-weight: 600;
+	color: var(--color-two);
+}
+
+.counter-block .text{
+	position:relative;
+	margin-top: 20px;
+	font-size: 18px;
+	color: var(--color-three);
+}

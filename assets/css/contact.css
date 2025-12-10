@@ -1,0 +1,149 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Contact One
+====================================================================
+
+***/
+
+.contact-one{
+	position:relative;
+	padding: 110px 0px 110px;
+}
+
+.contact-one .image-column{
+	position:relative;
+}
+
+.contact-one .image-column .image{
+	position:relative;
+	height: 100%;
+}
+
+.contact-one .image-column .image .overlay-box{
+	position:absolute;
+	left: 40px;
+	right: 40px;
+	bottom: 40px;
+	z-index: 2;
+}
+
+.contact-one .image-column .image img{
+	position:relative;
+	width:100%;
+	display: block;
+	object-fit: cover;
+	height: 100%;
+}
+
+.contact-one .image-column .image:before{
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 0px;
+    bottom: 0px;
+    content: "";
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--color-two));
+}
+
+.contact-one .image-column h4{
+	position:relative;
+	color: var(--white-color);
+}
+
+.contact-one .image-column .text{
+	position:relative;
+	margin-top: 20px;
+	max-width: 450px;
+	color: var(--white-color);
+}
+
+.contact-one .image-column .signature{
+	position:relative;
+	margin-top: 30px;
+}
+
+.contact-one .image-column .signature img{
+	position:relative;
+	width:auto;
+}
+
+.contact-one .image-column .author{
+	position:relative;
+	font-size: 18px;
+	margin-top: 20px;
+	color: var(--white-color);
+}
+
+.contact-one .form-column{
+	position:relative;
+}
+
+.contact-one .form-column .inner-column{
+	position:relative;
+	padding: 30px 40px;
+	background-color: #f5f5f5;
+}
+
+.contact-one .form-column .title-box{
+	position:relative;
+	margin-bottom: 20px;
+}
+
+.contact-one .form-column .title-box h3{
+	position:relative;
+	margin-bottom: 15px;
+}
+
+.contact-one_info-list{
+	position: relative;
+}
+
+.contact-one_info-list li{
+	position: relative;
+	min-height: 80px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+	color: var(--black-color);
+}
+
+.contact-one_info-list li .icon{
+	position: absolute;
+	left: 0px;
+	top: 2px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 36px;
+	color: var(--white-color);
+	background-color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
+
+.contact-one_info-list li strong{
+	position: relative;
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 5px;
+	line-height: 30px;
+	word-wrap: break-word;
+	color: var(--black-color);
+}
+
+/* Map Two */
+
+.map-one{
+	position: relative;
+}
+
+.map-one iframe{
+	position: relative;
+	width: 100%;
+	height: 480px;
+}

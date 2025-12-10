@@ -1,0 +1,458 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_qonstruct";
+    src: url("../fonts/flaticon_qonstructd41d.html?") format("woff2"),
+	url("../fonts/flaticon_qonstructd41d-2.html?") format("woff"),
+	url("../fonts/flaticon_qonstructd41d-3.html?#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon_qonstructd41d-4.html?") format("truetype"),
+	url("../fonts/flaticon_qonstructd41d-5.html?#flaticon_qonstruct") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_qonstruct !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-menu:before {
+    content: "\f101";
+}
+.flaticon-menu-1:before {
+    content: "\f102";
+}
+.flaticon-menu-2:before {
+    content: "\f103";
+}
+.flaticon-close:before {
+    content: "\f104";
+}
+.flaticon-mail:before {
+    content: "\f105";
+}
+.flaticon-app:before {
+    content: "\f106";
+}
+.flaticon-search:before {
+    content: "\f107";
+}
+.flaticon-telephone:before {
+    content: "\f108";
+}
+.flaticon-left-arrow:before {
+    content: "\f109";
+}
+.flaticon-right-quotation-mark:before {
+    content: "\f10a";
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: "\f10b";
+}
+.flaticon-remote-control-fast-forward-button:before {
+    content: "\f10c";
+}
+.flaticon-microphone:before {
+    content: "\f10d";
+}
+.flaticon-place:before {
+    content: "\f10e";
+}
+.flaticon-arrow:before {
+    content: "\f10f";
+}
+.flaticon-arrows:before {
+    content: "\f110";
+}
+.flaticon-play-button:before {
+    content: "\f111";
+}
+.flaticon-right-arrow:before {
+    content: "\f112";
+}
+.flaticon-checked:before {
+    content: "\f113";
+}
+.flaticon-placeholder:before {
+    content: "\f114";
+}
+.flaticon-star:before {
+    content: "\f115";
+}
+.flaticon-facebook:before {
+    content: "\f116";
+}
+.flaticon-facebook-1:before {
+    content: "\f117";
+}
+.flaticon-whatsapp:before {
+    content: "\f118";
+}
+.flaticon-whatsapp-1:before {
+    content: "\f119";
+}
+.flaticon-tik-tok:before {
+    content: "\f11a";
+}
+.flaticon-facebook-2:before {
+    content: "\f11b";
+}
+.flaticon-viber:before {
+    content: "\f11c";
+}
+.flaticon-snapchat:before {
+    content: "\f11d";
+}
+.flaticon-snapchat-1:before {
+    content: "\f11e";
+}
+.flaticon-quality:before {
+    content: "\f11f";
+}
+.flaticon-share:before {
+    content: "\f120";
+}
+.flaticon-send:before {
+    content: "\f121";
+}
+.flaticon-maps-and-flags:before {
+    content: "\f122";
+}
+.flaticon-placeholder-1:before {
+    content: "\f123";
+}
+.flaticon-email:before {
+    content: "\f124";
+}
+.flaticon-phone-call:before {
+    content: "\f125";
+}
+.flaticon-open:before {
+    content: "\f126";
+}
+.flaticon-location:before {
+    content: "\f127";
+}
+.flaticon-shopping-cart:before {
+    content: "\f128";
+}
+.flaticon-shopping-bag:before {
+    content: "\f129";
+}
+.flaticon-shopping-bag-1:before {
+    content: "\f12a";
+}
+.flaticon-shopping-cart-1:before {
+    content: "\f12b";
+}
+.flaticon-check-mark:before {
+    content: "\f12c";
+}
+.flaticon-arrow-up:before {
+    content: "\f12d";
+}
+.flaticon-swirly-scribbled-arrow:before {
+    content: "\f12e";
+}
+.flaticon-minus:before {
+    content: "\f12f";
+}
+.flaticon-plus:before {
+    content: "\f130";
+}
+.flaticon-customer-service:before {
+    content: "\f131";
+}
+.flaticon-user:before {
+    content: "\f132";
+}
+.flaticon-comment:before {
+    content: "\f133";
+}
+.flaticon-bubble-chat:before {
+    content: "\f134";
+}
+.flaticon-next:before {
+    content: "\f135";
+}
+.flaticon-left-chevron:before {
+    content: "\f136";
+}
+.flaticon-chevron:before {
+    content: "\f137";
+}
+.flaticon-search-1:before {
+    content: "\f138";
+}
+.flaticon-television:before {
+    content: "\f139";
+}
+.flaticon-android:before {
+    content: "\f13a";
+}
+.flaticon-web:before {
+    content: "\f13b";
+}
+.flaticon-apple-logo:before {
+    content: "\f13c";
+}
+.flaticon-customer-service-1:before {
+    content: "\f13d";
+}
+.flaticon-shopping-cart-2:before {
+    content: "\f13e";
+}
+.flaticon-seo:before {
+    content: "\f13f";
+}
+.flaticon-seo-1:before {
+    content: "\f140";
+}
+.flaticon-target:before {
+    content: "\f141";
+}
+.flaticon-rocket:before {
+    content: "\f142";
+}
+.flaticon-growth:before {
+    content: "\f143";
+}
+.flaticon-world:before {
+    content: "\f144";
+}
+.flaticon-smile:before {
+    content: "\f145";
+}
+.flaticon-chat:before {
+    content: "\f146";
+}
+.flaticon-chat-1:before {
+    content: "\f147";
+}
+.flaticon-text:before {
+    content: "\f148";
+}
+.flaticon-bar-chart:before {
+    content: "\f149";
+}
+.flaticon-certificate:before {
+    content: "\f14a";
+}
+.flaticon-user-1:before {
+    content: "\f14b";
+}
+.flaticon-skyscraper:before {
+    content: "\f14c";
+}
+.flaticon-industrial-robot:before {
+    content: "\f14d";
+}
+.flaticon-engineer:before {
+    content: "\f14e";
+}
+.flaticon-factory:before {
+    content: "\f14f";
+}
+.flaticon-construction:before {
+    content: "\f150";
+}
+.flaticon-oil-pump:before {
+    content: "\f151";
+}
+.flaticon-golden-gate-bridge:before {
+    content: "\f152";
+}
+.flaticon-quote:before {
+    content: "\f153";
+}
+.flaticon-location-1:before {
+    content: "\f154";
+}
+.flaticon-chat-2:before {
+    content: "\f155";
+}
+.flaticon-construction-1:before {
+    content: "\f156";
+}
+.flaticon-office:before {
+    content: "\f157";
+}
+.flaticon-skyscrapers:before {
+    content: "\f158";
+}
+.flaticon-city:before {
+    content: "\f159";
+}
+.flaticon-resize-expand:before {
+    content: "\f15a";
+}
+.flaticon-worldwide:before {
+    content: "\f15b";
+}
+.flaticon-project-management:before {
+    content: "\f15c";
+}
+.flaticon-trophy:before {
+    content: "\f15d";
+}
+.flaticon-phone-call-1:before {
+    content: "\f15e";
+}
+.flaticon-clock:before {
+    content: "\f15f";
+}
+.flaticon-crane:before {
+    content: "\f160";
+}
+.flaticon-model:before {
+    content: "\f161";
+}
+.flaticon-play-buttton:before {
+    content: "\f162";
+}
+.flaticon-facebook-3:before {
+    content: "\f163";
+}
+.flaticon-facebook-app-symbol:before {
+    content: "\f164";
+}
+.flaticon-facebook-4:before {
+    content: "\f165";
+}
+.flaticon-instagram:before {
+    content: "\f166";
+}
+.flaticon-instagram-1:before {
+    content: "\f167";
+}
+.flaticon-instagram-2:before {
+    content: "\f168";
+}
+.flaticon-twitter:before {
+    content: "\f169";
+}
+.flaticon-twitter-1:before {
+    content: "\f16a";
+}
+.flaticon-twitter-2:before {
+    content: "\f16b";
+}
+.flaticon-linkedin:before {
+    content: "\f16c";
+}
+.flaticon-linkedin-1:before {
+    content: "\f16d";
+}
+.flaticon-linkedin-2:before {
+    content: "\f16e";
+}
+.flaticon-left-arrow-1:before {
+    content: "\f16f";
+}
+.flaticon-construction-2:before {
+    content: "\f170";
+}
+.flaticon-helmet:before {
+    content: "\f171";
+}
+.flaticon-brickwall:before {
+    content: "\f172";
+}
+.flaticon-worker:before {
+    content: "\f173";
+}
+.flaticon-building:before {
+    content: "\f174";
+}
+.flaticon-design:before {
+    content: "\f175";
+}
+.flaticon-architecture:before {
+    content: "\f176";
+}
+.flaticon-customer-support:before {
+    content: "\f177";
+}
+.flaticon-workers:before {
+    content: "\f178";
+}
+.flaticon-house:before {
+    content: "\f179";
+}
+.flaticon-excavator:before {
+    content: "\f17a";
+}
+.flaticon-architect:before {
+    content: "\f17b";
+}
+.flaticon-home:before {
+    content: "\f17c";
+}
+.flaticon-supervision:before {
+    content: "\f17d";
+}
+.flaticon-work-in-progress:before {
+    content: "\f17e";
+}
+.flaticon-labor:before {
+    content: "\f17f";
+}
+.flaticon-construction-3:before {
+    content: "\f180";
+}
+.flaticon-construction-worker:before {
+    content: "\f181";
+}
+.flaticon-work-in-progress-1:before {
+    content: "\f182";
+}
+.flaticon-construction-safety:before {
+    content: "\f183";
+}
+.flaticon-skyline:before {
+    content: "\f184";
+}
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before {
+    content: "\f185";
+}
+.flaticon-traffic-barrier:before {
+    content: "\f186";
+}
+.flaticon-settings:before {
+    content: "\f187";
+}
+.flaticon-construction-site:before {
+    content: "\f188";
+}
+.flaticon-floor:before {
+    content: "\f189";
+}
+.flaticon-truck:before {
+    content: "\f18a";
+}
+.flaticon-traffic-cone:before {
+    content: "\f18b";
+}
+.flaticon-ruler:before {
+    content: "\f18c";
+}
+.flaticon-quotation:before {
+    content: "\f18d";
+}
+.flaticon-quotes:before {
+    content: "\f18e";
+}
+

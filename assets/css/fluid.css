@@ -1,0 +1,135 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Fluid One
+====================================================================
+
+***/
+
+.fluid-one{
+	position: relative;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.fluid-one .outer-container{
+	position: relative;
+}
+
+.fluid-one .left-box{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+}
+
+.fluid-one_image{
+	position: relative;
+	display: none;
+}
+
+.fluid-one_image img{
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.fluid-one .right-box{
+	position: relative;
+	float: right;
+	width: 50%;
+	padding: 90px 15px 60px 100px;
+}
+
+.fluid-one .right-box_inner{
+	position: relative;
+	max-width: 580px;
+}
+
+.fluid-block_one{
+	position:relative;
+	z-index:1;
+	margin-bottom: 30px;
+}
+
+.fluid-block_one:last-child{
+	margin-bottom: 0px;
+}
+
+.fluid-block_one-inner{
+	position:relative;
+	padding-left: 70px;
+}
+
+.fluid-block_one-icon{
+	position:absolute;
+	left:0px;
+	top:5px;
+	width:48px;
+	height:48px;
+	font-size: 22px;
+	line-height: 48px;
+	text-align: center;
+	display: inline-block;
+	color: var(--white-color);
+	font-family: "flaticon_qonstruct";
+	background-color: var(--main-color);
+}
+
+.fluid-block_one-icon:after{
+	position:absolute;
+	content:'';
+	left:-8px;
+	bottom:-8px;
+	width: 48px;
+	height: 48px;
+	z-index:-1;
+	background:url(../images/icons/vector.html) no-repeat;
+}
+
+.fluid-block_one-title{
+	position:relative;
+	color: var(--color-two);
+}
+
+.fluid-block_one-text{
+	position:relative;
+	font-size: 18px;
+	margin-top: 8px;
+	line-height: 28px;
+	color: var(--color-two);
+}
+
+.fluid-one_content{
+	position:absolute;
+	right:-40px;
+	bottom:50px;
+	padding: 40px 50px;
+	border-top: 8px solid var(--main-color);
+	background-color: var(--white-color);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.20);
+}
+
+.fluid-one_content-inner{
+	position:relative;
+	padding-left: 100px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 32px;
+	color: var(--color-two);
+}
+
+.fluid-one_content-icon{
+	position:absolute;
+	left:0px;
+	top:0px;
+	line-height:1em;
+	font-size: 70px;
+	font-weight: normal;
+	color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}

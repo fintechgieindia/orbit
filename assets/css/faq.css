@@ -1,0 +1,100 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Faq One
+====================================================================
+
+***/
+
+.faq-one{
+	position:relative;
+	padding: 110px 0px 100px;
+}
+
+.faq-one .vector-icon{
+	position:absolute;
+	right:0px;
+	top:10px;
+	z-index:1;
+}
+
+.faq-one .image-column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.faq-one .image-column .image{
+	position:relative;
+	border-radius: 8px;
+	display:inline-block;
+}
+
+.faq-one .help-box{
+	position:absolute;
+	right:-90px;
+	bottom:-50px;
+	width: 320px;
+	padding: 35px 35px;
+	text-align: right;
+	border-radius: 90px 0px 0px 0px;
+	background-color: var(--color-two);
+	border:12px solid var(--main-color);
+}
+
+.faq-one .help-box .icon{
+	position:absolute;
+	left:-30px;
+	top:-30px;
+	width: 90px;
+	height: 90px;
+	font-size: 40px;
+	border-radius: 50px;
+	line-height: 90px;
+	text-align: center;
+	color: var(--white-color);
+	font-family: "flaticon_qonstruct";
+	background-color: var(--color-three);
+}
+
+.faq-one .help-box h4{
+	position:relative;
+	color: var(--white-color);
+}
+
+.faq-one .help-box .text{
+	position:relative;
+	margin-top: 12px;
+	margin-bottom: 15px;
+	color: var(--white-color);
+}
+
+.faq-one .help-box .phone{
+	position:relative;
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--main-color);
+}
+
+.faq-one .help-box .phone:hover{
+	color: var(--white-color);
+}
+
+.faq-one .accordion-column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+/*** 
+
+====================================================================
+	Faq Two
+====================================================================
+
+***/
+
+.faq-two{
+	position:relative;
+	padding: 110px 0px 100px;
+}

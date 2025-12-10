@@ -1,0 +1,112 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Process One
+====================================================================
+
+***/
+
+.process-one{
+	position:relative;
+	padding: 130px 0px 30px;
+}
+
+.process-one.style-two{
+	padding-top: 0px;
+	padding-bottom: 110px;
+}
+
+@media (max-width: 575.98px) {
+  .process-one {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.process-one .outer-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1600px;
+  border-radius: 20px;
+  padding: 60px 0px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.process-one .outer-container:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 55%;
+  right: 0px;
+  height: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1399.98px) {
+  .process-one .outer-container:before {
+    display: none;
+  }
+}
+
+/* Process Block One */
+
+.process-block_one {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.process-block_one .inner {
+	position: relative;
+	text-align: center;
+}
+
+.process-block_one .inner:hover .number {
+	transform: rotateY(360deg);
+	color: var(--white-color);
+	border-color: var(--maion-color);
+	background-color: var(--main-color);
+}
+
+.process-block_one .inner:hover .icon {
+	animation: jello 1s;
+}
+
+.process-block_one .inner .icon {
+	position: relative;
+	font-size: 56px;
+	line-height: 1em;
+	color: var(--main-color);
+	transition: all 500ms ease;
+}
+
+.process-block_one .inner .title {
+	position: relative;
+	margin-top: 20px;
+	color: var(--color-two);
+}
+
+.process-block_one .inner .number {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 68px;
+	margin-top: 35px;
+	transition: all 500ms ease;
+	border-radius: 50px;
+	color: var(--white-color);
+	background-color: var(--color-two);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.process-block_one .inner .text {
+	position: relative;
+	margin-top: 30px;
+	padding: 0px 10px;
+	font-size: 18px;
+	line-height: 32px;
+}

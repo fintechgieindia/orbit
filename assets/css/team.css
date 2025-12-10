@@ -1,0 +1,513 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Team One
+====================================================================
+
+***/
+
+.team-one{
+	position: relative;
+	overflow:hidden;
+	padding: 0px 0px 80px;
+	background-size: cover;
+}
+
+.team-one.style-two{
+	padding-top: 110px;
+}
+
+.team-one .sec-title{
+	max-width: 750px;
+	margin:0 auto;
+	margin-bottom: 40px;
+}
+
+.team-block_one{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.team-block_one-inner{
+	position:relative;
+	overflow: hidden;
+}
+
+.team-block_one-image{
+	position:relative;
+}
+
+.team-block_one-image img{
+	position:relative;
+	width:100%;
+	display: block;
+}
+
+.team-block_one-inner:hover .team-block_one-image img{
+	transform: scale(1.04,1.04) rotate(2deg);
+}
+
+.team-block_one-content{
+	position:relative;
+	text-align:center;
+	padding: 30px 30px;
+	background-color:#f5f5f5;
+}
+
+.team-block_one-title{
+	position:relative;
+}
+
+.team-block_one-title a{
+	position:relative;
+	color: var(--color-two);
+}
+
+.team-block_one-title a:hover{
+	color: var(--main-color);
+}
+
+.team-block_one-designation{
+	position:relative;
+	margin-top: 4px;
+	color: var(--color-two);
+}
+
+.team-block_one-inner:hover .team-block_one-overlay{
+	left:0%;
+	opacity:1;
+	width:75%;
+}
+
+.team-block_one-overlay{
+	position:absolute;
+	left:-100%;
+	top:0px;
+	opacity:0;
+	bottom:0px;
+	width: 75%;
+	border-right:8px solid var(--main-color);
+}
+
+.team-block_one-overlay:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	opacity: 0.80;
+	background-color: var(--color-two);
+}
+
+.team-block_one-overlay .list{
+	position:absolute;
+	left:30px;
+	bottom:30px;
+}
+
+.team-block_one-overlay .list li{
+	position:relative;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.team-block_one-overlay .list li span{
+	position:relative;
+	margin-right: 10px;
+	color: var(--main-color);
+}
+
+.team-block_one-overlay .list li a{
+	position:relative;
+	color: var(--white-color);
+}
+
+.team-block_one-overlay .list li:last-child{
+	margin-bottom: 0px;
+}
+
+.team-block_one-overlay .list li a:hover{
+	color: var(--main-color);
+}
+
+/* Slider Socials Box */
+
+.team-block_one .social-box{
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	z-index: 1;
+	text-align: center;
+	padding: 35px 20px;
+	transform: translateY(-50%);
+}
+
+.team-block_one .social-box:before{
+	position: absolute;
+	content:'';
+	left:0px;
+	right: 0px;
+	top: 0px;
+	bottom:0px;
+	opacity:0.90;
+	background-color: var(--color-two);
+	clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%);
+}
+
+.team-block_one .social-box a{
+	position: relative;
+	font-size: 18px;
+	display: block;
+	font-weight: 500;
+	margin: 20px 0px;
+	text-transform: capitalize;
+	color: var(--white-color);
+}
+
+.team-block_one .social-box a:hover{
+	color: var(--main-color);
+}
+
+/*** 
+
+====================================================================
+	Team Two
+====================================================================
+
+***/
+
+.team-two{
+	position:relative;
+	padding-bottom: 110px;
+}
+
+.team-two .swiper-pagination-progressbar{
+	position: relative;
+	bottom: 15px;
+    top: auto !important;
+	margin: 0 auto;
+    width: 200px !important;
+    left: auto !important;
+	background-color: #dddddd;
+}
+
+.team-two .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+	background-color: var(--main-color);
+}
+
+.team-two .team-two-arrow{
+	position:relative;
+	width: 350px;
+	z-index: 1;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.team-two .team-two-arrow .four-item_carousel-prev{
+	position:relative;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	color: var(--color-two);
+}
+
+.team-two .team-two-arrow .four-item_carousel-next{
+	position:absolute;
+	right:0px;
+	bottom: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: var(--color-two);
+}
+
+.team-two .team-two-arrow .four-item_carousel-prev:hover,
+.team-two .team-two-arrow .four-item_carousel-next:hover{
+	color: var(--main-color);
+}
+
+/* Team Block Two */
+
+.team-block_two{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.team-block_two-inner{
+	position:relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.team-block_two-image{
+	position:relative;
+}
+
+.team-block_two-image img{
+	position:relative;
+	width:100%;
+	display: block;
+}
+
+.team-block_two-inner:hover .team-block_two-image img{
+	transform: scale(1.04,1.04) rotate(2deg);
+}
+
+.team-block_two-inner:hover .team-block_two-overlay{
+	bottom:0px;
+	opacity:1;
+}
+
+.team-block_two-overlay{
+	position:absolute;
+	left:0px;
+	bottom:-160px;
+	right: 0px;
+	z-index:10;
+	opacity:0;
+	text-align:center;
+	padding: 30px 30px;
+}
+
+.team-block_two-title{
+	position:relative;
+}
+
+.team-block_two-title a{
+	position:relative;
+	color: var(--white-color);
+}
+
+.team-block_two-title a:hover{
+	color: var(--main-color);
+}
+
+.team-block_two-designation{
+	position:relative;
+	margin-top: 4px;
+	font-size: 16px;
+	color: var(--white-color);
+}
+
+.team-block_two-image:before{
+	position: absolute;
+    left: 0;
+    top: 100%;
+    right: 0px;
+    bottom: 0px;
+    content: "";
+    z-index: 1;
+	-webkit-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--color-two));
+}
+
+.team-block_two-inner:hover .team-block_two-image:before{
+	top: 30%;
+}
+
+/* Socials Box */
+
+.team-block_two .social-box{
+	position: relative;
+	margin-top: 15px;
+}
+
+.team-block_two .social-box a{
+	position: relative;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0px 10px;
+	display: inline-block;
+	text-transform: capitalize;
+	color: var(--white-color);
+}
+
+.team-block_two .social-box a:hover{
+	color: var(--main-color);
+}
+
+/*** 
+
+====================================================================
+	Team Detail
+====================================================================
+
+***/
+
+.team-detail{
+	position:relative;
+	padding: 110px 0px 90px;
+}
+
+.team-image-box{
+	position:relative;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+
+.team-image-box .image-box{
+	position:relative;
+}
+
+.team-image-box .image-box img{
+	position:relative;
+	width:100%;
+	display: block;
+}
+
+.team-image-box .content{
+	position:relative;
+	padding: 25px 10px 0px;
+}
+
+.team-image-box .title{
+	position:relative;
+	color: var(--color-two);
+}
+
+.team-image-box .designation{
+	position:relative;
+	margin:10px 0px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: var(--color-two);
+}
+
+.team-image-box .social-box{
+	position:relative;
+}
+
+.team-image-box .social-box a{
+	position:relative;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	color: var(--white-color);
+	background-color: var(--color-two);
+}
+
+.team-image-box .social-box a:hover{
+	color: var(--white-color);
+	background-color: var(--main-color);
+}
+
+.team-detail .content-box{
+	position:relative;
+}
+
+.team-detail .content-box .title{
+	position:relative;
+}
+
+.team-detail .content-box .title span{
+	position:relative;
+	font-size: 16px;
+	top: -25px;
+	font-weight:500;
+	padding: 10px 25px;
+	border-radius: 50px;
+	color: var(--white-color);
+	background-color: var(--color-two);
+}
+
+.team-detail .content-box h3{
+	position:relative;
+	margin-bottom: 20px;
+}
+
+.education-block{
+	position:relative;
+	padding-left: 35px;
+}
+
+.education-block li{
+	position:relative;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 20px;
+	color: var(--color-three);
+}
+
+.education-block strong{
+	position:relative;
+	display: block;
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 12px;
+	color: var(--color-two);
+}
+
+.education-block:before{
+	position:absolute;
+	left:0px;
+	top:5px;
+	content: "\f12c";
+	font-size: 22px;
+	line-height:1em;
+	font-family: "flaticon_qonstruct";
+}
+
+.team-detail_list{
+	position:relative;
+	margin-bottom: 20px;
+}
+
+.team-detail_list li{
+	position:relative;
+	font-size: 18px;
+	padding-left: 30px;
+	margin-bottom: 15px;
+	color: var(--color-three);
+}
+
+.team-detail_list li:before{
+	position:absolute;
+	left:0px;
+	top:1px;
+	content: "\f12c";
+	font-size: 18px;
+	line-height:1em;
+	color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
+
+.team-detail_list li:last-child{
+	margin-bottom: 0px;
+}
+
+.team-detail_form{
+	position:relative;
+	padding-bottom: 110px;
+}
+
+.team-detail_form .title-box{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.team-detail_form .title-box .text{
+	position:relative;
+	margin-top: 15px;
+	max-width: 550px;
+}
+
+.team-detail_form .inner-container{
+	position:relative;
+	padding: 60px 60px;
+	background-color: #f5f5f5;
+}

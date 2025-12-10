@@ -1,0 +1,168 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Welcome One
+====================================================================
+
+***/
+
+.welcome-one{
+	position:relative;
+	padding: 120px 0px 60px;
+}
+
+.welcome-one_image-column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.welcome-one_image-outer{
+	position:relative;
+}
+
+.welcome-one_image{
+	position:relative;
+	opacity:0;
+	clip-path: polygon(49% 0, 51% 0, 51% 100%, 49% 100%);
+}
+
+.welcome-one_image.now-in-view{
+	opacity:1;
+	-webkit-transition-delay: 500ms;
+	-moz-transition-delay: 500ms;
+	-ms-transition-delay: 500ms;
+	-o-transition-delay: 500ms;
+	transition-delay: 500ms;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.welcome-one_content-column{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.welcome-one_content-outer{
+	position:relative;
+}
+
+.welcome-one_tag{
+	position:relative;
+	font-size:24px;
+	display: flex;
+	font-weight: 600;
+	line-height:1em;
+	align-content: center;
+	color: var(--color-two);
+	background-color:#f5f5f5;
+	padding: 25px 25px 25px 35px;
+	border-radius: 50px 0px 0px 50px;
+}
+
+.welcome-one_tag span{
+	position:relative;
+	line-height:1em;
+	margin-right: 15px;
+	color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
+
+.welcome-one_experiance{
+	position:relative;
+	font-size:30px;
+	display: block;
+	font-weight: 600;
+	line-height:1em;
+	margin-top: 30px;
+	color: var(--color-two);
+}
+
+.welcome-one_experiance .odometer{
+	position:relative;
+	font-size: 72px;
+	line-height:1em;
+	font-weight:700;
+	margin-right: 20px;
+	color: var(--main-color);
+}
+
+.welcome-one_content{
+	position:relative;
+	padding-left: 125px;
+}
+
+.welcome-one_content .award-box{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:101px;
+	z-index:1;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.welcome-one_content .award-box:before{
+	position:absolute;
+	content:'';
+	left:10px;
+	top:50px;
+	right:10px;
+	bottom:0px;
+	background-color:#151824;
+	clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+}
+
+.welcome-one_content .award-text{
+	position:relative;
+	font-size:16px;
+	padding:0px 15px;
+	color: var(--white-color);
+}
+
+.welcome-one_content .award-text span{
+	position:relative;
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.welcome-one_content .award-text span:before{
+	position:absolute;
+	content:'';
+	left: 50%;
+	top:0px;
+	width:30px;
+	height: 2px;
+	transform: translateX(-50%);
+	background-color: var(--main-color);
+}
+
+.welcome-one_content .award-box .star{
+	position:relative;
+	width:101px;
+	height:101px;
+	z-index:1;
+	font-size: 18px;
+	line-height:101px;
+	margin-bottom: 15px;
+	color: var(--white-color);
+}
+
+.welcome-one_content .award-box .star:after{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+	background:url(../images/icons/circle.html) no-repeat;
+}
+
+.welcome-one_button{
+	position:relative;
+	margin-top: 30px;
+}

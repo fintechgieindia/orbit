@@ -1,0 +1,36 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/***
+
+====================================================================
+	Error One
+====================================================================
+
+***/
+
+.error-section{
+	position:relative;
+	text-align:center;
+	padding:100px 0px 100px;
+}
+
+.error-section .content{
+	position:relative;
+}
+
+.error-section h2{
+	font-weight:800;
+	margin-top: 50px;
+	color:var(--black-color);
+}
+
+.error-section .error-one_text{
+	line-height:1.8em;
+	font-size:18px;
+	color:var(--color-five);
+	margin-top:25px;
+}
+
+.error-section .error-one_button{
+	margin-top:30px;
+}

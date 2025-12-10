@@ -1,0 +1,830 @@
+/* Qonstruct Construction Business HTML-5 Template */
+
+/*** 
+
+====================================================================
+	Services One
+====================================================================
+
+***/
+
+.service-one{
+	position:relative;
+	padding:120px 0px 90px;
+	background-color: #f5f5f5;
+}
+
+.service-one .swiper-pagination-progressbar{
+	position: relative;
+	bottom: 15px;
+    top: auto !important;
+	margin: 0 auto;
+    width: 200px !important;
+    left: auto !important;
+	background-color: #dddddd;
+}
+
+.service-one .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+	background-color: var(--main-color);
+}
+
+.service-one .service-one-arrow{
+	position:relative;
+	width: 350px;
+	z-index: 1;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.service-one .service-one-arrow .three-item_carousel-prev{
+	position:relative;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	color: var(--color-three);
+}
+
+.service-one .service-one-arrow .three-item_carousel-next{
+	position:absolute;
+	right:0px;
+	bottom: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: var(--color-three);
+}
+
+.service-one .service-one-arrow .three-item_carousel-prev:hover,
+.service-one .service-one-arrow .three-item_carousel-next:hover{
+	color: var(--main-color);
+}
+
+.service-block_one{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.service-block_one.style-two .service-block_one-inner{
+	background-color: #f5f5f5;
+}
+
+.service-block_one-inner{
+	position:relative;
+	padding: 40px 40px;
+	background-color: var(--white-color);
+}
+
+.service-block_one-pattern{
+	opacity: 0.80;
+	background-repeat: no-repeat;
+	background-position:right bottom;
+}
+
+.service-block_one-inner:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0;
+	-webkit-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+	transform: scale(1,0.2);
+	background-color: var(--color-two);
+}
+
+.service-block_one-inner:hover::before{
+	opacity:1;
+	transform: scale(1,1);
+}
+
+.service-block_one-icon{
+	position:relative;
+	line-height:1em;
+	font-size:70px;
+	color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
+
+.service-block_one-inner:hover .service-block_one-icon{
+	animation: rubberBand 1s;
+}
+
+.service-block_one-number{
+	position:relative;
+	line-height:1em;
+	font-size:80px;
+	font-weight:800;
+	
+    display: inline-block;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(var(--color-two-rgb), 0.40);
+}
+
+.service-block_one-inner:hover .service-block_one-number{
+	-webkit-text-stroke-color: rgba(var(--white-color-rgb), 0.40);
+}
+
+.service-block_one-title{
+	position:relative;
+	margin-top: 40px;
+}
+
+.service-block_one-title a{
+	position:relative;
+	color: var(--color-two);
+}
+
+.service-block_one-inner:hover .service-block_one-title a{
+	color: var(--white-color);
+}
+
+.service-block_one-title a:hover{
+	color: var(--main-color);
+}
+
+.service-block_one-list{
+	position:relative;
+	margin-top: 40px;
+}
+
+.service-block_one-list li{
+	position:relative;
+	font-size: 18px;
+	padding-left: 30px;
+	margin-bottom: 15px;
+}
+
+.service-block_one-list li:before{
+	position:absolute;
+	content: "\f12c";
+	left:0px;
+	top:0px;
+	font-family: "flaticon_qonstruct";
+}
+
+.service-block_one-list li:last-child{
+	margin-bottom: 0px;
+}
+
+.service-block_one-inner:hover .service-block_one-list li{
+	color: var(--white-color);
+}
+
+.service-block_one-arrow{
+	position:relative;
+	width: 48px;
+	height: 48px;
+	font-size: 22px;
+	font-weight: 700;
+	text-align:center;
+	line-height: 48px;
+	margin-top: 40px;
+	border-radius: 50px;
+	display:inline-block;
+	color: var(--color-two);
+	font-family: "flaticon_qonstruct";
+	background-color: var(--main-color);
+}
+
+.service-block_one-arrow:hover{
+	color: var(--main-color);
+	background-color: var(--white-color);
+}
+
+/*** 
+
+====================================================================
+	Services Two
+====================================================================
+
+***/
+
+.service-two{
+	position:relative;
+	padding:120px 0px 90px;
+	background-color: #f5f5f5;
+}
+
+.service-two .sec-title_heading{
+	font-size: 40px;
+	line-height: 46px;
+}
+
+.service-block_two{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.service-block_two.style-two .service-block_two-inner{
+	background-color: #f9f9f9;
+}
+
+.service-block_two-inner{
+	position:relative;
+	overflow: hidden;
+	padding: 10px 10px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: var(--white-color);
+}
+
+.service-block_two-inner:hover::before{
+	opacity:1;
+	transform: scale(1, 1);
+}
+
+.service-block_two-inner:before{
+	position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    background-color: #eae8e8;
+    transform: scale(0.2, 1);
+    transition: all 500ms ease;
+}
+
+.service-block_two-image{
+	position:relative;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: var(--color-two);
+}
+
+.service-block_two-image img{
+	position:relative;
+	width:100%;
+	display: block;
+}
+
+.service-block_two-inner:hover .service-block_two-image img{
+	opacity:0.70;
+	transform: scale(1.04,1.04) rotate(2deg);
+}
+
+.service-block_two-content{
+	position:relative;
+	padding: 0px 20px 20px;
+}
+
+.service-block_two-icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: -40px;
+	color: var(--white-color);
+	background-color: var(--color-two);
+	font-family: "flaticon_qonstruct";
+}
+
+.service-block_two-inner:hover .service-block_two-icon{
+	animation: swing 1s;
+	background-color: var(--main-color);
+}
+
+.service-block_two-title{
+	position:relative;
+	margin-top: 22px;
+}
+
+.service-block_two-title a{
+	position:relative;
+	color: var(--color-two);
+}
+
+.service-block_two-title a:hover{
+	color: var(--main-color);
+}
+
+.service-block_two-text{
+	position:relative;
+	margin-top: 12px;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*** 
+
+====================================================================
+	Services Three
+====================================================================
+
+***/
+
+.service-three{
+	position:relative;
+	padding:120px 0px 110px;
+}
+
+.service-block_three {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.service-block_three:last-child .inner {
+	border: none;
+	min-height: 200px;
+}
+
+.service-block_three:last-child {
+	margin-bottom: 0px;
+}
+
+.service-block_three .inner {
+	position: relative;
+	padding-top: 10px;
+	padding-left: 350px;
+	min-height: 235px;
+	margin-right: 70px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.service-block_three .inner .image {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 200px;
+	overflow: hidden;
+	display: inline-block;
+	background-color: var(--color-two);
+}
+
+.service-block_three .inner .image img{
+	width:100%;
+	display: block;
+}
+
+.service-block_three .inner:hover .image img{
+	opacity:0.70;
+	transform: scale(1.04,1.04) rotate(2deg);
+}
+
+.service-block_three .inner .title {
+	position: relative;
+}
+
+.service-block_three .inner .title a {
+	color: var(--color-two);
+}
+
+.service-block_three .inner .title a:hover{
+	color: var(--main-color);
+}
+
+.service-block_three .inner .title span {
+	position: relative;
+	font-size: 14px;
+	top: -12px;
+	line-height: 1em;
+	border-radius: 50px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 10px 20px 10px;
+	color: var(--white-color);
+	background-color: var(--color-two);
+}
+
+.service-block_three .inner .text {
+	position: relative;
+	font-size: 16px;
+	line-height: 26px;
+	max-width: 390px;
+	margin: 15px 0px 25px;
+	color: var(--color-three);
+}
+
+.service-four_content {
+	position: relative;
+	padding-left: 110px;
+	border-left: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.service-four_content .text {
+	position: relative;
+	font-size: 20px;
+	max-width: 290px;
+	line-height: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: var(--color-three);
+}
+
+.service-four_content .image {
+	position: relative;
+	margin-top: 90px;
+}
+
+/* Play Box */
+
+.service-four_play{
+	position:relative;
+}
+
+.service-four_play span{
+	position: relative;
+	width:70px;
+	height: 70px;
+	z-index:10;
+	font-weight:700;
+	text-align: center;
+	display: inline-block;
+	line-height:70px;
+	border-radius:50%;
+	font-size: 18px;
+	padding-left: 5px;
+	color: var(--white-color);
+	background-color: var(--color-two);
+	font-family: "flaticon_qonstruct";
+}
+
+.service-four_play span:hover{
+	color:var(--white-color);
+	background-color:var(--main-color);
+}
+
+.service-four_play .ripple,
+.service-four_play .ripple:before,
+.service-four_play .ripple:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:70px;
+	height: 70px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -ms-border-radius: 50% 50% 50% 50%;
+    -o-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, .4);
+    -ms-box-shadow: 0 0 0 0 rgba(0, 0, 0, .4);
+    -o-box-shadow: 0 0 0 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .4);
+    -webkit-animation: ripple 3s infinite;
+    -moz-animation: ripple 3s infinite;
+    -ms-animation: ripple 3s infinite;
+    -o-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+}
+
+.service-four_play .ripple:before {
+    -webkit-animation-delay: .9s;
+    -moz-animation-delay: .9s;
+    -ms-animation-delay: .9s;
+    -o-animation-delay: .9s;
+    animation-delay: .9s;
+    content: "";
+    position: absolute;
+}
+
+.service-four_play .ripple:after {
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    -ms-animation-delay: .6s;
+    -o-animation-delay: .6s;
+    animation-delay: .6s;
+    content: "";
+    position: absolute;
+}
+
+@-webkit-keyframes ripple {
+    70% {box-shadow: 0 0 0 70px rgba(253, 167, 0, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);}
+}
+
+@keyframes ripple {
+    70% {box-shadow: 0 0 0 70px rgba(253, 167, 0, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);}
+}
+
+/*** 
+
+====================================================================
+	Services Four
+====================================================================
+
+***/
+
+.service-four{
+	position:relative;
+	padding:110px 0px 110px;
+}
+
+/***
+
+====================================================================
+	Sidebar Page Container
+====================================================================
+
+***/
+
+.sidebar-page-container{
+	position:relative;
+	padding:120px 0px 90px;
+}
+
+.sidebar-page-container .content-side,
+.sidebar-page-container .sidebar-side{
+	margin-bottom:30px;
+}
+
+/* Sidebar Title */
+
+.sidebar-widget{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.sidebar-title{
+	position:relative;
+	margin-bottom:20px;
+	text-transform:uppercase;
+}
+
+.sticky-top{
+	z-index:1;
+	top:110px;
+}
+
+/* Search Widget */
+
+.sidebar .search-box .form-group{
+	position:relative;
+	margin:0px;
+}
+
+.sidebar .search-box .form-group input:focus + button{
+	background-color: var(--main-color);
+}
+
+.sidebar .search-box .form-group input[type="text"],
+.sidebar .search-box .form-group input[type="search"]{
+	position:relative;
+	line-height:28px;
+	font-size:18px;
+	padding:10px 50px 10px 30px;
+	background:none;
+	display:block;
+	width:100%;
+	height:64px;
+	border-radius:50px;
+	color:var(--black-color);
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	background-color:var(--white-three);
+	box-shadow:0px 0px 10px rgba(0,0,0,0.10);
+}
+
+.sidebar .search-box .form-group input::placeholder,
+.sidebar .search-box .form-group textarea::placeholder{
+	color:#666666;
+}
+
+.sidebar .search-box .form-group button{
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom: 0px;
+	width:64px;
+	width:64px;
+	display:block;
+	cursor:pointer;
+	font-size:20px;
+	line-height:50px;
+	font-weight:normal;
+	border-radius:50px;
+	color:var(--white-color);
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	background-color: var(--main-color);
+}
+
+.sidebar .search-box .form-group button:hover{
+	background-color:var(--color-two);
+	color:var(--white-color);
+}
+
+/* Category List */
+
+.category-list{
+	position: relative;
+	z-index:1;
+}
+
+.category-list li{
+	position: relative;
+	z-index:1;
+	margin-bottom: 15px;
+}
+
+.category-list li a{
+	position: relative;
+	display: block;
+	font-size: 20px;
+	z-index:1;
+	font-weight:500;
+	border-radius:5px;
+	color: var(--white-color);
+	text-transform: capitalize;
+	padding: 28px 25px 28px 25px;
+	background-color: var(--color-two);
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.category-list li a:hover::before{
+	opacity:0;
+}
+
+.category-list li span{
+	position: absolute;
+	right: 10px;
+	top:10px;
+	width:58px;
+	height:58px;
+	font-size:34px;
+	line-height:60px;
+	text-align:center;
+	border-radius:5px;
+	display:inline-block;
+	color: var(--white-color);
+	background-color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
+
+.category-list li a:hover span{
+	background-image:none;
+	background-color: var(--black-color);
+}
+
+.category-list li a:hover{
+	color: var(--white-color);
+	background-color: var(--main-color);
+}
+
+.category-list li:last-child{
+	margin-bottom: 0px;
+}
+
+/* Question Widget */
+
+.question-widget{
+	position:relative;
+}
+
+.question-widget .inner-box{
+	position:relative;
+	padding:60px 40px;
+	border-radius:20px;
+	text-align:center;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color:var(--black-color);
+}
+
+.question-widget-shadow{
+	position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 107px;
+    height: 114px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.question-widget .icon{
+	position:relative;
+	font-size:90px;
+	line-height:1em;
+	color:var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
+
+.question-widget .title{
+	position:relative;
+	margin-top: 30px;
+	color:var(--white-color);
+}
+
+.question-widget .text{
+	position:relative;
+	margin-top: 20px;
+	font-size:18px;
+	line-height:30px;
+	margin-bottom:25px;
+	color:var(--white-color);
+}
+
+.question-widget .phone{
+	position:relative;
+	font-size: 24px;
+	display: flex;
+	gap: 15px;
+    align-items: center;
+    justify-content: center;
+	color:var(--white-color);
+}
+
+.question-widget .phone .phone-icon{
+	position:relative;
+	width:44px;
+	height:44px;
+	font-size: 18px;
+	font-weight:700;
+	line-height:44px;
+	text-align:center;
+	border-radius: 50px;
+	display: inline-block;
+	color:var(--black-color);
+	background-color:var(--white-color);
+}
+
+.question-widget .phone:hover{
+	color:var(--main-color);
+}
+
+.service-detail{
+	position:relative;
+}
+
+.service-detail .inner-box{
+	position:relative;
+}
+
+.service-detail .image{
+	position:relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border-radius: 15px;
+}
+
+.service-detail .image img{
+	position:relative;
+	width:100%;
+	display:block;
+}
+
+.service-detail h2{
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.service-detail h3{
+	position:relative;
+	margin-bottom: 20px;
+}
+
+.service-detail_list{
+	position:relative;
+}
+
+.service-detail_list li{
+	position:relative;
+	font-size: 16px;
+	margin-bottom: 12px;
+	padding-left: 25px;
+	color: var(--color-three);
+}
+
+.service-detail_list li:before{
+	position:absolute;
+	content: "\f12c";
+	left:0px;
+	top:0px;
+	color: var(--main-color);
+	font-family: "flaticon_qonstruct";
+}
