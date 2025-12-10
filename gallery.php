@@ -1,12 +1,7 @@
 <?php include('layout/header.php'); ?>
 <?php include('layout/navbar.php'); ?>
-
-
 <body>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-
 
 <div class="page-wrapper">
 	
@@ -15,9 +10,65 @@
 	<div class="cursor-follower"></div>
 	<!-- Cursor End -->
  	
-	<!-- Preloader Start -->
+	<!-- Cursor -->
+	<div class="cursor"></div>
+	<div class="cursor-follower"></div>
+	<!-- Cursor End -->
 		
 	
+	<!-- About Sidebar -->
+	<div class="about-sidebar">
+		<div class="gradient-layer"></div>
+		<!-- Close Button -->
+		<div class="close-sidebar-widget close-button">
+			<span class="fa-solid fa-xmark fa-fw"></span>
+		</div>
+		<div class="sidebar-inner">
+			<div class="upper-box">
+				<div class="image">
+					<img src="assets/images/resource/about.jpg" alt="" />
+				</div>
+				<div class="content-box">
+					<h3>About <span>Qonstruct</span></h3>
+					<div class="text">our clients, oue employees, and our community through our commitmrnt to leadership, excellence in craft, and attention to detail.</div>
+					<ul class="about-sidebar_list">
+						<li>Testimonials</li>
+						<li>Outsourcing</li>
+						<li>Privacy Policy</li>
+						<li>HR Training</li>
+						<li>Careers</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Social Box -->
+			<div class="social-box">
+				<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+				<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+				<a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</div>
+	</div>
+	<!-- End About Sidebar -->
+	
+	<div id="smooth-wrapper">
+      <div id="smooth-content">
+	
+			<!-- Page Title -->
+			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
+				<div class="auto-container">
+				<h2 style="text-align:center;">Contact</h2>
+
+				
+					<div class="d-flex justify-content-between align-items-center flex-wrap">
+						<ul class="bread-crumb clearfix">
+							<li><a href="index.html">Home</a></li>
+							<li>Contact</li>
+						</ul>
+						
+					</div>
+				</div>
+			</section>
 			
 
 <div class="progress-wrap">
