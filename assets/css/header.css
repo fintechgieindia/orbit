@@ -7,6 +7,9 @@
 ====================================================================
 
 ***/
+.main-header .header-lower .navigation li a {
+    color: #14176C !important;
+}
 
 .main-header{
 	position:absolute;
@@ -24,8 +27,9 @@
 }
 
 .header-top{
-	position:relative;
-	background-color:#ffffff
+    position: relative;
+    background-color: #14176C;
+    color: #ffffff; /* font color */
 }
 
 .header-top .inner-container{
@@ -97,13 +101,15 @@
 
 /* Header Upper */
 
-.main-header .header-lower{
-	position: relative;
-	transition:all 900ms ease;
-	-moz-transition:all 900ms ease;
-	-webkit-transition:all 900ms ease;
-	-ms-transition:all 900ms ease;
-	-o-transition:all 900ms ease;
+.main-header .header-lower {
+    position: relative;
+    transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    background-color: #ffffff;
+    color: #14176C; /* text color */
 }
 
 .main-header .header-lower .inner-container{

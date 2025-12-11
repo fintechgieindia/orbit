@@ -4,96 +4,9 @@
 <body>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<style>
-	/* MAIN HEADER ROW */
-.header-lower .inner-container > .d-flex {
-  display: flex;
-  align-items: center;
-}
 
-/* LOGO — lock left */
-.logo-box {
-  flex: 0 0 auto;
-}
-
-/* NAV OUTER — absolute center */
-.nav-outer {
-  flex: 1;                          /* takes middle space */
-  display: flex;
-  justify-content: center;          /* centers menu */
-  align-items: center;
-}
-
-/* MENU LIST — horizontal & clean */
-.main-menu .navigation {
-  display: flex;
-  align-items: center;
-  gap: 28px;
-  margin: 0;
-}
-
-/* Remove legacy floats */
-.main-menu .navigation li {
-  float: none;
-}
-
-/* BUTTON AREA — force right end */
-.outer-box {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-left: auto;                /* 🔑 hard-right alignment */
-}
-.header-lower .inner-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.nav-outer {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;   /* 🔥 THIS IS THE KEY */
-}
-.main-menu {
-  display: flex;
-  align-items: center;
-}
-
-.main-menu .navigation {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  margin: 0;
-  padding: 0;
-}
-
-.main-menu .navigation li {
-  float: none;
-}
-.outer-box {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-left: auto;   /* ✅ pushes to right end */
-  flex-wrap: nowrap;
-}
-.header-lower .inner-container > .d-flex {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;   /* 🔥 prevent second row */
-}
-
-
-</style>
 <div class="page-wrapper">
 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
  
 	
 	<!-- About Sidebar -->
@@ -140,13 +53,13 @@
 					
 					<h2 style="text-align:center;">Services</h2>
 
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
+					<!-- <div class="d-flex justify-content-between align-items-center flex-wrap">
 						<ul class="bread-crumb clearfix">
 							<li><a href="index.html">Home</a></li>
 							<li>Services</li>
 						</ul>
 					
-					</div>
+					</div> -->
 				</div>
 			</section>
 			<!-- End Page Title -->
@@ -160,12 +73,12 @@
 						<div class="service-block_two style-two col-lg-4 col-md-6 col-sm-12">
 							<div class="service-block_two-inner wow fadeInUp" data-wow-delay="150ms">
 							  <div class="service-block_two-image overlay-anim">
-								<a href="service-details.html"><img class="trans-500" src="assets/images/resource/service-1.jpg" alt="" /></a>
+								<a href="services.php"><img class="trans-500" src="assets/images/resource/service-1.jpg" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500 flaticon-factory"></div>
-								<h4 class="service-block_two-title"><a href="service-details.html">Industrial Construction</a></h4>
-								<div class="service-block_two-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+								<!-- <div class="service-block_two-icon trans-500 flaticon-factory"></div> -->
+								<h4 class="service-block_two-title"><a href="services.php">Borewell Drilling</a></h4>
+								<div class="service-block_two-text">We drill with precision and care to ensure strong water yield and long-lasting performance for your home, farm, or business.</div>
 							  </div>
 							</div>
 						</div>
@@ -174,12 +87,12 @@
 						<div class="service-block_two style-two col-lg-4 col-md-6 col-sm-12">
 							<div class="service-block_two-inner wow fadeInUp" data-wow-delay="300ms">
 							  <div class="service-block_two-image overlay-anim">
-								<a href="service-details.html"><img class="trans-500" src="assets/images/resource/service-2.jpg" alt="" /></a>
+								<a href="services.php"><img class="trans-500" src="assets/images/resource/service-2.jpg" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500 flaticon-construction"></div>
-								<h4 class="service-block_two-title"><a href="service-details.html">Mechanical Works</a></h4>
-								<div class="service-block_two-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+								<!-- <div class="service-block_two-icon trans-500 flaticon-construction"></div> -->
+								<h4 class="service-block_two-title"><a href="services.php">Borewell Cleaning</a></h4>
+								<div class="service-block_two-text">We remove silt, dirt, and blockages to restore water flow and improve the overall health of your existing borewell.</div>
 							  </div>
 							</div>
 						</div>
@@ -188,12 +101,12 @@
 						<div class="service-block_two style-two col-lg-4 col-md-6 col-sm-12">
 							<div class="service-block_two-inner wow fadeInUp" data-wow-delay="450ms">
 							  <div class="service-block_two-image overlay-anim">
-								<a href="service-details.html"><img class="trans-500" src="assets/images/resource/service-3.jpg" alt="" /></a>
+								<a href="services.php"><img class="trans-500" src="assets/images/resource/service-3.jpg" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500 flaticon-oil-pump"></div>
-								<h4 class="service-block_two-title"><a href="service-details.html">Bridge Construction</a></h4>
-								<div class="service-block_two-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+								<!-- <div class="service-block_two-icon trans-500 flaticon-oil-pump"></div> -->
+								<h4 class="service-block_two-title"><a href="services.php">Pump Installation</a></h4>
+								<div class="service-block_two-text">From choosing the right pump to complete setup, we make sure your system runs smoothly and gives consistent water output.</div>
 							  </div>
 							</div>
 						</div>
@@ -202,12 +115,12 @@
 						<div class="service-block_two style-two col-lg-4 col-md-6 col-sm-12">
 							<div class="service-block_two-inner wow fadeInUp" data-wow-delay="600ms">
 							  <div class="service-block_two-image overlay-anim">
-								<a href="service-details.html"><img class="trans-500" src="assets/images/resource/service-4.jpg" alt="" /></a>
+								<a href="services.php"><img class="trans-500" src="assets/images/resource/service-4.jpg" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500 flaticon-golden-gate-bridge"></div>
-								<h4 class="service-block_two-title"><a href="service-details.html">Oil Gas & Power Plant</a></h4>
-								<div class="service-block_two-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+								<!-- <div class="service-block_two-icon trans-500 flaticon-golden-gate-bridge"></div> -->
+								<h4 class="service-block_two-title"><a href="services.php">Groundwater Survey</a></h4>
+								<div class="service-block_two-text">We assess your land using proven survey methods to find the most reliable and high-yield drilling point.</div>
 							  </div>
 							</div>
 						</div>
@@ -216,12 +129,12 @@
 						<div class="service-block_two style-two col-lg-4 col-md-6 col-sm-12">
 							<div class="service-block_two-inner wow fadeInUp" data-wow-delay="750ms">
 							  <div class="service-block_two-image overlay-anim">
-								<a href="service-details.html"><img class="trans-500" src="assets/images/resource/service-5.jpg" alt="" /></a>
+								<a href="services.php"><img class="trans-500" src="assets/images/resource/service-5.jpg" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500 flaticon-construction-1"></div>
-								<h4 class="service-block_two-title"><a href="service-details.html">Mechanical Works</a></h4>
-								<div class="service-block_two-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+								<!-- <div class="service-block_two-icon trans-500 flaticon-construction-1"></div> -->
+								<h4 class="service-block_two-title"><a href="services.php">Borewell Maintenance</a></h4>
+								<div class="service-block_two-text">Regular checkups and quick repairs to keep your borewell working efficiently and prevent costly issues.</div>
 							  </div>
 							</div>
 						</div>
@@ -230,12 +143,12 @@
 						<div class="service-block_two style-two col-lg-4 col-md-6 col-sm-12">
 							<div class="service-block_two-inner wow fadeInUp" data-wow-delay="150ms">
 							  <div class="service-block_two-image overlay-anim">
-								<a href="service-details.html"><img class="trans-500" src="assets/images/resource/service-6.jpg" alt="" /></a>
+								<a href="services.php"><img class="trans-500" src="assets/images/resource/service-6.jpg" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500 flaticon-factory"></div>
-								<h4 class="service-block_two-title"><a href="service-details.html">Industrial Construction</a></h4>
-								<div class="service-block_two-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+								<!-- <div class="service-block_two-icon trans-500 flaticon-factory"></div> -->
+								<h4 class="service-block_two-title"><a href="services.php">Borewell Flushing</a></h4>
+								<div class="service-block_two-text">We flush borewells using high-pressure methods to clear sediments and enhance water output.</div>
 							  </div>
 							</div>
 						</div>

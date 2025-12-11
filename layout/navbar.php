@@ -9,15 +9,15 @@
 	
             <div class="d-flex justify-content-between align-items-center flex-wrap">
                 
-              <ul class="header-info_list" style="color: rgb(14, 16, 75);">
+              <ul class="header-info_list">
     <li>
-        <span style="color: rgb(14, 16, 75);">Email : </span>
-        <a href="mailto:orbit@gmail.com" style="color: rgb(14, 16, 75);">Orbit@gmail.com</a>
+        <span>Email : </span>
+        <a href="mailto:orbit@gmail.com" >Orbit@gmail.com</a>
     </li>
 
     <li>
-        <span style="color: rgb(14, 16, 75);">Call : </span>
-        <a href="tel:+91 7634568944" style="color: rgb(14, 16, 75);">+91 7634568944</a>
+        <span>Call : </span>
+        <a href="tel:+91 7634568944">+91 7634568944</a>
     </li>
 </ul>
 
@@ -57,11 +57,11 @@
 								
 								<div class="navbar-collapse collapse scroll-nav clearfix" id="navbarSupportedContent">
 									<ul class="navigation clearfix">
-										<li class="current"><a href="index.php">Home</a></li>
-										<li><a href="about.php">About us</a></li>
-										<li><a href="services.php">services</a></li>
-									<li><a href="gallery.php">gallery</a></li>
-								  <li><a href="contact.php">Contact</a></li>
+										 <li class="current"><a href="index.php" >Home</a></li>
+									 <li ><a href="about.php" >About Us</a></li>
+										 <li ><a href="services.php">Services</a></li>
+									 <li ><a href="gallery.php" >Gallery</a></li>
+								 <li ><a href="contact.php" >Contact Us</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -112,7 +112,12 @@
 				<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 			</nav>
 		</div>
-		<!-- End Mobile Menu -->
 	
+		<!-- End Mobile Menu -->
+		 <style>
+	a {
+  text-decoration: none !important;
+}
+</style>
 	</header>
 	<!-- End Main Header -->

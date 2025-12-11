@@ -69,16 +69,16 @@
 
 :root {
 	
-	 /* PRIMARY COLOR (#0e104b) */
-    --main-color: rgb(247,164,0);
-    --main-color-rgb:14,16,75;
-
-    /* SECONDARY COLOR (#f7a400) */
-    --color-two: rgb(14,16,75);
-    --color-two-rgb:247,164,0;
+	/* #ffa200 in decimal RGB */
+	--main-color: rgb(255,162,0);
+	--main-color-rgb:255,162,0;
 	
-	/* #555555 in decimal RGB */
-	--color-three: rgb(85,85,85);
+	/* #151824 in decimal RGB */
+	--color-two: rgb(21,24,36);
+	--color-two-rgb:21,24,36;
+	
+/* #555555 in decimal RGB */
+	--color-three: #14176C;
 	--color-three-rgb:85,85,85;
 	
 	
@@ -88,7 +88,7 @@
 	--white-color-rgb:255,255,255;
 
 	/* #000000 in decimal RGB */
-	--black-color:rgb(0,0,0);
+	--black-color:#14176C;
 	--black-color-rgb:0,0,0;
 
 }

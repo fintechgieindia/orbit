@@ -1,19 +1,21 @@
+<?php
+session_start();
+$show_popup = false;
+
+if(isset($_SESSION['form_success'])){
+    $show_popup = true;
+    unset($_SESSION['form_success']);
+}
+?>
+
+
 <?php include('layout/header.php'); ?>
 <?php include('layout/navbar.php'); ?>
 <body>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	
 
 <div class="page-wrapper">
 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
- 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
 	
 	
 	<!-- About Sidebar -->
@@ -59,86 +61,93 @@
 				<div class="auto-container">
 				<h2 style="text-align:center;">Contact</h2>
 
-				
+<!-- 				
 					<div class="d-flex justify-content-between align-items-center flex-wrap">
 						<ul class="bread-crumb clearfix">
 							<li><a href="index.html">Home</a></li>
 							<li>Contact</li>
 						</ul>
 						
-					</div>
+					</div> -->
 				</div>
 			</section>
 			<!-- End Page Title -->
 			
 			<!-- Contact One -->
-		<!-- Contact One -->
-			<section class="contact-one">
-				<div class="auto-container">
-					<div class="row clearfix">
-						
-						<!-- Image Column -->
-						<div class="image-column col-lg-6 col-md-12 col-sm-12">
-							<div class="image wow fadeInLeft" data-wow-delay="300ms">
-								<img src="assets/images/gallery/14.jpg" alt ="" />
-								<div class="overlay-box">
-									<h4>Leading Way in Building & Civil Construction!</h4>
-									<div class="text">Yet these embrace change are thriving building bigger, better, faster & stronger products than ever before!</div>
-									<div class="signature">
-										<img src="assets/images/icons/signature.png" alt="" />
-									</div>
-									<div class="author">Jermey Wade - Founder</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Content Column -->
-						<div class="form-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column wow fadeInRight" data-wow-delay="300ms">
-								<div class="title-box">
-									<h3>Request A Quote</h3>
-									<div class="text">Complete control over products allows us to ensure our customers receive the best quality prices and service. We Qonstruct Constructions. </div>
-								</div>
-								
-								<!-- Contact Form -->
-                                <div class="default-form">
-                                    <form method="post" action="https://themecraze.net/html/qonstruct/sendemail.php" id="contact-form">
-                                        <div class="row clearfix">
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                <input type="text" name="username" autocomplete="off" placeholder="Full Name" required>
-                                            </div>
-                                            
-                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                                <input type="email" name="email" autocomplete="off" placeholder="Email Address" required>
-                                            </div>
+	<div id="page-wrapper">
+    <section class="contact-one">
+    <div class="auto-container">
+        <div class="row clearfix">
 
-                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                                <input type="text" name="phone" autocomplete="off" placeholder="Phone" required>
-                                            </div>
+            <!-- Image Column -->
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <div class="image wow fadeInLeft" data-wow-delay="300ms">
+                    <img src="assets/images/gallery/14.jpg" alt="" />
+                    <div class="overlay-box">
+                        <h4>Leading the Way in Borewell & Water Solutions!</h4>
+                        <div class="text">We support homes, farms, and businesses with reliable borewell drilling, accurate groundwater surveys, and complete pump installation services delivered with trust and care!</div>
+                    </div>
+                </div>
+            </div>
 
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                <textarea name="message" autocomplete="off" placeholder="Your Message"></textarea>
-                                            </div>
-                                            
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                <!-- Button Box -->
-                                                <button type="submit" class="theme-btn btn-style-two">
-                                                    <span class="btn-wrap">
-														<span class="text-one">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
-														<span class="text-two">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
-													</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
+            <!-- Form Column -->
+            <div class="form-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column wow fadeInRight" data-wow-delay="300ms">
+
+                    <div class="title-box">
+                        <h3>Request A Quote</h3>
+                        <div class="text">Get quick and clear guidance for your borewell or water system needs. Share your details, and our team will connect with you shortly with the best solution.</div>
+                    </div>
+
+                    <div class="default-form">
+                        <form method="post" action="sendmail.php" id="contact-form">
+                            <div class="row clearfix">
+
+                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                    <input type="text" name="username" id="username" placeholder="Full Name" required>
                                 </div>
-								
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
+
+                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                                </div>
+
+                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                    <input type="text" name="phone" id="phone" placeholder="Phone" required>
+                                </div>
+
+                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                                </div>
+
+                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                    <button type="submit" class="theme-btn btn-style-two">
+                                        <span class="btn-wrap">
+                                            <span class="text-one">Get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
+                                            <span class="text-two">Get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
+                                        </span>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </form>
+ 					 </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+</div>
+<!-- POPUP OUTSIDE — stays clear -->
+<div id="success-popup" class="popup-box">
+    <div class="popup-card">
+        <h2>Thank you for contacting us!</h2>
+        <p>Our borewell expert will call you soon with the details.</p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</div>
+
 			<!-- End Contact One -->
 		
 			
@@ -204,8 +213,82 @@
 		<?php
 			include('layout/footer.php');?>
 
+<style>			
+/* Blur background ONLY */
+.blur-bg {
+    filter: blur(7px);
+    pointer-events: none;
+}
+
+/* Popup background overlay */
+.popup-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+/* Show popup */
+.popup-box.show {
+    display: flex;
+}
+
+/* Blue popup card — CLEAR, NEVER BLURRED */
+/* Blue popup card — CLEAR */
+.popup-card {
+    background: #14176C;
+    color: rgb(255,162,0);   /* <-- Updated text color */
+    padding: 35px;
+    width: 360px;
+    border-radius: 18px;
+    text-align: center;
+    z-index: 100000;
+    transform: scale(0.8);
+    animation: pop .25s ease-out forwards;
+}
+
+.popup-card h2 {
+    color: rgb(255,162,0);
+    font-size: 22px;
+    margin-bottom: 10px;
+    white-space: nowrap;   /* <-- Forces one line */
+}
+.popup-card {
+    width: 420px;   /* increased from 360px */
+}
+
+.popup-card p {
+    color: rgb(255,162,0);   /* Paragraph color */
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+
+.popup-card button {
+    margin-top: 18px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #14176C;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Popup animation */
+@keyframes pop {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+</style>
 	<!-- Search Popup -->
-	<div class="search-popup">
+	<!-- <div class="search-popup">
 		<div class="color-layer"></div>
 		<button class="close-search"><span class="fa-xmark"></span></button>
 		<form method="post" action="https://themecraze.net/html/qonstruct/blog.html">
@@ -214,7 +297,7 @@
 				<button class="fa fa-solid fa-magnifying-glass fa-fw" type="submit"></button>
 			</div>
 		</form>
-	</div>
+	</div> -->
 	<!-- End Search Popup -->
 	
 	<!-- Color Palate / Color Switcher -->
@@ -226,6 +309,66 @@
 		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
 	</svg>
 </div>
+
+<!-- <script>
+// Form Validation + AJAX Submission + Popup
+document.getElementById("contact-form").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    let name = document.getElementById("username").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+    let message = document.getElementById("message").value.trim();
+
+    // Basic validation
+    if(!name || !email || !phone || !message){
+        alert("Please fill all fields.");
+        return;
+    }
+
+    let formData = new FormData(this);
+
+    fetch("sendmail.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(res => res.text())
+    .then(response => {
+        if(response.trim() === "success"){
+
+            // Show popup
+            document.getElementById("success-popup").classList.add("show");
+
+            // Blur the contact section
+            document.querySelector(".contact-section").classList.add("blur-bg");
+        }
+    });
+});
+
+// Close popup
+function closePopup(){
+    document.getElementById("success-popup").classList.remove("show");
+    document.querySelector(".contact-section").classList.remove("blur-bg");
+}
+</script> -->
+
+
+<script>
+window.onload = function(){
+    <?php if($show_popup): ?>
+        document.getElementById("success-popup").classList.add("show");
+        document.getElementById("page-wrapper").classList.add("blur-bg");
+    <?php endif; ?>
+};
+
+function closePopup(){
+    document.getElementById("success-popup").classList.remove("show");
+    document.getElementById("page-wrapper").classList.remove("blur-bg");
+}
+
+</script>
+
+
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js"></script>

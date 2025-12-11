@@ -50,3 +50,7 @@
 @import url('magnific-popup.css');
 @import url('odometer-theme-default.css');
 @import url('jquery.bootstrap-touchspin.css');
+:root {
+    --primary: rgb(247,164,0);
+    --secondary: #14176C;
+}

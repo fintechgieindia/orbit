@@ -10,16 +10,7 @@ include('layout/header.php');
 
 <div class="page-wrapper">
 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
- 	
 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
 	
 			
 <!-- About Sidebar -->
@@ -66,13 +57,13 @@ include('layout/header.php');
 				<h2 style="text-align:center;">About us</h2>
 
 
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
+					<!-- <div class="d-flex justify-content-between align-items-center flex-wrap">
 						<ul class="bread-crumb clearfix">
 							<li><a href="index.html">Home</a></li>
 							<li>About Us</li>
 						</ul>
 						
-					</div>
+					</div> -->
 				</div>
 			</section>
 			<!-- End Page Title -->
@@ -92,22 +83,23 @@ include('layout/header.php');
 						</div>
 						
 						<!-- Content Column -->
-						<div class="welcome-one_content-column col-lg-6 col-md-12 col-sm-12">
+							<div class="welcome-one_content-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
 							<div class="welcome-one_content-outer">
 								<div class="sec-title title-anim">
 									<div class="sec-title_title">WELCOME TO COMPANY</div>
-									<h2 class="sec-title_heading text_invert">Let’s Build a Better Tomorrow</h2>
+									<h2 class="sec-title_heading text_invert">We’re Here to Make Your Water Needs Simple and Reliable</h2>
 								</div>
-								<div class="welcome-one_tag"><span class="flaticon-check-mark"></span> Complete solution of large projects</div>
-								<div class="welcome-one_experiance"><span class="odometer" data-count="25"></span> Year Experience</div>
+								<div class="welcome-one_tag"> A complete solution for all your borewell and groundwater requirements</div>
+								<!-- <span class="flaticon-check-mark"></span> -->
+								<div class="welcome-one_experiance"><span class="odometer" data-count="25+"></span> Year Experience</div>
 								<div class="welcome-one_content">
 									<div class="award-box">
 										<div class="star fa-classic fa-solid fa-star"></div>
 										<div class="award-text">Best Service Award <span>2025</span></div>
 									</div>
-									<div class="text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages. Architecture, control and construction of projects of all kinds, we have the experts in each area of work for your demand. Architecture, control and construction of projects of all kinds, we have the experts in each area of work for your demand.</div>
+									<div class="text">Orbit Forage Saral was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last.</div>
 									<div class="welcome-one_button">
-										<a href="about.html" class="theme-btn btn-style-two">
+										<a href="about.php" class="theme-btn btn-style-two">
 											<span class="btn-wrap">
 												<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 												<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -132,9 +124,9 @@ include('layout/header.php');
 						<div class="feature-block_one col-lg-4 col-md-6 col-sm-12">
 							<div class="feature-block_one-inner wow fadeInLeft" data-wow-delay="0ms">
 								<div class="feature-block_one-content">
-									<div class="feature-block_one-icon trans-300 flaticon-skyscraper"></div>
-									<div class="feature-block_one-designation trans-300">Rules of Business</div>
-									<h6 class="feature-block_one-title trans-300">Construction Business Responsibility</h6>
+									<!-- <div class="feature-block_one-icon trans-300 flaticon-skyscraper"></div> -->
+									<div class="feature-block_one-designation trans-300">Trusted Expertise</div>
+									<h6 class="feature-block_one-title trans-300">We bring years of hands-on experience to ensure your borewell is done right from day one.</h6>
 								</div>
 							</div>
 						</div>
@@ -143,9 +135,9 @@ include('layout/header.php');
 						<div class="feature-block_one col-lg-4 col-md-6 col-sm-12">
 							<div class="feature-block_one-inner wow fadeInLeft" data-wow-delay="300ms">
 								<div class="feature-block_one-content">
-									<div class="feature-block_one-icon trans-300 flaticon-industrial-robot"></div>
-									<div class="feature-block_one-designation trans-300">New Improvements</div>
-									<h6 class="feature-block_one-title trans-300">Innovative Industrial Solutions</h6>
+									<!-- <div class="feature-block_one-icon trans-300 flaticon-industrial-robot"></div> -->
+									<div class="feature-block_one-designation trans-300">Accurate Groundwater Survey</div>
+									<h6 class="feature-block_one-title trans-300">Our assessments help you choose the best drilling point with confidence and clarity.</h6>
 								</div>
 							</div>
 						</div>
@@ -154,140 +146,155 @@ include('layout/header.php');
 						<div class="feature-block_one col-lg-4 col-md-6 col-sm-12">
 							<div class="feature-block_one-inner wow fadeInLeft" data-wow-delay="600ms">
 								<div class="feature-block_one-content">
-									<div class="feature-block_one-icon trans-300 flaticon-engineer"></div>
-									<div class="feature-block_one-designation trans-300">Quality Services</div>
-									<h6 class="feature-block_one-title trans-300">Skilled & Professional Contractors</h6>
+									<!-- <div class="feature-block_one-icon trans-300 flaticon-engineer"></div> -->
+									<div class="feature-block_one-designation trans-300">Complete Water Solutions</div>
+									<h6 class="feature-block_one-title trans-300">From drilling to pump setup, we handle everything so you get a hassle-free experience.</h6>
 								</div>
 							</div>
 						</div>
-						
 					</div>
 				</div>
 			</section>
 			<!-- End Features One -->
 			
 			<!-- Process One -->
-			  <section class="process-one style-two">
-				<div class="auto-container">
-					<!-- Sec Title -->
-					<div class="sec-title title-anim centered">
-						<div class="sec-title_title">WORKING PROCESS</div>
-						<h2 class="sec-title_heading text_invert">What is the Working Process <br> in Construction </h2>
-					</div>
-				</div>
-				<div class="outer-container wow fadeInUp" data-wow-delay="250ms">
-				  <div class="auto-container">
-					<div class="row clearfix">
-
-					  <!-- Process Block One -->
-					  <div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
-						  <div class="inner wow fadeInUp" data-wow-delay="150ms">
-							<div class="icon">
-							  <i class="flaticon-chat-2"></i>
+			  <section class="process-one">
+							<div class="auto-container">
+								<!-- Sec Title -->
+								<div class="sec-title title-anim centered">
+									<div class="sec-title_title">WORKING PROCESS</div>
+									<h2 class="sec-title_heading text_invert">How We Work – Our Borewell<br>  Service Steps </h2>
+								</div>
 							</div>
-							<h4 class="title">Finding Out Needs</h4>
-							<div class="number">01</div>
-							<div class="text">Construction is a general term meaning the art and science to for</div>
-						  </div>
-					  </div>
+							<div class="outer-container wow fadeInUp" data-wow-delay="250ms">
+							<div class="auto-container">
+								<div class="row clearfix">
 
-					  <!-- Process Block One -->
-					  <div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
-						  <div class="inner wow fadeInUp" data-wow-delay="300ms">
-							<div class="icon">
-							  <i class="flaticon-construction-1"></i>
-							</div>
-							<h4 class="title">Developing Projects</h4>
-							<div class="number">02</div>
-							<div class="text">Construction is a general term meaning the art and science to for</div>
-						  </div>
-					  </div>
+								<!-- Process Block One -->
+								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInUp" data-wow-delay="150ms">
+										<!-- <div class="icon">
+										<i class="flaticon-chat-2"></i>
+										</div> -->
+										<h4 class="title">Site Assessment</h4>
+										<div class="number">01</div>
+										<div class="text"> We assess your site to understand water needs and plan the right drilling strategy.</div>
+									</div>
+								</div>
 
-					  <!-- Process Block One -->
-					  <div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
-						  <div class="inner wow fadeInUp" data-wow-delay="450ms">
-							<div class="icon">
-							  <i class="flaticon-office"></i>
-							</div>
-							<h4 class="title">Production Launch</h4>
-							<div class="number">03</div>
-							<div class="text">Construction is a general term meaning the art and science to for</div>
-						  </div>
-					  </div>
+								<!-- Process Block One -->
+								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInUp" data-wow-delay="300ms">
+										<!-- <div class="icon">
+										<i class="flaticon-construction-1"></i>
+										</div> -->
+										<h4 class="title">Groundwater Survey</h4>
+										<div class="number">02</div>
+										<div class="text">We conduct accurate groundwater testing to find the best drilling spot.</div>
+									</div>
+								</div>
 
-					  <!-- Process Block One -->
-					  <div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
-						  <div class="inner wow fadeInUp" data-wow-delay="600ms">
-							<div class="icon">
-							  <i class="flaticon-project-management"></i>
+								<!-- Process Block One -->
+								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInUp" data-wow-delay="450ms">
+										<!-- <div class="icon">
+										<i class="flaticon-office"></i>
+										</div> -->
+										<h4 class="title">Borewell Drilling </h4>
+										<div class="number">03</div>
+										<div class="text">We drill the borewell with precision and install systems suited for your water demand.</div>
+									</div>
+								</div>
+
+								<!-- Process Block One -->
+								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
+									<div class="inner wow fadeInUp" data-wow-delay="600ms">
+										<!-- <div class="icon">
+										<i class="flaticon-project-management"></i>
+										</div> -->
+										<h4 class="title">Testing & Support</h4>
+										<div class="number">04</div>
+										<div class="text">We test output, ensure smooth operation, and offer follow-up support and maintenance.</div>
+									</div>
+								</div>
+								
+								</div>
 							</div>
-							<h4 class="title">Follow-Up & Approval</h4>
-							<div class="number">04</div>
-							<div class="text">Construction is a general term meaning the art and science to for</div>
-						  </div>
-					  </div>
-					
-					</div>
-				  </div>
-				</div>
-			  </section>
+							</div>
+						</section>
 			  <!-- End Process One -->
 			
 			
 		<!-- Fluid One -->
-			<section class="fluid-one style-two" style="background-image: url(assets/images/background/pattern-2.png)">
-				<div class="outer-container clearfix">
-					<!-- Left Box -->
-					<div class="left-box" style="background-image: url(assets/images/resource/fluid-one.jpg)">
-						<div class="fluid-one_image">
-							<img src="assets/images/resource/fluid-one.jpg" alt="" />
-						</div>
-						<div class="fluid-one_content wow fadeInUp" data-wow-delay="0ms">
-							<div class="fluid-one_content-inner">
-								<div class="fluid-one_content-icon flaticon-oil-pump"></div>
-								Dedicated to Being a Partner For <br> Your Construction Needs
-							</div>
-						</div>
-					</div>
-					<!-- Right Box -->
-					<div class="right-box">
-						<div class="right-box_inner">
-							<div class="sec-title title-anim">
-								<div class="sec-title_title">COMPLETE WORK LIST</div>
-								<h2 class="sec-title_heading text_invert">We Build Effective <br> Top Buildings</h2>
-							</div>
-							
-							<!-- Fluid Block One -->
-							<div class="fluid-block_one">
-								<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="0ms">
-									<div class="fluid-block_one-icon flaticon-check-mark"></div>
-									<h4 class="fluid-block_one-title">Best Construction Quality</h4>
-									<div class="fluid-block_one-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+			<section class="fluid-one" style="background-image: url(assets/images/background/pattern-2.png)">
+							<div class="outer-container clearfix">
+								<!-- Left Box -->
+								<div class="left-box" style="background-image: url(assets/images/resource/fluid-one.jpg)">
+									<div class="fluid-one_image">
+										<img src="assets/images/resource/fluid-one.jpg" alt="" />
+									</div>
+									<div class="fluid-one_content wow fadeInUp" data-wow-delay="0ms">
+										<div class="fluid-one_content-inner">
+											<!-- <div class="fluid-one_content-icon flaticon-oil-pump"></div> -->
+											Delivering Precision  <br> Borewell & Water Solutions
+										</div>
+									</div>
+								</div>
+								<!-- Right Box -->
+								<div class="right-box">
+									<div class="right-box_inner">
+										<div class="sec-title title-anim">
+											<div class="sec-title_title">COMPLETE WORK LIST</div>
+											<h2 class="sec-title_heading text_invert">Professional Borewell Services  <br> for Every Requirement</h2>
+										</div>
+										
+										<!-- Fluid Block One -->
+										<div class="fluid-block_one">
+											<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="0ms">
+												<!-- <div class="fluid-block_one-icon flaticon-check-mark"></div> -->
+												<h4 class="fluid-block_one-title">Quality Borewell Drilling</h4>
+												<div class="fluid-block_one-text"> We execute precise and efficient borewell drilling using modern rigs and professional methods to ensure dependable water yield every time.</div>
+											</div>
+										</div>
+										
+										<!-- Fluid Block One -->
+										<div class="fluid-block_one">
+											<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="150ms">
+												<!-- <div class="fluid-block_one-icon flaticon-check-mark"></div> -->
+												<h4 class="fluid-block_one-title">Groundwater Survey & Assessment</h4>
+												<div class="fluid-block_one-text">With accurate groundwater surveys, we identify the best drilling points to maximize yield and reduce uncertainty for every project.</div>
+											</div>
+										</div>
+										
+										<!-- Fluid Block One -->
+										<div class="fluid-block_one">
+											<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="300ms">
+												<!-- <div class="fluid-block_one-icon flaticon-check-mark"></div> -->
+												<h4 class="fluid-block_one-title">Pump Installation & Maintenance</h4>
+												<div class="fluid-block_one-text">Our team installs high-quality submersible pumps and offers ongoing maintenance so your water system keeps running smoothly for years to come.</div>
+											</div>
+										</div>
+										
+									</div>
 								</div>
 							</div>
-							
-							<!-- Fluid Block One -->
-							<div class="fluid-block_one">
-								<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="150ms">
-									<div class="fluid-block_one-icon flaticon-check-mark"></div>
-									<h4 class="fluid-block_one-title">High Standards of Constructions</h4>
-									<div class="fluid-block_one-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
+						</section>
+						<!-- End Fluid One -->
+					<!-- CTA One -->
+						<section class="cta-one" style="background-image:url(assets/images/background/cta.jpg)">
+							<div class="auto-container">
+								<h2 class="cta-one_title text_invert-light">Need a Reliable Borewell or Water Solution? <br> We’re Here to Help.</h2>
+								<div class="cta-one_text">From accurate groundwater surveys to complete borewell drilling and pump installation, Orbit Forage Saral <br>provides trusted, professional support for every water requirement.</div>
+								<div class="cta-one_button trans-900">
+									<a href="contact.php" class="theme-btn btn-style-three">
+										<span class="btn-wrap">
+											<span class="text-one">get a quote <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
+											<span class="text-two">get a quote <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
+										</span>
+									</a>
 								</div>
 							</div>
-							
-							<!-- Fluid Block One -->
-							<div class="fluid-block_one">
-								<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="300ms">
-									<div class="fluid-block_one-icon flaticon-check-mark"></div>
-									<h4 class="fluid-block_one-title">25 Years of Building Experience</h4>
-									<div class="fluid-block_one-text">Questions explained agreeable preferred strangers too him her son. There are many variations of passages.</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			</section>
+						</section>
 			<!-- End Fluid One -->
 			
 			<!-- Clients Two -->
@@ -349,7 +356,7 @@ include('layout/header.php');
 
 
 						<!-- Search Popup -->
-	<div class="search-popup">
+	<!-- <div class="search-popup">
 		<div class="color-layer"></div>
 		<button class="close-search"><span class="fa-xmark"></span></button>
 		<form method="post" action="https://themecraze.net/html/qonstruct/blog.html">
@@ -358,7 +365,7 @@ include('layout/header.php');
 				<button class="fa fa-solid fa-magnifying-glass fa-fw" type="submit"></button>
 			</div>
 		</form>
-	</div>
+	</div> -->
 	<!-- End Search Popup -->
 	
 	<!-- Color Palate / Color Switcher -->

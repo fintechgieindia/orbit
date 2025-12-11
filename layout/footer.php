@@ -87,9 +87,10 @@
               </ul>
             </div>
           </div>
-
         </div>
-      </div> <!-- End Widgets Section -->
+        </div>
+      </div>
+  </div> <!-- End Widgets Section -->
 
       <!-- Footer Bottom -->
       <div class="footer-bottom mt-4">
@@ -104,8 +105,7 @@
             </ul>
           </div>
         </div>
-      </div>
-
+</div>
     </div> <!-- End inner-container -->
   </div> <!-- End auto-container -->
 </footer>

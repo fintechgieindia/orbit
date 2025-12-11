@@ -5,16 +5,7 @@
 
 <div class="page-wrapper">
 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
- 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
-		
+	
 	
 	<!-- About Sidebar -->
 	<div class="about-sidebar">
@@ -57,17 +48,8 @@
 			<!-- Page Title -->
 			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
 				<div class="auto-container">
-				<h2 style="text-align:center;">Contact</h2>
-
-				
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
-						<ul class="bread-crumb clearfix">
-							<li><a href="index.html">Home</a></li>
-							<li>Contact</li>
-						</ul>
-						
-					</div>
-				</div>
+				<h2 style="text-align:center;">Gallery</h2>
+			</div>
 			</section>
 			
 
@@ -76,6 +58,188 @@
 		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
 	</svg>
 </div>
+
+	<!-- Blog One -->
+<section class="blog-one">
+    <div class="auto-container">
+        <div class="row clearfix">
+
+            <!-- First 6 News Blocks -->
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/1.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/1.jpg" alt="image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/2.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/2.jpg" alt="image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/3.jpg"  alt="" /></a>
+                            <img src="assets/images/gallery/3.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/6.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/6.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/1.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/1.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/2.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/2.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Row for Next 3 Images -->
+        <div class="row clearfix mt-4">
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/3.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/3.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/4.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/4.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-block_two style-two col-lg-4 col-md-6 col-sm-12">
+                <div class="news-block_two-inner">
+                    <div class="news-block_two-image_outer">
+                        <div class="news-block_two-image overlay-anim">
+                            <a href="gallery.php"><img src="assets/images/gallery/19.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/19.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+					<!-- Styled Pagination -->
+					<ul class="styled-pagination text-center">
+						<li class="prev"><a href="#"><i class="fa-classic fa-solid fa-angles-left"></i></a></li>
+						<li><a href="#" class="active">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li class="next"><a href="#"><i class="fa-classic fa-solid fa-angles-right"></i></a></li>
+					</ul>
+					<!-- End Styled Pagination -->
+					
+				</div>
+			</section>
+			<!-- End Blog One -->
+			
+			<!-- Clients Two -->
+			<section class="clients-two">
+				<div class="auto-container">
+					<div class="inner-container">
+						<div class="case-one__slider-inner">
+							<div class="swiper clients_swiper">
+							  <div class="swiper-wrapper">
+									
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="client-image">
+											<a href="#"><img src="assets/images/clients/1.html" alt="" /></a>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="client-image">
+											<a href="#"><img src="assets/images/clients/2.html" alt="" /></a>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="client-image">
+											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="client-image">
+											<a href="#"><img src="assets/images/clients/4.html" alt="" /></a>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="client-image">
+											<a href="#"><img src="assets/images/clients/5.html" alt="" /></a>
+										</div>
+									</div>
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="client-image">
+											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Clients Two -->
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js"></script>
