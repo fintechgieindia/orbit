@@ -47,8 +47,8 @@
 	
 			<!-- Slider Three -->
 			<section class="slider-three" id="home">
-				<div class="slider-three_vector" style="background-image:url(assets/images/main-slider/pattern-4.png)"></div>
-				<div class="slider-three_vector-two" style="background-image:url(assets/images/main-slider/pattern-5.png)"></div>
+				<div class="slider-three_vector" style="background-image:url(assets/images/background/1.png)"></div>
+				<div class="slider-three_vector-two" style="background-image:url(assets/images/background/1.png)"></div>
 				<div class="main-slider swiper-container">
 					<div class="swiper-wrapper">
 
