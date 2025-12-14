@@ -128,12 +128,12 @@
 .contact-one_info-list li strong{
 	position: relative;
 	display: block;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 18px;
 	margin-top: 5px;
 	line-height: 30px;
 	word-wrap: break-word;
-	color: var(--black-color);
+	color:#14176c;
 }
 
 /* Map Two */

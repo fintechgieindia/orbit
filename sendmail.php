@@ -1,18 +1,32 @@
 <?php
-session_start();
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-if($_SERVER["REQUEST_METHOD"] === "POST"){
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-$name = $_POST['username'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+require_once __DIR__ . '/phpmailer/src/Exception.php';
+require_once __DIR__ . '/phpmailer/src/PHPMailer.php';
+require_once __DIR__ . '/phpmailer/src/SMTP.php';
 
-require __DIR__ . '/PHPMailer/src/PHPMailer.php';
-require __DIR__ . '/PHPMailer/src/SMTP.php';
-require __DIR__ . '/PHPMailer/src/Exception.php';
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    echo 'error';
+    exit;
+}
 
-$mail = new PHPMailer\PHPMailer\PHPMailer();
+$name     = $_POST['username'] ?? '';
+$email    = $_POST['email'] ?? '';
+$services = $_POST['services'] ?? '';
+$phone    = $_POST['phone'] ?? '';
+$message  = $_POST['message'] ?? '';
+
+if ($name === '' || $email === '' || $services === '' || $phone === '' || $message === '') {
+    echo 'error';
+    exit;
+}
+
+$mail = new PHPMailer(true);
 
 try {
     $mail->isSMTP();
@@ -26,18 +40,20 @@ try {
     $mail->setFrom('wegeniofficial@gmail.com', 'Website Contact Form');
     $mail->addAddress('divyaramesh5121@gmail.com');
 
-    $mail->Subject = "New Contact Form Submission";
-    $mail->Body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message";
+    $mail->isHTML(true);
+    $mail->Subject = 'New Contact Form Submission';
+
+    $mail->Body = "
+        <strong>Name:</strong> {$name}<br>
+        <strong>Email:</strong> {$email}<br>
+        <strong>Phone:</strong> {$phone}<br>
+        <strong>Services:</strong> {$services}<br><br>
+        <strong>Message:</strong><br>{$message}
+    ";
 
     $mail->send();
-
-    // SUCCESS FLAG
-    $_SESSION['form_success'] = true;
-    header("Location: contact.php"); // YOUR PAGE NAME HERE
-    exit();
+    echo 'success';
 
 } catch (Exception $e) {
-    echo "Email could not be sent.";
+    echo 'error';
 }
-}
-?>

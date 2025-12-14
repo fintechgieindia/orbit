@@ -1,36 +1,49 @@
 	<!-- Main Header -->
-	<header class="main-header header-style-three">
+	<header class="main-header header-style-two">
 		
-		<div class="header-top">
+		<!-- Header Top -->
+<div class="header-top">
     <div class="auto-container">
-        <div class="inner-container" style="
-    padding-top: 10px;
-    padding-bottom: 10px;">
-	
+        <div class="inner-container">
             <div class="d-flex justify-content-between align-items-center flex-wrap">
                 
-              <ul class="header-info_list">
-    <li>
-        <span>Email : </span>
-        <a href="mailto:orbit@gmail.com" >Orbit@gmail.com</a>
-    </li>
+                <!-- Left Side: Email & Phone -->
+                <ul class="header-info_list d-flex align-items-center mb-0">
+                    <li>
+                        <span>Email : </span>
+                        <a href="mailto:Orbitforagesarl@gmail.com">Orbitforagesarl@gmail.com</a>
+                    </li>
+                    <li class="ms-3">
+                        <span>Call : </span>
+                        <a href="tel:+919442896237">+91 94428 96237</a>
+                    </li>
+                </ul>
 
-    <li>
-        <span>Call : </span>
-        <a href="tel:+91 7634568944">+91 7634568944</a>
-    </li>
-</ul>
-
-
-
+                <!-- Right Side: Social Media Icons -->
+                <ul class="header-social d-flex align-items-center mb-0">
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
 
             </div>
         </div>
     </div>
 </div>
+<!-- End Header Top -->
 
-
-		<!-- End Header Top -->
 		
 		<!-- Header Lower -->
 		<div class="header-lower">
@@ -40,7 +53,7 @@
 						
 						<!-- Logo Box -->
 						<div class="logo-box">
-							<div class="logo"><a href="index.php"><img src="assets/images/orbit logo.svg" alt="" title="Qonstruct"></a></div>
+							<div class="logo"><a href="index.html"><img src="assets/images/orbit logo.svg" alt="" title="Qonstruct"></a></div>
 						</div>
 						
 						<div class="nav-outer d-flex flex-wrap">
@@ -55,14 +68,33 @@
 									</button>
 								</div>
 								
-								<div class="navbar-collapse collapse scroll-nav clearfix" id="navbarSupportedContent">
-									<ul class="navigation clearfix">
-										 <li class="current"><a href="index.php" >Home</a></li>
-									 <li ><a href="about.php" >About Us</a></li>
-										 <li ><a href="services.php">Services</a></li>
-									 <li ><a href="gallery.php" >Gallery</a></li>
-								 <li ><a href="contact.php" >Contact Us</a></li>
-									</ul>
+								<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+									<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
+
+<ul class="navigation clearfix">
+    <li class="<?= ($currentPage == 'index.php') ? 'active' : '' ?>">
+        <a href="index.php">Home</a>
+    </li>
+
+    <li class="<?= ($currentPage == 'about.php') ? 'active' : '' ?>">
+        <a href="about.php">About</a>
+    </li>
+
+    <li class="<?= ($currentPage == 'services.php') ? 'active' : '' ?>">
+        <a href="services.php">Services</a>
+    </li>
+
+    <li class="<?= ($currentPage == 'gallery.php') ? 'active' : '' ?>">
+        <a href="gallery.php">Gallery</a>
+    </li>
+
+    <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>">
+        <a href="contact.php">Contact</a>
+    </li>
+</ul>
+
 								</div>
 							</nav>
 						</div>
@@ -70,7 +102,6 @@
 						<!-- Main Menu End-->
 						<div class="outer-box d-flex align-items-center flex-wrap">
 
-							
 							
 							<!-- About Widget -->
 							<span class="about-widget">
@@ -83,7 +114,7 @@
 							
 							<!-- Button Box -->
 							<div class="main-header_button">
-								<a href="contact.php" class="theme-btn btn-style-three">
+								<a href="contact.php" class="theme-btn btn-style-one">
 									<span class="btn-wrap">
 										<span class="text-one">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
 										<span class="text-two">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
@@ -108,16 +139,62 @@
 			<div class="close-btn"><span class="icon fa-xmark"></span></div>
 			
 			<nav class="menu-box">
-				<div class="nav-logo"><a href="index.php"><img src="assets/images/orbit logo.svg" alt="" title=""></a></div>
+				<div class="nav-logo"><a href="index.html"><img src="assets/images/orbit logo.svg" alt="" title=""></a></div>
 				<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 			</nav>
 		</div>
-	
 		<!-- End Mobile Menu -->
-		 <style>
-	a {
-  text-decoration: none !important;
-}
-</style>
+	
 	</header>
+	<style>
+
+.main-header .main-menu .navigation > li > a,
+.main-header .main-menu .navigation > li > a:hover,
+.main-header .main-menu .navigation > li > a:focus,
+.main-header .main-menu .navigation > li.active > a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.main-header .main-menu .navigation > li > a::before,
+.main-header .main-menu .navigation > li > a::after {
+    content: none !important;
+    display: none !important;
+}
+.header-social li a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    text-decoration: none;   /* 🔥 remove underline */
+    transition: all 0.3s ease;
+}
+
+.header-social li a i {
+    color: #14176c;
+    font-size: 16px;
+}
+
+/* Hover */
+.header-social li a:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    text-decoration: none;   /* extra safety */
+}
+
+.header-social li a:hover i {
+    color: #ffffff;
+}
+
+.header-info_list li a {
+    text-decoration: none !important;
+}
+
+</style>
 	<!-- End Main Header -->
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

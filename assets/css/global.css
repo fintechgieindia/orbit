@@ -77,8 +77,8 @@
 	--color-two: rgb(21,24,36);
 	--color-two-rgb:21,24,36;
 	
-/* #555555 in decimal RGB */
-	--color-three: #14176C;
+	/* #555555 in decimal RGB */
+	--color-three: rgb(85,85,85);
 	--color-three-rgb:85,85,85;
 	
 	
@@ -88,7 +88,7 @@
 	--white-color-rgb:255,255,255;
 
 	/* #000000 in decimal RGB */
-	--black-color:#14176C;
+	--black-color:rgb(0,0,0);
 	--black-color-rgb:0,0,0;
 
 }
@@ -274,8 +274,8 @@ h1,h2,h3,h4,h5,h6 {
 	position:relative;
 	margin:0px;
 	background:none;
-	font-weight:700;
-	color:var(--black-color);
+	font-weight:500;
+	color: #14176c;
     font-family: "Jost", sans-serif;
 }
 
@@ -514,7 +514,7 @@ img{
 	padding:6px 6px 6px 30px;
     color: var(--white-color);
 	text-transform: capitalize;
-	background-color: var(--color-two);
+	background-color: #f7a400;
 }
 
 .btn-style-one:before{
@@ -535,6 +535,7 @@ img{
 
 .btn-style-one:hover:before{
 	top: 0%;
+	background-color:#14176c
 }
 
 .btn-style-one i{
@@ -884,7 +885,7 @@ img{
 
 .sec-title_heading{
 	margin-top: 15px; 
-    color: var(--black-color);
+    color:#14176c;
     text-transform: capitalize; 
 }
 

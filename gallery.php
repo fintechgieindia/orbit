@@ -1,12 +1,14 @@
+<?php
+$page_title = "Borewell Drilling Services | Gallery ";
+$meta_description ="Trusted borewell drilling company offering deep borewell, water testing, and pump installation services. Quality work with timely completion.";
+$meta_keywords = "borewell cost,borewell motor,borewell machine,borewell drilling gallery, water drilling projects, orbit forage sarl gallery">
+$url = "https://orbitforage.com/";
+$image ="assets/images/orbit logo.svg";
+include 'layout/header.php' ?>
+
 <?php include('layout/header.php'); ?>
 <?php include('layout/navbar.php'); ?>
-<body>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<div class="page-wrapper">
-	
-	
-	
 	<!-- About Sidebar -->
 	<div class="about-sidebar">
 		<div class="gradient-layer"></div>
@@ -48,19 +50,20 @@
 			<!-- Page Title -->
 			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
 				<div class="auto-container">
-				<h2 style="text-align:center;">Gallery</h2>
-			</div>
+					<h2>Gallery</h2>
+					
+					<div class="d-flex justify-content-between align-items-center flex-wrap">
+						<ul class="bread-crumb clearfix">
+							<li><a href="index.php">Home</a></li>
+							<li>Gallery</li>
+						</ul>
+						
+					</div>
+				</div>
 			</section>
+			<!-- End Page Title -->
 			
-
-<div class="progress-wrap">
-	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-	</svg>
-</div>
-
-	<!-- Blog One -->
-<section class="blog-one">
+		<section class="blog-one">
     <div class="auto-container">
         <div class="row clearfix">
 
@@ -171,75 +174,26 @@
 
         </div>
 
-    </div>
-
-
-					<!-- Styled Pagination -->
-					<ul class="styled-pagination text-center">
-						<li class="prev"><a href="#"><i class="fa-classic fa-solid fa-angles-left"></i></a></li>
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li class="next"><a href="#"><i class="fa-classic fa-solid fa-angles-right"></i></a></li>
-					</ul>
-					<!-- End Styled Pagination -->
-					
-				</div>
+    </div>		
+		</div>
 			</section>
 			<!-- End Blog One -->
 			
-			<!-- Clients Two -->
-			<section class="clients-two">
-				<div class="auto-container">
-					<div class="inner-container">
-						<div class="case-one__slider-inner">
-							<div class="swiper clients_swiper">
-							  <div class="swiper-wrapper">
-									
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/1.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/2.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/4.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/5.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End Clients Two -->
+			
+						<?php include('layout/footer.php'); ?>
+			
+			
+		</div>
+	</div>
+	
+</div>
+<!-- End PageWrapper -->
+
+<div class="progress-wrap">
+	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+	</svg>
+</div>
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js"></script>
@@ -273,8 +227,6 @@
 <script src="assets/js/script.js"></script>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-
-<!-- Mirrored from themecraze.net/html/qonstruct/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Dec 2025 07:13:45 GMT -->
+<!-- Mirrored from themecraze.net/html/qonstruct/blog-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Dec 2025 07:13:55 GMT -->
 </html>

@@ -1,24 +1,16 @@
+
 <?php
-session_start();
-$show_popup = false;
-
-if(isset($_SESSION['form_success'])){
-    $show_popup = true;
-    unset($_SESSION['form_success']);
-}
-?>
-
+$page_title = "Borewell Drilling Services | Contact Us ";
+$meta_description ="Contact Orbit Forage SARL for professional borewell drilling, cleaning and pump installation services.";
+$meta_keywords = "borewell cost,borewell motor,borewell machine,contact orbit forage sarl, borewell drilling contact, water drilling services.">
+$url = "https://orbitforage.com/";
+$image ="assets/images/orbit logo.svg";
+include 'layout/header.php' ?>
 
 <?php include('layout/header.php'); ?>
 <?php include('layout/navbar.php'); ?>
-<body>
-	
 
-<div class="page-wrapper">
-	
-	
-	
-	<!-- About Sidebar -->
+<!-- About Sidebar -->
 	<div class="about-sidebar">
 		<div class="gradient-layer"></div>
 		<!-- Close Button -->
@@ -59,97 +51,111 @@ if(isset($_SESSION['form_success'])){
 			<!-- Page Title -->
 			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
 				<div class="auto-container">
-				<h2 style="text-align:center;">Contact</h2>
-
-<!-- 				
+					<h2>Contact</h2>
+					
 					<div class="d-flex justify-content-between align-items-center flex-wrap">
 						<ul class="bread-crumb clearfix">
 							<li><a href="index.html">Home</a></li>
 							<li>Contact</li>
 						</ul>
 						
-					</div> -->
+					</div>
 				</div>
 			</section>
 			<!-- End Page Title -->
 			
 			<!-- Contact One -->
-	<div id="page-wrapper">
-    <section class="contact-one">
-    <div class="auto-container">
-        <div class="row clearfix">
+			<section class="contact-one" id="contact">
+  <div class="auto-container">
+    <div class="row clearfix">
+		
 
-            <!-- Image Column -->
-            <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                <div class="image wow fadeInLeft" data-wow-delay="300ms">
-                    <img src="assets/images/gallery/14.jpg" alt="" />
-                    <div class="overlay-box">
-                        <h4>Leading the Way in Borewell & Water Solutions!</h4>
-                        <div class="text">We support homes, farms, and businesses with reliable borewell drilling, accurate groundwater surveys, and complete pump installation services delivered with trust and care!</div>
-                    </div>
+      <!-- Left Column -->
+      <div class="contact-one_title-column col-lg-4 col-md-12 col-sm-12">
+        <div class="contact-one_title-outer">
+          <div class="sec-title">
+            <div class="sec-title_title">Get info Now</div>
+            <h3 class="sec-title_heading tx-split-text split-in-right">Contact Info</h3>
+            <div class="sec-title_text">Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.</div>
+          </div>
+          <ul class="contact-one_info-list">
+            <li>
+              <span class="icon flaticon-placeholder"></span>
+              Visit anytime
+              <strong>Burnika Feso</strong>
+            </li>
+            <li>
+              <span class="icon flaticon-open"></span>
+              Write email 
+              <strong>Orbitforagesarl@gmail.com</strong>
+            </li>
+            <li>
+              <span class="icon flaticon-phone-call"></span>
+              Have any question?
+              <strong>+91 94428 96237</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right Column (Form) -->
+      <div class="contact-one_form-column col-lg-8 col-md-12 col-sm-12">
+        <div class="contact-one_form-outer">
+          <div class="sec-title">
+            <div class="sec-title_title">Have Questions?</div>
+            <h3 class="sec-title_heading tx-split-text split-in-right">Send us a Message</h3>
+          </div>
+
+          <div class="contact-form">
+            <form id="contact-form" method="post" action="sendmail.php">
+
+
+              <div class="row clearfix">
+
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                  <input type="text" name="username" id="username" placeholder="First Name" required>
                 </div>
-            </div>
 
-            <!-- Form Column -->
-            <div class="form-column col-lg-6 col-md-12 col-sm-12">
-                <div class="inner-column wow fadeInRight" data-wow-delay="300ms">
-
-                    <div class="title-box">
-                        <h3>Request A Quote</h3>
-                        <div class="text">Get quick and clear guidance for your borewell or water system needs. Share your details, and our team will connect with you shortly with the best solution.</div>
-                    </div>
-
-                    <div class="default-form">
-                        <form method="post" action="sendmail.php" id="contact-form">
-                            <div class="row clearfix">
-
-                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <input type="text" name="username" id="username" placeholder="Full Name" required>
-                                </div>
-
-                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                    <input type="email" name="email" id="email" placeholder="Email Address" required>
-                                </div>
-
-                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                    <input type="text" name="phone" id="phone" placeholder="Phone" required>
-                                </div>
-
-                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
-                                </div>
-
-                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <button type="submit" class="theme-btn btn-style-two">
-                                        <span class="btn-wrap">
-                                            <span class="text-one">Get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
-                                            <span class="text-two">Get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
-                                        </span>
-                                    </button>
-                                </div>
-
-                            </div>
-                        </form>
- 					 </div>
-
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                  <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
                 </div>
-            </div>
+
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                  <input type="email" name="email" id="email" placeholder="Email address" required>
+                </div>
+
+                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                  <input type="text" name="services" id="services" placeholder="Services" required>
+                </div>
+
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                  <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                </div>
+
+                <div class="form-group col-lg-12">
+                  <button type="submit" class="theme-btn btn-style-two">
+                    <span class="btn-wrap">
+                      <span class="text-one">Submit Now<i class="fa-classic fa-solid fa-arrow-right"></i></span>
+                      <span class="text-two">Submit Now<i class="fa-classic fa-solid fa-arrow-right"></i></span>
+                    </span>
+                  </button>
+                </div>
+
+                <div class="form-group col-lg-12">
+                  <div id="form-msg"></div>
+                </div>
+
+              </div>
+            </form>
+          </div>
 
         </div>
-    </div>
-</section>
-</div>
-<!-- POPUP OUTSIDE — stays clear -->
-<div id="success-popup" class="popup-box">
-    <div class="popup-card">
-        <h2>Thank you for contacting us!</h2>
-        <p>Our borewell expert will call you soon with the details.</p>
-        <button onclick="closePopup()">OK</button>
-    </div>
-</div>
+      </div>
 
+    </div>
+  </div>
+</section>
 			<!-- End Contact One -->
-		
 			
 			<!-- Map One -->
 			<section class="map-one">
@@ -210,98 +216,14 @@ if(isset($_SESSION['form_success'])){
 			</section>
 			<!-- End Clients Two -->
 			
-		<?php
-			include('layout/footer.php');?>
-
-<style>			
-/* Blur background ONLY */
-.blur-bg {
-    filter: blur(7px);
-    pointer-events: none;
-}
-
-/* Popup background overlay */
-.popup-box {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 99999;
-}
-
-/* Show popup */
-.popup-box.show {
-    display: flex;
-}
-
-/* Blue popup card — CLEAR, NEVER BLURRED */
-/* Blue popup card — CLEAR */
-.popup-card {
-    background: #14176C;
-    color: rgb(255,162,0);   /* <-- Updated text color */
-    padding: 35px;
-    width: 360px;
-    border-radius: 18px;
-    text-align: center;
-    z-index: 100000;
-    transform: scale(0.8);
-    animation: pop .25s ease-out forwards;
-}
-
-.popup-card h2 {
-    color: rgb(255,162,0);
-    font-size: 22px;
-    margin-bottom: 10px;
-    white-space: nowrap;   /* <-- Forces one line */
-}
-.popup-card {
-    width: 420px;   /* increased from 360px */
-}
-
-.popup-card p {
-    color: rgb(255,162,0);   /* Paragraph color */
-    font-size: 15px;
-    opacity: 0.9;
-}
-
-
-.popup-card button {
-    margin-top: 18px;
-    padding: 10px 20px;
-    background: #fff;
-    color: #14176C;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-}
-
-/* Popup animation */
-@keyframes pop {
-    from { transform: scale(0.8); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
-}
-</style>
-	<!-- Search Popup -->
-	<!-- <div class="search-popup">
-		<div class="color-layer"></div>
-		<button class="close-search"><span class="fa-xmark"></span></button>
-		<form method="post" action="https://themecraze.net/html/qonstruct/blog.html">
-			<div class="form-group">
-				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
-				<button class="fa fa-solid fa-magnifying-glass fa-fw" type="submit"></button>
-			</div>
-		</form>
-	</div> -->
-	<!-- End Search Popup -->
+		<?php include('layout/footer.php'); ?>
+			
+		</div>
+	</div>
 	
-	<!-- Color Palate / Color Switcher -->
+
 	
+</div>
 <!-- End PageWrapper -->
 
 <div class="progress-wrap">
@@ -309,66 +231,61 @@ if(isset($_SESSION['form_success'])){
 		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
 	</svg>
 </div>
-
-<!-- <script>
-// Form Validation + AJAX Submission + Popup
-document.getElementById("contact-form").addEventListener("submit", function(e){
-    e.preventDefault();
-
-    let name = document.getElementById("username").value.trim();
-    let email = document.getElementById("email").value.trim();
-    let phone = document.getElementById("phone").value.trim();
-    let message = document.getElementById("message").value.trim();
-
-    // Basic validation
-    if(!name || !email || !phone || !message){
-        alert("Please fill all fields.");
-        return;
-    }
-
-    let formData = new FormData(this);
-
-    fetch("sendmail.php", {
-        method: "POST",
-        body: formData
-    })
-    .then(res => res.text())
-    .then(response => {
-        if(response.trim() === "success"){
-
-            // Show popup
-            document.getElementById("success-popup").classList.add("show");
-
-            // Blur the contact section
-            document.querySelector(".contact-section").classList.add("blur-bg");
-        }
-    });
-});
-
-// Close popup
-function closePopup(){
-    document.getElementById("success-popup").classList.remove("show");
-    document.querySelector(".contact-section").classList.remove("blur-bg");
-}
-</script> -->
-
-
 <script>
-window.onload = function(){
-    <?php if($show_popup): ?>
-        document.getElementById("success-popup").classList.add("show");
-        document.getElementById("page-wrapper").classList.add("blur-bg");
-    <?php endif; ?>
-};
+document.getElementById("contact-form").addEventListener("submit", function(e){
+  e.preventDefault();
 
-function closePopup(){
-    document.getElementById("success-popup").classList.remove("show");
-    document.getElementById("page-wrapper").classList.remove("blur-bg");
+  const msgBox = document.getElementById("form-msg");
+  msgBox.innerHTML = "";
+
+  const form = this;
+  const formData = new FormData(form);
+
+  const phone = document.getElementById("phone").value.trim();
+  const email = document.getElementById("email").value.trim();
+
+  // Basic validation
+  if (![...formData.values()].every(v => v.trim() !== "")) {
+    msgBox.innerHTML = "<span style='color:red;'>❌ All fields are required.</span>";
+    return;
+  }
+
+  // Phone: allow 10–13 digits (+91 allowed)
+  if (!/^\+?\d{10,13}$/.test(phone)) {
+    msgBox.innerHTML = "<span style='color:red;'>❌ Enter a valid phone number.</span>";
+    return;
+  }
+
+  // Email validation
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    msgBox.innerHTML = "<span style='color:red;'>❌ Enter a valid email.</span>";
+    return;
+  }
+
+  fetch("/orbit/sendmail.php", {
+    method: "POST",
+    body: formData
+  })
+  .then(response => response.text())
+  .then(text => {
+   if (text.trim() === "success") {
+  Swal.fire({
+    icon: "success",
+    title: "Message Sent!",
+    text: "Thank you for contacting us. We’ll get back to you shortly.",
+    confirmButtonColor: "#f6a600"
+  });
+  form.reset();
 }
-
+ else {
+      msgBox.innerHTML = "<span style='color:red;'>❌ Failed to send message. Try again.</span>";
+    }
+  })
+  .catch(() => {
+    msgBox.innerHTML = "<span style='color:red;'>❌ Network error. Please try later.</span>";
+  });
+});
 </script>
-
-
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js"></script>
@@ -400,7 +317,7 @@ function closePopup(){
 <script src="assets/js/element-in-view.js"></script>
 <script src="assets/js/color-settings.js"></script>
 <script src="assets/js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 

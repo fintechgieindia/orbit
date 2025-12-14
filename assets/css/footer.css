@@ -28,6 +28,7 @@
 	bottom: 0px;
 	background-position: left bottom;
 	background-repeat: repeat-x;
+	background-color:#14176c;
 }
 
 .main-footer .inner-container{
@@ -188,7 +189,7 @@
 .footer-bottom{
 	position:relative;
 	padding: 25px 0px;
-	background-color: #0c0d14;
+	background-color: #00022e;
 }
 
 .main-footer_copyright{
