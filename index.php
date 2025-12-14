@@ -336,7 +336,7 @@ include 'layout/header.php' ?>
 								</a>
 							  </div>
 							</div>
-							<div class="image" style="background-image: url(assets/images/gallery/13.jpg)"></div>
+							<div class="image" style="background-image: url(assets/images/project/project1.png)"></div>
 						  </div>
 						</div>
 						
@@ -360,7 +360,7 @@ include 'layout/header.php' ?>
 								</a>
 							  </div>
 							</div>
-							<div class="image" style="background-image: url(assets/images/gallery/14.jpg)"></div>
+							<div class="image" style="background-image: url(assets/images/project/project2.png)"></div>
 						  </div>
 						</div>
 						
@@ -384,7 +384,7 @@ include 'layout/header.php' ?>
 								</a>
 							  </div>
 							</div>
-							<div class="image" style="background-image: url(assets/images/gallery/15.jpg)"></div>
+							<div class="image" style="background-image: url(assets/images/project/project3.png)"></div>
 						  </div>
 						</div>
 						
