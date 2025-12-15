@@ -18,13 +18,7 @@
               <div class="footer-text">
                 Our company specializes in electrical wiring and repair. We carry out any projects with our hearts and are not afraid of difficulties!
               </div>
-              <!-- Social Box -->
-              <div class="footer-social_box">
-                <strong>Follow Us</strong>
-                <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-       </div>
+             
             </div>
           </div>
 
@@ -85,6 +79,15 @@
                   </span>
                 </li>
               </ul>
+               <!-- Social Box -->
+              <!-- Follow Us -->
+          <div class="footer-social_box mt-3">
+            <strong style="color:#fff;">Follow Us</strong>
+            <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
             </div>
           </div>
         </div>
@@ -111,7 +114,7 @@
   </div> <!-- End auto-container -->
 <style>
   .copyright-text {
-    color: rgb(85, 85, 85);
+    color: #fff;
 }
 
   .footer-bottom {
@@ -205,6 +208,16 @@
 .footer-social_box a:hover {
     background-color: #f7a400;  /* hover yellow */
     color: #ffffff;
+}
+/* Reduce footer heading font size */
+.main-footer .footer-title {
+    font-size: 18px;   /* default usually 20–22px */
+    line-height: 1.3;
+}
+@media (max-width: 768px) {
+  .main-footer .footer-title {
+      font-size: 16px;
+  }
 }
 
 </style>

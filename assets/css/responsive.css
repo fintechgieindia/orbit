@@ -124,7 +124,7 @@
 	}
 	
 	.main-header.header-style-two .header-lower .inner-container::before{
-		background-color: var(--main-color);
+		background-color: #fff;
 	}
 	
 	.main-header.header-style-two .header-lower .inner-container{

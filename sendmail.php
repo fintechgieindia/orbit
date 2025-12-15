@@ -33,7 +33,7 @@ try {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'wegeniofficial@gmail.com';
-    $mail->Password = 'hfqw oqyz myak tkyc';
+    $mail->Password = 'hfqwoqyzmyaktkyc';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 

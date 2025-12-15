@@ -9,40 +9,7 @@ include 'layout/header.php' ?>
 <?php include('layout/header.php'); ?>
 <?php include('layout/navbar.php'); ?>
 
-	<!-- About Sidebar -->
-	<div class="about-sidebar">
-		<div class="gradient-layer"></div>
-		<!-- Close Button -->
-		<div class="close-sidebar-widget close-button">
-			<span class="fa-solid fa-xmark fa-fw"></span>
-		</div>
-		<div class="sidebar-inner">
-			<div class="upper-box">
-				<div class="image">
-					<img src="assets/images/resource/about.jpg" alt="" />
-				</div>
-				<div class="content-box">
-					<h3>About <span>Qonstruct</span></h3>
-					<div class="text">our clients, oue employees, and our community through our commitmrnt to leadership, excellence in craft, and attention to detail.</div>
-					<ul class="about-sidebar_list">
-						<li>Testimonials</li>
-						<li>Outsourcing</li>
-						<li>Privacy Policy</li>
-						<li>HR Training</li>
-						<li>Careers</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Social Box -->
-			<div class="social-box">
-				<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-				<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-				<a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
-			</div>
-		</div>
-	</div>
-	<!-- End About Sidebar -->
+	
 	
 	<div id="smooth-wrapper">
       <div id="smooth-content">
@@ -50,15 +17,9 @@ include 'layout/header.php' ?>
 			<!-- Page Title -->
 			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
 				<div class="auto-container">
-					<h2>Gallery</h2>
+					<h2 style="text-align: center;">Gallery</h2>
 					
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
-						<ul class="bread-crumb clearfix">
-							<li><a href="index.php">Home</a></li>
-							<li>Gallery</li>
-						</ul>
-						
-					</div>
+					
 				</div>
 			</section>
 			<!-- End Page Title -->
@@ -72,7 +33,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/1.jpg" alt="" /></a>
+                           <img src="assets/images/gallery/1.jpg" alt="" />
                             <img src="assets/images/gallery/1.jpg" alt="image" />
                         </div>
                     </div>
@@ -83,7 +44,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/2.jpg" alt="" /></a>
+                           <img src="assets/images/gallery/2.jpg" alt="" />
                             <img src="assets/images/gallery/2.jpg" alt="image" />
                         </div>
                     </div>
@@ -94,7 +55,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/3.jpg"  alt="" /></a>
+                           <img src="assets/images/gallery/3.jpg"  alt="" />
                             <img src="assets/images/gallery/3.jpg" alt="" />
                         </div>
                     </div>
@@ -105,7 +66,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/6.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/6.jpg" alt="" />
                             <img src="assets/images/gallery/6.jpg" alt="" />
                         </div>
                     </div>
@@ -116,7 +77,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/1.jpg" alt="" /></a>
+                         <img src="assets/images/gallery/1.jpg" alt="" />
                             <img src="assets/images/gallery/1.jpg" alt="" />
                         </div>
                     </div>
@@ -127,7 +88,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/2.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/2.jpg" alt="" />
                             <img src="assets/images/gallery/2.jpg" alt="" />
                         </div>
                     </div>
@@ -143,7 +104,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/3.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/3.jpg" alt="" />
                             <img src="assets/images/gallery/3.jpg" alt="" />
                         </div>
                     </div>
@@ -154,7 +115,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/4.jpg" alt="" /></a>
+                          <img src="assets/images/gallery/4.jpg" alt="" />
                             <img src="assets/images/gallery/4.jpg" alt="" />
                         </div>
                     </div>
@@ -165,7 +126,7 @@ include 'layout/header.php' ?>
                 <div class="news-block_two-inner">
                     <div class="news-block_two-image_outer">
                         <div class="news-block_two-image overlay-anim">
-                            <a href="gallery.php"><img src="assets/images/gallery/19.jpg" alt="" /></a>
+                            <img src="assets/images/gallery/19.jpg" alt="" />
                             <img src="assets/images/gallery/19.jpg" alt="" />
                         </div>
                     </div>

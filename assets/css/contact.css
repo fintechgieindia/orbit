@@ -7,6 +7,32 @@
 ====================================================================
 
 ***/
+/* ICON & BOX SIZE ONLY – NO ALIGNMENT CHANGE */
+
+
+.contact-one_info-list li .icon {
+  width: 42px !important;
+  height: 42px !important;
+  min-width: 42px !important;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+}
+
+/* Icon inside */
+.contact-one_info-list li .icon i {
+  font-size: 15px !important;
+  line-height: 1;
+}
+
+/* IMPORTANT: do NOT touch li alignment */
+.contact-one_info-list li {
+  /* intentionally left unchanged */
+}
+
 
 .contact-one{
 	position:relative;

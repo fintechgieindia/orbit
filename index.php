@@ -13,40 +13,7 @@ include 'layout/header.php' ?>
 	
     <?php include('layout/navbar.php'); ?>
 	
-	<!-- About Sidebar -->
-	<div class="about-sidebar">
-		<div class="gradient-layer"></div>
-		<!-- Close Button -->
-		<div class="close-sidebar-widget close-button">
-			<span class="fa-solid fa-xmark fa-fw"></span>
-		</div>
-		<div class="sidebar-inner">
-			<div class="upper-box">
-				<div class="image">
-					<img src="assets/images/resource/about.jpg" alt="" />
-				</div>
-				<div class="content-box">
-					<h3>About <span>Qonstruct</span></h3>
-					<div class="text">our clients, oue employees, and our community through our commitmrnt to leadership, excellence in craft, and attention to detail.</div>
-					<ul class="about-sidebar_list">
-						<li>Testimonials</li>
-						<li>Outsourcing</li>
-						<li>Privacy Policy</li>
-						<li>HR Training</li>
-						<li>Careers</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Social Box -->
-			<div class="social-box">
-				<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-				<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-				<a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
-			</div>
-		</div>
-	</div>
-	<!-- End About Sidebar -->
+	
 	
 	<div id="smooth-wrapper">
         <div id="smooth-content">
@@ -66,7 +33,7 @@ include 'layout/header.php' ?>
 								<div class="slider-two_content">
 									<div class="slider-two_content-inner">
 										<div class="slider-two_title">We have experianced team</div>
-										<h3 class="slider-two_heading text_invert-light trans-900">Reliable Water Extraction Services</h3>
+										<h3 class="slider-two_heading text-light trans-900">Groundwater Survey for Accurate <br> Drilling Points</h3>
 										<div class="slider-two_button trans-900">
 											<a href="about.php" class="theme-btn btn-style-three">
 												<span class="btn-wrap">
@@ -90,7 +57,7 @@ include 'layout/header.php' ?>
 								<div class="slider-two_content">
 									<div class="slider-two_content-inner">
 										<div class="slider-two_title">We have experianced team</div>
-										<h3 class="slider-two_heading text_invert-light trans-900">Groundwater Survey for Accurate Drilling Points</h3>
+										<h3 class="slider-two_heading text-light trans-900">Efficient and dependable water<br> extraction services for all needs.</h3>
 										<div class="slider-two_button trans-900">
 											<a href="about.php" class="theme-btn btn-style-three">
 												<span class="btn-wrap">
@@ -114,7 +81,7 @@ include 'layout/header.php' ?>
 								<div class="slider-two_content">
 									<div class="slider-two_content-inner">
 										<div class="slider-two_title">We have experianced team</div>
-										<h1 class="slider-two_heading text_invert-light trans-900">Pump Installation, Cleaning & Borewell Maintenance</h1>
+										<h1 class="slider-two_heading text-light trans-900">Pump Installation, Cleaning & <br> Borewell Maintenance</h1>
 										<div class="slider-two_button trans-900">
 											<a href="about.php" class="theme-btn btn-style-three">
 												<span class="btn-wrap">
@@ -171,11 +138,8 @@ include 'layout/header.php' ?>
 								<!-- <div class="welcome-one_tag"><span class="flaticon-check-mark"></span> Complete solution of large projects</div> -->
 								 <div class="welcome-one_experiance"><span class="odometer" data-count="25"></span> Year Experience</div> 
 								<div class="welcome-one_content">
-									<div class="award-box">
-										<div class="star fa-classic fa-solid fa-star"></div>
-										<div class="award-text">Best Service Award <span>2025</span></div>
-									</div>
-									<div class="text">Orbit Forage Saral was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last..</div>
+									
+									<div class="text">Orbit Forage Sarl was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last..</div>
 									<div class="welcome-one_button">
 										<a href="about.php" class="theme-btn btn-style-two">
 											<span class="btn-wrap">
@@ -201,7 +165,7 @@ include 'layout/header.php' ?>
 							<div class="sec-title title-anim">
 								<div class="sec-title_title">Check Services</div>
 								<h3>We Deliver Reliable Borewell Solutions for Every Need</h3>
-								<div class="sec-title_text">At Orbit Forage Saral, we make water access simple and dependable. From drilling and cleaning to pump installation and groundwater surveys, our services are designed to give you safe, long-lasting, and worry-free water solutions for your home, farm, or business.</div>
+								<div class="sec-title_text">At Orbit Forage Sarl, we make water access simple and dependable. From drilling and cleaning to pump installation and groundwater surveys, our services are designed to give you safe, long-lasting, and worry-free water solutions for your home, farm, or business.</div>
 							</div>
 							<div class="service-two_button">
 								<a href="services.php" class="theme-btn btn-style-two">
@@ -220,7 +184,7 @@ include 'layout/header.php' ?>
 								<img class="trans-500" src="assets/images/resource/card/cleaning.png" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500"><i class="fi fi-rr-drill"></i></div>
+								<!-- <div class="service-block_two-icon trans-500"><i class="fi fi-rr-drill"></i></div> -->
 								<h4 class="service-block_two-title">Borewell Drilling</a></h4>
 								<div class="service-block_two-text"> We drill with precision and care to ensure strong water yield and long-lasting performance for your home, farm, or business.<</div>
 							  </div>
@@ -234,7 +198,7 @@ include 'layout/header.php' ?>
 								<img class="trans-500" src="assets/images/resource/Untitled design.png" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500"><i class="fi fi-rr-water"></i></div>
+								<!-- <div class="service-block_two-icon trans-500"><i class="fi fi-rr-water"></i></div> -->
 								<h4 class="service-block_two-title">Borewell Cleaning</a></h4>
 								<div class="service-block_two-text">We remove silt, dirt, and blockages to restore water flow and improve the overall health of your existing borewell.</div>
 							  </div>
@@ -248,7 +212,7 @@ include 'layout/header.php' ?>
 								<img class="trans-500" src="assets/images/resource/card/pumb.png" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500"><i class="fi fi-rr-settings"></i></div>
+								<!-- <div class="service-block_two-icon trans-500"><i class="fi fi-rr-settings"></i></div> -->
 								
 								<h4 class="service-block_two-title">Pump Installation</a></h4>
 								<div class="service-block_two-text">From choosing the right pump to complete setup, we make sure your system runs smoothly and gives consistent water output.</div>
@@ -263,7 +227,7 @@ include 'layout/header.php' ?>
 								<img class="trans-500" src="assets/images/resource/card/ground.png" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500"><i class="fi fi-sr-water-drop"></i></div>
+								<!-- <div class="service-block_two-icon trans-500"><i class="fi fi-sr-water-drop"></i></div> -->
 								<h4 class="service-block_two-title">Groundwater Survey</a></h4>
 								<div class="service-block_two-text"> We assess your land using proven survey methods to find the most reliable and high-yield drilling point.</div>
 							  </div>
@@ -277,7 +241,7 @@ include 'layout/header.php' ?>
 								<img class="trans-500" src="assets/images/resource/card/maintenence.png" alt="" /></a>
 							  </div>
 							  <div class="service-block_two-content">
-								<div class="service-block_two-icon trans-500"><i class="fa-solid fa-tractor"></i></div>
+								<!-- <div class="service-block_two-icon trans-500"><i class="fa-solid fa-tractor"></i></div> -->
 								<h4 class="service-block_two-title">Borewell Maintenance</a></h4>
 								<div class="service-block_two-text"> Regular checkups and quick repairs to keep your borewell working efficiently and prevent costly issues.</div>
 							  </div>
@@ -292,8 +256,8 @@ include 'layout/header.php' ?>
 			<!-- CTA Two -->
 		<section class="cta-one" style="background-image:url(assets/images/background/cta.png)">
 				<div class="auto-container">
-					<h2 class="cta-one_title text_invert-light">Need a Reliable Borewell or Water Solution? <br> We’re Here to Help.</h2>
-					<div class="cta-one_text">From accurate groundwater surveys to complete borewell drilling and pump installation, Orbit Forage Saral  <br>provides trusted, professional support for every water requirement.</div>
+					<h3 class="cta-one_title text-light">Need a Reliable Borewell or Water Solution? <br> We’re Here to Help.</h3>
+					<div class="cta-one_text">From accurate groundwater surveys to complete borewell drilling and pump installation, Orbit Forage Sarl  <br>provides trusted, professional support for every water requirement.</div>
 					<div class="cta-one_button trans-900">
 						<a href="contact.php" class="theme-btn btn-style-three">
 							<span class="btn-wrap">
@@ -325,7 +289,7 @@ include 'layout/header.php' ?>
 							  <div class="icon flaticon-agencyo-cloud-application"></div>
 						  <div class="sub-title">Borewell / Groundwater Works</div>
 							  <h3 class="title">High-Precision Borewell Execution</a></h3>
-							  <div class="text"> At Orbit Forage Saral, we handle every borewell project with careful planning and accurate field execution. Each site is assessed for groundwater potential, safety conditions, and drilling suitability. Our goal is simple — deliver a stable, long-lasting water source that genuinely supports your home, farm, or commercial needs.</div>
+							  <div class="text"> At Orbit Forage Sarl, we handle every borewell project with careful planning and accurate field execution. Each site is assessed for groundwater potential, safety conditions, and drilling suitability. Our goal is simple — deliver a stable, long-lasting water source that genuinely supports your home, farm, or commercial needs.</div>
 							  <!-- Btn Box -->
 							  <div class="project-block_three-button">
 								<a href="about.php" class="theme-btn btn-style-three">
@@ -474,21 +438,25 @@ include 'layout/header.php' ?>
           <div class="sec-title">
             <div class="sec-title_title">Get info Now</div>
             <h3 class="sec-title_heading tx-split-text split-in-right">Contact Info</h3>
-            <div class="sec-title_text">Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.</div>
+            <div class="sec-title_text">All types of borewell drilling, flushing, cleaning & motor fitting.
+Reliable service at reasonable rates.</div>
           </div>
           <ul class="contact-one_info-list">
-            <li>
-              <span class="icon flaticon-placeholder"></span>
-              Visit anytime
+            <li style="
+    padding-left: 60px;">
+              <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+              Address
               <strong>Burnika Feso</strong>
             </li>
-            <li>
-              <span class="icon flaticon-open"></span>
+            <li style="
+    padding-left: 60px;">
+              <span class="icon"><i class="fa-regular fa-envelope"></i></span>
               Write email 
               <strong>Orbitforagesarl@gmail.com</strong>
             </li>
-            <li>
-              <span class="icon flaticon-phone-call"></span>
+            <li style="
+    padding-left: 60px;">
+              <span class="icon"><i class="fa-solid fa-phone"></i></span>
               Have any question?
               <strong>+91 94428 96237</strong>
             </li>
@@ -618,6 +586,182 @@ include 'layout/header.php' ?>
 .cta-one_text {
     color: #ffffff;
 }
+.slider-two,
+.swiper-slide {
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+
+    .slider-two,
+    .swiper-container,
+    .swiper-wrapper,
+    .swiper-slide {
+        min-height: 70vh;
+        height: 70vh;
+    }
+
+    .slider-two_pattern {
+        min-height: 70vh;
+        height: 100%;
+    }
+
+}
+@media (max-width: 768px) {
+
+  /* Header fixed */
+  .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  /* Hero wrapper height */
+  .slider-two {
+    padding-top: 90px;       /* navbar space */
+    min-height: calc(100vh - 90px);
+  }
+
+  .swiper-slide {
+    min-height: calc(100vh - 90px);
+  }
+
+  .swiper-wrapper {
+    height: 100%;
+  }
+
+  /* Background image */
+  .slider-two_pattern {
+    display: block !important;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image:
+      linear-gradient(rgba(20, 23, 108, 0.6),
+                      rgba(247, 164, 0, 0.6)),
+      var(--slide-bg) !important;
+
+    background-size: cover !important;
+    background-position: center right !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* Content alignment – NO extra height */
+  .slider-two_content {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+  }
+}
+/* ===================================== */
+/* FORCE DESKTOP HEADER ON MOBILE */
+/* ===================================== */
+
+
+
+  /* Hide mobile hamburger menu */
+  .mobile-menu {
+    display: none !important;
+  }
+
+  /* Header positioning */
+  .main-header {
+    position: relative !important;
+    background: transparent;
+    z-index: 9999;
+  }
+
+  /* Header box spacing */
+  .header-lower .inner-container {
+    padding: 10px 15px;
+  }
+
+  /* Menu alignment */
+  .main-menu .navigation {
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .main-menu .navigation li {
+    margin: 5px 10px;
+  }
+
+
+/* ===================================== */
+/* CORRECT MOBILE MENU BEHAVIOUR */
+/* ===================================== */
+
+@media (max-width: 768px) {
+
+  /* Show mobile hamburger */
+  .mobile-nav-toggler {
+    display: block !important;
+  }
+
+  /* Hide desktop menu items */
+  .main-menu {
+    display: none !important;
+  }
+
+  /* Mobile menu container */
+  .mobile-menu {
+    display: block !important;
+  }
+
+  /* Header layout */
+  .main-header {
+    position: relative;
+    z-index: 9999;
+  }
+
+  /* Avoid slider overlap */
+  .slider-two {
+    padding-top: 80px;
+  }
+
+}
+@media (max-width: 768px) {
+  .slider-two .main-slider-prev,
+  .slider-two .main-slider-next {
+    display: none !important;
+  }
+}
+/* Reduce Welcome section image height */
+.welcome-one_image img {
+    max-height: 420px;   /* change value if needed */
+    width: 200%;
+    object-fit: contain;
+	
+}
+@media (max-width: 768px) {
+  .welcome-one_image img {
+      max-height: 300px;
+	  
+  }
+}
+/* Move content left under 25 years - FORCE */
+.welcome-one_content {
+    padding-left: 0 !important;
+}
+
+.welcome-one_content .text {
+    padding-left: 0 !important;
+    margin-left: -2px !important;
+}
+
+@media (max-width: 768px) {
+  .welcome-one_content .text {
+      margin-left: -2px !important;
+  }
+}
+
 
 </style>
 		</div>

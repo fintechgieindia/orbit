@@ -53,7 +53,7 @@
 						
 						<!-- Logo Box -->
 						<div class="logo-box">
-							<div class="logo"><a href="index.html"><img src="assets/images/orbit logo.svg" alt="" title="Qonstruct"></a></div>
+							<div class="logo"><a href="index.php"><img src="assets/images/orbit logo.svg" alt="" title="Qonstruct"></a></div>
 						</div>
 						
 						<div class="nav-outer d-flex flex-wrap">
@@ -116,8 +116,8 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 							<div class="main-header_button">
 								<a href="contact.php" class="theme-btn btn-style-one">
 									<span class="btn-wrap">
-										<span class="text-one">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
-										<span class="text-two">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
+										<span class="text-one">Get A Quote<i class="fa-classic fa-solid fa-arrow-right"></i></span>
+										<span class="text-two">Get A Quote<i class="fa-classic fa-solid fa-arrow-right"></i></span>
 									</span>
 								</a>
 							</div>
@@ -139,12 +139,45 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 			<div class="close-btn"><span class="icon fa-xmark"></span></div>
 			
 			<nav class="menu-box">
-				<div class="nav-logo"><a href="index.html"><img src="assets/images/orbit logo.svg" alt="" title=""></a></div>
+				<div class="nav-logo"><a href="index.php"><img src="assets/images/orbit logo.svg" alt="" title=""></a></div>
 				<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 			</nav>
 		</div>
 		<!-- End Mobile Menu -->
-	
+	<!-- About Sidebar -->
+	<div class="about-sidebar">
+		<div class="gradient-layer"></div>
+		<!-- Close Button -->
+		<div class="close-sidebar-widget close-button">
+			<span class="fa-solid fa-xmark fa-fw"></span>
+		</div>
+		<div class="sidebar-inner">
+			<div class="upper-box">
+				<div class="image">
+					<img src="assets/images/about.png" alt="" />
+				</div>
+				<div class="content-box">
+					<h4>About <span>Orbit Forage SARL</span></h4>
+					<div class="text">Orbit Forage Sarl provides reliable water solutions through honest, long-lasting work.</div>
+					<ul class="about-sidebar_list">
+						<li>Borewell Drilling</li>
+						<li>Borewell Cleaning</li>
+						<li>Borewell Maintenance</li>
+						<li>Borewell Flushing</li>
+						<li>Pump Installation</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Social Box -->
+			<div class="social-box">
+				<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+				<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+			
+			</div>
+		</div>
+	</div>
+	<!-- End About Sidebar -->
 	</header>
 	<style>
 
@@ -194,6 +227,39 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 .header-info_list li a {
     text-decoration: none !important;
 }
+
+/* FORCE navbar menu font size */
+.main-header .main-menu .navigation > li > a {
+    font-size: 19px !important;
+}
+
+
+@media (max-width: 768px) {
+  .main-menu .navigation > li > a {
+      font-size: 16px;
+  }
+}
+
+/* Reduce button size */
+.btn-style-one {
+    padding: 7px 10px;   /* top-bottom | left-right */
+    font-size: 16px;
+    line-height: 7px;
+}
+.about-sidebar .content-box h4 {
+    font-size: 18px;
+}
+
+.about-sidebar .content-box .text {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.about-sidebar_list li {
+    font-size: 13px;
+    line-height: 18px;
+}
+
 
 </style>
 	<!-- End Main Header -->

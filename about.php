@@ -11,40 +11,7 @@ include 'layout/header.php' ?>
 	<?php include('layout/navbar.php'); ?>
 	
 	
-	<!-- About Sidebar -->
-	<div class="about-sidebar">
-		<div class="gradient-layer"></div>
-		<!-- Close Button -->
-		<div class="close-sidebar-widget close-button">
-			<span class="fa-solid fa-xmark fa-fw"></span>
-		</div>
-		<div class="sidebar-inner">
-			<div class="upper-box">
-				<div class="image">
-					<img src="assets/images/resource/about.jpg" alt="" />
-				</div>
-				<div class="content-box">
-					<h3>About <span>Qonstruct</span></h3>
-					<div class="text">our clients, oue employees, and our community through our commitmrnt to leadership, excellence in craft, and attention to detail.</div>
-					<ul class="about-sidebar_list">
-						<li>Testimonials</li>
-						<li>Outsourcing</li>
-						<li>Privacy Policy</li>
-						<li>HR Training</li>
-						<li>Careers</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Social Box -->
-			<div class="social-box">
-				<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-				<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-				<a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
-			</div>
-		</div>
-	</div>
-	<!-- End About Sidebar -->
+	
 	
 	<div id="smooth-wrapper">
       <div id="smooth-content">
@@ -52,21 +19,15 @@ include 'layout/header.php' ?>
 			<!-- Page Title -->
 			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
 				<div class="auto-container">
-					<h2>About us</h2>
-					
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
-						<ul class="bread-crumb clearfix">
-							<li><a href="index.php">Home</a></li>
-							<li>About Us</li>
-						</ul>
-						
-					</div>
+					<h2 style="text-align: center;">About us</h2>
+				
 				</div>
 			</section>
 			<!-- End Page Title -->
 			
 			<!-- Welcome One -->
-	<section class="welcome-one">
+	<section class="welcome-one" style="
+    padding-top: 100px;">
 				<div class="auto-container">
 					<div class="row clearfix">
 						
@@ -89,11 +50,8 @@ include 'layout/header.php' ?>
 								<!-- <div class="welcome-one_tag"><span class="flaticon-check-mark"></span> Complete solution of large projects</div> -->
 								 <div class="welcome-one_experiance"><span class="odometer" data-count="25"></span> Year Experience</div> 
 								<div class="welcome-one_content">
-									<div class="award-box">
-										<div class="star fa-classic fa-solid fa-star"></div>
-										<div class="award-text">Best Service Award <span>2025</span></div>
-									</div>
-									<div class="text">Orbit Forage Saral was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last..</div>
+									
+									<div class="text">Orbit Forage Sarl was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last..</div>
 									
 								</div>
 							</div>
@@ -128,7 +86,7 @@ include 'layout/header.php' ?>
 									<div class="feature-block_one-designation trans-300">
 										
 									Accurate Groundwater Survey</div>
-									<h6 class="feature-block_one-title trans-300">Our assessments help you choose the best drilling point with confidence and clarity.</h6>
+									<h6 class="feature-block_one-title trans-300">Our assessments help you choose the best drilling point with confidence.</h6>
 								</div>
 							</div>
 						</div>
@@ -139,8 +97,6 @@ include 'layout/header.php' ?>
 								<div class="feature-block_one-content">
 									<!-- <div class="feature-block_one-icon trans-300 flaticon-engineer"></div> -->
 									<div class="feature-block_one-designation trans-300">
-										
-
 										Complete Water Solutions</div>
 									<h6 class="feature-block_one-title trans-300">From drilling to pump setup, we handle everything so you get a hassle-free experience.</h6>
 								</div>
@@ -282,8 +238,8 @@ include 'layout/header.php' ?>
 						<!-- CTA One -->
 			<section class="cta-one" style="background-image:url(assets/images/background/cta.png)">
 				<div class="auto-container">
-					<h2 class="cta-one_title text_invert-light">Let’s Talk About Your <br> Upcoming Project</h2>
-					<div class="cta-one_text">Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable  <br>metrics whereas proactive service growth strategies and interoperable sources.</div>
+					<h3 class="cta-one_title text-light">Need a Reliable Borewell or Water Solution? <br> We’re Here to Help.</h3>
+					<div class="cta-one_text">From accurate groundwater surveys to complete borewell drilling and pump installation, Orbit Forage Sarl  <br>provides trusted, professional support for every water requirement.</div>
 					<div class="cta-one_button trans-900">
 						<a href="contact.php" class="theme-btn btn-style-three">
 							<span class="btn-wrap">
@@ -344,7 +300,64 @@ include 'layout/header.php' ?>
 .cta-one_text {
     color: #ffffff;
 }
+/* Reduce Welcome section image height */
+.welcome-one_image img {
+    max-height: 420px;   /* change value if needed */
+    width: 200%;
+    object-fit: contain;
+	
+}
+@media (max-width: 768px) {
+  .welcome-one_image img {
+      max-height: 300px;
+	  
+  }
+}
+/* Move content left under 25 years - FORCE */
+.welcome-one_content {
+    padding-left: 0 !important;
+}
+
+.welcome-one_content .text {
+    padding-left: 0 !important;
+    margin-left: -2px !important;
+}
+
+@media (max-width: 768px) {
+  .welcome-one_content .text {
+      margin-left: -2px !important;
+  }
+}
+
+
+.feature-block_one-designation {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature-block_one-title {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Desktop default */
+.fluid-block_one-text {
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+    .fluid-block_one-text {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+
 </style>
+
+
 <div class="progress-wrap">
 	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
 		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>

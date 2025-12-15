@@ -7,8 +7,21 @@
 ====================================================================
 
 ***/
+
+@media (max-width: 991px) {
+    .mobile-menu a {
+        text-decoration: none !important;
+    }
+}
+
 .slider-two_heading {
     font-weight: 700;
+}
+@media (max-width: 768px) {
+  .slider-two_heading {
+    font-weight: 700 !important;
+    color: #ffffff !important;
+  }
 }
 
 
@@ -1104,7 +1117,7 @@
 	width: 0%;
 	height: 100%;
 	z-index: 1;
-	background: rgba(0,0,0,0.90);
+	background: #fffffff5;
 	-webkit-transform: translateX(101%);
 	-ms-transform: translateX(101%);
 	transform: translateX(101%);

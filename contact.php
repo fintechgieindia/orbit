@@ -10,64 +10,24 @@ include 'layout/header.php' ?>
 <?php include('layout/header.php'); ?>
 <?php include('layout/navbar.php'); ?>
 
-<!-- About Sidebar -->
-	<div class="about-sidebar">
-		<div class="gradient-layer"></div>
-		<!-- Close Button -->
-		<div class="close-sidebar-widget close-button">
-			<span class="fa-solid fa-xmark fa-fw"></span>
-		</div>
-		<div class="sidebar-inner">
-			<div class="upper-box">
-				<div class="image">
-					<img src="assets/images/resource/about.jpg" alt="" />
-				</div>
-				<div class="content-box">
-					<h3>About <span>Qonstruct</span></h3>
-					<div class="text">our clients, oue employees, and our community through our commitmrnt to leadership, excellence in craft, and attention to detail.</div>
-					<ul class="about-sidebar_list">
-						<li>Testimonials</li>
-						<li>Outsourcing</li>
-						<li>Privacy Policy</li>
-						<li>HR Training</li>
-						<li>Careers</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Social Box -->
-			<div class="social-box">
-				<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-				<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-				<a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
-			</div>
-		</div>
-	</div>
-	<!-- End About Sidebar -->
-	
+
 	<div id="smooth-wrapper">
       <div id="smooth-content">
 	
 			<!-- Page Title -->
 			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
 				<div class="auto-container">
-					<h2>Contact</h2>
-					
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
-						<ul class="bread-crumb clearfix">
-							<li><a href="index.html">Home</a></li>
-							<li>Contact</li>
-						</ul>
-						
+			<h2 style="text-align: center;">Contact</h2>
 					</div>
-				</div>
 			</section>
 			<!-- End Page Title -->
 			
 			<!-- Contact One -->
-			<section class="contact-one" id="contact">
-  <div class="auto-container">
-    <div class="row clearfix">
+        <section class="contact-one" id="contact" style="
+      padding-top: 80px;
+      padding-bottom: 70px;">
+    <div class="auto-container">
+      <div class="row clearfix">
 		
 
       <!-- Left Column -->
@@ -76,21 +36,25 @@ include 'layout/header.php' ?>
           <div class="sec-title">
             <div class="sec-title_title">Get info Now</div>
             <h3 class="sec-title_heading tx-split-text split-in-right">Contact Info</h3>
-            <div class="sec-title_text">Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.</div>
+            <div class="sec-title_text">All types of borewell drilling, flushing, cleaning & motor fitting.Reliable service at reasonable rates.</div>
           </div>
           <ul class="contact-one_info-list">
-            <li>
-              <span class="icon flaticon-placeholder"></span>
-              Visit anytime
+            <li style="
+    padding-left: 60px;">
+              <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+              Address
               <strong>Burnika Feso</strong>
             </li>
-            <li>
-              <span class="icon flaticon-open"></span>
+            <li style="
+    padding-left: 60px;">
+              <span class="icon"><i class="fa-regular fa-envelope"></i></span>
               Write email 
               <strong>Orbitforagesarl@gmail.com</strong>
             </li>
-            <li>
-              <span class="icon flaticon-phone-call"></span>
+            <li style="
+    padding-left: 60px;">
+              <span class="icon"><i class="fa-solid fa-phone"></i>
+</span>
               Have any question?
               <strong>+91 94428 96237</strong>
             </li>
@@ -163,58 +127,7 @@ include 'layout/header.php' ?>
 			</section>
 			<!-- End Map One -->
 			
-			<!-- Clients Two -->
-			<section class="clients-two">
-				<div class="auto-container">
-					<div class="inner-container">
-						<div class="case-one__slider-inner">
-							<div class="swiper clients_swiper">
-							  <div class="swiper-wrapper">
-									
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/1.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/2.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/4.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/5.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End Clients Two -->
+			
 			
 		<?php include('layout/footer.php'); ?>
 			
