@@ -6,12 +6,9 @@ $meta_keywords = "borewell cost,borewell motor,borewell machine,contact orbit fo
 $url = "https://orbitforage.com/";
 $image ="assets/images/orbit logo.svg";
 include 'layout/header.php' ?>
-
-<?php include('layout/header.php'); ?>
 <?php include('layout/navbar.php'); ?>
 
-
-	<div id="smooth-wrapper">
+<div id="smooth-wrapper">
       <div id="smooth-content">
 	
 			<!-- Page Title -->
@@ -43,13 +40,13 @@ include 'layout/header.php' ?>
     padding-left: 60px;">
               <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
               Address
-              <strong>Burnika Feso</strong>
+              <strong>Burnika Faso, West Africa</strong>
             </li>
             <li style="
     padding-left: 60px;">
               <span class="icon"><i class="fa-regular fa-envelope"></i></span>
               Write email 
-              <strong>Orbitforagesarl@gmail.com</strong>
+              <strong>orbitforagesarl@gmail.com</strong>
             </li>
             <li style="
     padding-left: 60px;">

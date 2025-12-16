@@ -1,330 +1,11 @@
-<!DOCTYPE html>
-<html>
 
-<!-- Mirrored from themecraze.net/html/qonstruct/privacy.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Dec 2025 07:13:45 GMT -->
-<head>
-<meta charset="utf-8">
-<title>Qonstruct Construction Business HTML-5 Template | Privacy Policy</title>
-<!-- Stylesheets -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/meanmenu.min.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
+<?php include('layout/header.php'); ?>
 
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
-
-<!-- Color Switcher Mockup -->
-<link href="assets/css/color-switcher-design.css" rel="stylesheet">
-
-<!-- Color Themes -->
-<link id="theme-color-file" href="assets/css/color-themes/default-color.css" rel="stylesheet">
-
-<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-</head>
-
-<body>
+<?php include('layout/navbar.php'); ?>
 
 <div class="page-wrapper">
 	
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
- 	
-	<!-- Preloader Start -->
-	<div class="preloader">
-		<svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-			<path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-		</svg>
-		<div class="preloader-heading">
-			<div class="load-text">
-				<span>L</span>
-				<span>o</span>
-				<span>a</span>
-				<span>d</span>
-				<span>i</span>
-				<span>n</span>
-				<span>g</span>
-			</div>
-		</div>
-	</div>
-	<!-- Preloader End -->
 
-	<!-- Cursor -->
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-	<!-- Cursor End -->
-	
-	<!-- Main Header -->
-	<header class="main-header header-style-three">
-		
-		<!-- Header Top -->
-		<div class="header-top">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
-						<div class="address">Welcome to Construction Business Template. <a href="#">Get a Free Quote</a></div>
-						<ul class="header-info_list">
-							<li><span>Email : </span> <a href="mailto:qonstruct@gmail.com">Qonstruct@gmail.com</a></li>
-							<li><span>Call : </span> <a href="tel:+12-345-6789-0">+12 345 6789 0</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Header Top -->
-		
-		<!-- Header Lower -->
-		<div class="header-lower">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="d-flex justify-content-between align-items-center">
-						
-						<!-- Logo Box -->
-						<div class="logo-box">
-							<div class="logo"><a href="index.html"><img src="assets/images/logo-3.png" alt="" title="Qonstruct"></a></div>
-						</div>
-						
-						<div class="nav-outer d-flex flex-wrap">
-							<!-- Main Menu -->
-							<nav class="main-menu navbar-expand-md">
-								<div class="navbar-header">
-									<!-- Toggle Button -->    	
-									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-								</div>
-								
-								<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-									<ul class="navigation clearfix">
-										<li class="dropdown has-mega-menu"><a href="#">Home</a>
-											<div class="mega-menu">
-												<div class="mega-menu-bar row clearfix">
-													<div class="column col-lg-3 col-md-12 col-sm-12">
-														<h6>Pages</h6>
-														<ul>
-															<li><a href="index.html">Homepage 01</a></li>
-															<li><a href="index-2.html">Homepage 02</a></li>
-															<li><a href="index-3.html">Homepage 03</a></li>
-														</ul>
-														<h6>One Pager</h6>
-														<ul>
-															<li><a href="index-1.html">Homepage 01</a></li>
-															<li><a href="index-2-1.html">Homepage 02</a></li>
-															<li><a href="index-3-1.html">Homepage 03</a></li>
-														</ul>
-													</div>
-													<div class="column col-lg-3 col-md-12 col-sm-12">
-														<h6>About us</h6>
-														<ul>
-															<li><a href="about.html">About us</a></li>
-															<li><a href="faq.html">Faq</a></li>
-															<li><a href="price.html">price</a></li>
-															<li><a href="team.html">Team</a></li>
-															<li><a href="team-detail.html">Team Detail</a></li>
-															<li><a href="testimonial.html">Testimonial</a></li>
-															<li><a href="privacy.html">Privacy Policy</a></li>
-															<li><a href="terms.html">Terms & Condition</a></li>
-															<li><a href="coming-soon.html">coming soon</a></li>
-															<li><a href="not-found.html">Not Found</a></li>
-														</ul>
-													</div>
-													<div class="column col-lg-3 col-md-12 col-sm-12">
-														<h6>Portfolio</h6>
-														<ul>
-															<li><a href="project.html">project</a></li>
-															<li><a href="project-detail.html">project detail</a></li>
-														</ul>
-														<h6>services</h6>
-														<ul>
-															<li><a href="services.html">services</a></li>
-															<li><a href="services-2.html">services 02</a></li>
-															<li><a href="service-details.html">services detail</a></li>
-															<li><a href="service-detail-2.html">services detail 02</a></li>
-														</ul>
-														<h6>Contact</h6>
-														<ul>
-															<li><a href="contact.html">Contact</a></li>
-															<li><a href="contact-2.html">Contact 02</a></li>
-														</ul>
-													</div>
-													<div class="column col-lg-3 col-md-12 col-sm-12">
-														<h6>Our Shop</h6>
-														<ul>
-															<li><a href="shop.html">shop</a></li>
-															<li><a href="shop-detail.html">shop detail</a></li>
-															<li><a href="cart.html">shoping Cart</a></li>
-															<li><a href="checkout.html">CheckOut</a></li>
-															<li><a href="register.html">Register</a></li>
-															<li><a href="coming-soon.html">coming soon</a></li>
-														</ul>
-														<h6>Blog</h6>
-														<ul>
-															<li><a href="blog.html">Blog 01</a></li>
-															<li><a href="blog-2.html">Blog 02</a></li>
-															<li><a href="blog-classic.html">Blog classic</a></li>
-															<li><a href="blog-detail.html">Blog Detail</a></li>
-															<li><a href="not-found.html">Not Found</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</li>
-										<li class="dropdown"><a href="#">About</a>
-											<ul>
-												<li><a href="about.html">About us</a></li>
-												<li><a href="faq.html">Faq</a></li>
-												<li><a href="price.html">price</a></li>
-												<li><a href="testimonial.html">Testimonial</a></li>
-												<li><a href="privacy.html">Privacy Policy</a></li>
-												<li><a href="terms.html">Terms & Condition</a></li>
-												<li class="dropdown"><a href="#">Team</a>
-													<ul>
-														<li><a href="team.html">Team</a></li>
-														<li><a href="team-detail.html">Team Detail</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">Services</a>
-											<ul>
-												<li><a href="services.html">services</a></li>
-												<li><a href="services-2.html">services 02</a></li>
-												<li><a href="service-details.html">services detail</a></li>
-												<li><a href="service-detail-2.html">services detail 02</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">project</a>
-											<ul>
-												<li><a href="projects.html">project</a></li>
-												<li><a href="project-detail.html">project detail</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">shop</a>
-											<ul>
-												<li><a href="shop.html">shop</a></li>
-												<li><a href="shop-detail.html">shop detail</a></li>
-												<li><a href="cart.html">shoping Cart</a></li>
-												<li><a href="checkout.html">CheckOut</a></li>
-												<li><a href="register.html">Register</a></li>
-												<li><a href="coming-soon.html">coming soon</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">Blog</a>
-											<ul>
-												<li><a href="blog.html">Blog 01</a></li>
-												<li><a href="blog-2.html">Blog 02</a></li>
-												<li><a href="blog-classic.html">Blog classic</a></li>
-												<li><a href="blog-detail.html">Blog Detail</a></li>
-												<li><a href="not-found.html">Not Found</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">Contact</a>
-											<ul>
-												<li><a href="contact.html">Contact</a></li>
-												<li><a href="contact-2.html">Contact 02</a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</nav>
-						</div>
-
-						<!-- Main Menu End-->
-						<div class="outer-box d-flex align-items-center flex-wrap">
-
-							<!-- Search Btn -->
-							<div class="search-box-btn trans-500 search-box-outer"><span class="icon fa fa-search"></span></div>
-							
-							<!-- About Widget -->
-							<span class="about-widget">
-								<span class="hamburger">
-									<span class="top-bun"></span>
-									<span class="meat"></span>
-									<span class="bottom-bun"></span>
-								</span>
-							</span>
-							
-							<!-- Button Box -->
-							<div class="main-header_button">
-								<a href="contact.html" class="theme-btn btn-style-three">
-									<span class="btn-wrap">
-										<span class="text-one">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
-										<span class="text-two">get in touch <i class="fa-classic fa-solid fa-arrow-right"></i></span>
-									</span>
-								</a>
-							</div>
-							
-							<!-- Mobile Navigation Toggler -->
-							<div class="mobile-nav-toggler"><span class="icon fa-classic fa-solid fa-bars fa-fw"></span></div>
-
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--End Header Lower-->
-		
-		<!-- Mobile Menu  -->
-		<div class="mobile-menu">
-			<div class="menu-backdrop"></div>
-			<div class="close-btn"><span class="icon fa-xmark"></span></div>
-			
-			<nav class="menu-box">
-				<div class="nav-logo"><a href="index.html"><img src="assets/images/mobile-logo.png" alt="" title=""></a></div>
-				<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-			</nav>
-		</div>
-		<!-- End Mobile Menu -->
-	
-	</header>
-	<!-- End Main Header -->
-	
-	<!-- About Sidebar -->
-	<div class="about-sidebar">
-		<div class="gradient-layer"></div>
-		<!-- Close Button -->
-		<div class="close-sidebar-widget close-button">
-			<span class="fa-solid fa-xmark fa-fw"></span>
-		</div>
-		<div class="sidebar-inner">
-			<div class="upper-box">
-				<div class="image">
-					<img src="assets/images/resource/about.jpg" alt="" />
-				</div>
-				<div class="content-box">
-					<h3>About <span>Qonstruct</span></h3>
-					<div class="text">our clients, oue employees, and our community through our commitmrnt to leadership, excellence in craft, and attention to detail.</div>
-					<ul class="about-sidebar_list">
-						<li>Testimonials</li>
-						<li>Outsourcing</li>
-						<li>Privacy Policy</li>
-						<li>HR Training</li>
-						<li>Careers</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Social Box -->
-			<div class="social-box">
-				<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-				<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-				<a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
-			</div>
-		</div>
-	</div>
-	<!-- End About Sidebar -->
 	
 	<div id="smooth-wrapper">
       <div id="smooth-content">
@@ -332,16 +13,8 @@
 			<!-- Page Title -->
 			<section class="page-title" style="background-image:url(assets/images/background/2.jpg)">
 				<div class="auto-container">
-					<h2>Privacy Policy</h2>
-					<div class="big-title">Privacy</div>
-					<div class="d-flex justify-content-between align-items-center flex-wrap">
-						<ul class="bread-crumb clearfix">
-							<li><a href="index.html">Home</a></li>
-							<li>Privacy Policy</li>
-						</ul>
-						<div class="page-title_text">Whether you’re building, remodeling, buying, or selling, we bring seamless project execution under one roof.</div>
-					</div>
-				</div>
+				<h2 style="text-align: center;">Privacy Policy</h2>
+</div>
 			</section>
 			<!-- End Page Title -->
 			
@@ -352,372 +25,127 @@
 			<div class="privacy-content">
 				<h3>Privacy Policy</h3>
 				<p>For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other who we know will help us create added value for your project.</p>
-				<div class="date">Updated Dec 24, 2025</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue.</p>
-				<h3>Overview</h3>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+				<div class="date">Updated 16 December 2025</div>
+				<p>Orbit Forage (“we”, “our”, or “us”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and protect personal information when you visit our website https://orbitforage.com/
+ or contact us for our services.</p>
+				<p>Although we are based in Burkina Faso, While we are based in Burkina Faso, we apply internationally recognized data protection principles, including those of the GDPR, to protect personal data.</p>
+				<h3>Who We Are</h3>
+				<p>Business Name: Orbit ForageWebsite: https://orbitforage.com/Location: Burkina FasoEmail: orbitforagesarl@gmail.comWe provide borewell drilling and related drilling services.</p>
 			</div>
 			<!-- Privacy Content -->
-			<div class="privacy-content">
-				<h4>The standard chunk of Lorem Ipsum used since the 1500s is <br> reproduced below for those interested.</h4>
+			<!-- <div class="privacy-content">
+				<h4>Personal Data We Collect.</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Etiam maximus porttitor magna sit amet consectetur. Integer eget ante scelerisque tortor sodales aliquet. Integer in vestibulum leo, vitae tristique orci. Etiam tortor sem, porttitor at pellentesque sit amet, fringilla nec massa. Nunc nec magna sed metus tristique ornare vitae ut nisl. Mauris lacus enim, posuere et tincidunt condimentum, sodales ac elit.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Etiam maximus porttitor magna sit amet consectetur. Integer eget ante scelerisque tortor sodales aliquet. Integer in vestibulum leo, vitae tristique orci. Etiam tortor </p>
-			</div>
+			</div> -->
 			<!-- Privacy Content -->
 			<div class="privacy-content">
-				<h4>The standard chunk of Lorem Ipsum used since the 1500s is <br> reproduced below for those interested.</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut.</p>
+				<h4>Personal Data We Collect</h4>
+				<p>We only collect personal data that you voluntarily provide through our contact or enquiry form.</p>
+				<p>This may include:</p>
 				<ul class="privacy-list">
-					<li>Discover the Project</li>
-					<li>Strategy Development</li>
-					<li>Implementation the solution</li>
-					<li>Monitoring Progress</li>
+					<li>First name</li>
+					<li>Email address</li>
+					<li>Phone number</li>
+					<li>Service requested</li>
+		<li>Message content</li>
+					<li>We do not collect:</li>
+					<li>Payment information</li>
+					<li>User account data</li>
+					<li>Sensitive personal data</li>
+
 				</ul>
 			</div>
 			
 			<!-- Privacy Content -->
 			<div class="privacy-content">
-				<h4>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for <br> those interested.</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Etiam maximus porttitor magna sit amet consectetur. Integer eget ante scelerisque tortor sodales aliquet. Integer in vestibulum leo, vitae tristique orci. Etiam tortor sem, porttitor at pellentesque sit amet, fringilla nec massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum.</p>
+				<h4>Purpose of Data Collection</h4>
+				<p>We collect and use your personal data only for enquiry purposes, including:</p>
+				<p>Responding to your messages or questions.</p>
+				<p>Providing information about our drilling services</p>
+				<p>Communicating with you regarding your request</p>
 			</div>
 			
 			<!-- Privacy Content -->
 			<div class="privacy-content">
-				<h3>Security and Retention</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla.</p>
+				<h3>Legal Basis for Processing (GDPR)</h3>
+				<p>Under GDPR, we process your personal data based on:</p>
+				<p>Consent you choose to contact us and submit your information voluntarily</p>
+				<p>Legitimate interest – to respond to service enquiries and run our business</p>
 			</div>
 			
 			<!-- Privacy Content -->
 			<div class="privacy-content">
-				<h3>Contact Us</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula.</p>
+				<h3>We do not share your personal data with third parties.</h3>
+				<p>No analytics tools.</p>
+			<p>No advertising services</p>
+			<p>No external marketing platforms</p>
+			<p>Your data is handled internally only.</p>
+			</div>
+
+			<!-- Privacy Content -->
+			<div class="privacy-content">
+				<h3>Data Retention</h3>
+				<p>We keep your personal data only as long as necessary to:</p>
+				<p>Respond to your enquiry</p>
+				<p>Maintain basic business records</p>
+				<p>Once the data is no longer needed, it is deleted or securely stored.</p>
+			</div>
+
+				<!-- Privacy Content -->
+			<div class="privacy-content">
+				<h3>Data Security</h3>
+				<p>We take reasonable steps to protect your personal data, including:</p>
+				<p>Secure website hosting</p>
+				<p>Limited access to enquiry messages</p>
+				<p>Use of HTTPS (SSL) encryption.</p>
+				<p>While no system is 100% secure, we work to prevent unauthorized access or misuse.</p>
+			</div>
+
+			<!-- Privacy Content -->
+			<div class="privacy-content">
+				<h3>Your Rights Under GDPR</h3>
+				<p>If you are located in the EU, you have the right to:</p>
+				<p>Access your personal data</p>
+				<p>Request correction of incorrect data</p>
+				<p>Withdraw your consent at any time</p>
+				<p>To exercise these rights, please contact us at:<br> <a href="mailto:orbitforagesarl@gmail.com">orbitforagesarl@gmail.com</a></p>
 			</div>
 			
+				<!-- Privacy Content -->
+			<div class="privacy-content">
+				<h3>International Data Transfers</h3>
+				<p>Your data may be processed in Burkina Faso.We ensure that personal data is handled securely and in line with GDPR principles, even when processed outside the EU.</p>
+				</div>
+
+				<!-- Privacy Content -->
+			<div class="privacy-content">
+				<h3>Changes to This Privacy Policy</h3>
+				<p>We may update this Privacy Policy from time to time.</p>
+				<p>Any changes will be posted on this page with an updated revision date.</p>
+				<p>We encourage users to review this policy periodically.</p>
+				</div>
+
+					<!-- Privacy Content -->
+			<div class="privacy-content">
+				<h3> Contact Us</h3>
+				<p>If you have any questions about this Privacy Policy or how we handle your data, please contact us:</p>
+				    <p> <a href="mailto:orbitforagesarl@gmail.com">orbitforagesarl@gmail.com</a></p>
+				</div>
 		</div>
 	</section>
 	<!-- End Privacy Section -->
 			
-			<!-- Clients Two -->
-			<section class="clients-two">
-				<div class="auto-container">
-					<div class="inner-container">
-						<div class="case-one__slider-inner">
-							<div class="swiper clients_swiper">
-							  <div class="swiper-wrapper">
-									
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/1.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/2.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/4.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/5.html" alt="" /></a>
-										</div>
-									</div>
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<div class="client-image">
-											<a href="#"><img src="assets/images/clients/3.html" alt="" /></a>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End Clients Two -->
+		
 			
-			<!-- Main Footer -->
-			<footer class="main-footer style-three">
-				<div class="footer_pattern" style="background-image: url(assets/images/background/pattern-5.html)"></div>
-				<div class="auto-container">
-					<div class="inner-container">
-						<!-- Widgets Section -->
-						<div class="widgets-section">
-							<div class="row clearfix">
-								
-								<!-- Big Column -->
-								<div class="big-column col-lg-5 col-md-12 col-sm-12">
-									<div class="row clearfix">
-
-										<!-- Footer Column -->
-										<div class="footer_column col-lg-8 col-md-6 col-sm-12">
-											<div class="footer-widget footer-two_logo-widget">
-												<div class="footer-logo"><a href="index.html"><img src="assets/images/logo-2.html" alt="" title=""></a></div>
-												<div class="footer-text">Our company specializes in electrical wiring and repair. We carry out any projects with our hearts and are not afraid of difficulties!</div>
-												<!-- Social Box -->
-												<div class="footer-social_box">
-													<strong>About More</strong>
-													<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-													<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-													<a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-													<a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-												</div>
-											</div>
-										</div>
-
-										<!-- Footer Column -->
-										<div class="footer_column col-lg-4 col-md-6 col-sm-12">
-											<div class="footer-widget links-widget">
-												<h4 class="footer-title">Pages</h4>
-												<ul class="footer-list">
-													<li><a href="#">About Us</a></li>
-													<li><a href="#">Services</a></li>
-													<li><a href="#">News</a></li>
-													<li><a href="#">Projects</a></li>
-													<li><a href="#">Insights</a></li>
-													<li><a href="#">Jobs</a></li>
-													<li><a href="#">Contact</a></li>
-												</ul>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-								<!-- Big Column -->
-								<div class="big-column col-lg-7 col-md-12 col-sm-12">
-									<div class="row clearfix">
-
-										<!-- Footer Column -->
-										<div class="footer_column col-lg-7 col-md-6 col-sm-12">
-											<div class="footer-widget post-widget">
-												<h4 class="footer-title">News Feeds</h4>
-												<!--News Widget Block-->
-												<div class="news-widget-block">
-													<div class="news-widget_image">
-														<img src="assets/images/resource/post-thumb-1.html" alt="" />
-													</div>
-													<div class="news-widget_post-date">24 June 2025  /  Construction</div>
-													<h6 class="news-widget_title"><a href="blog-detail.html">How to Build Powerful Building Plans</a></h6>
-												</div>
-			
-												<!--News Widget Block-->
-												<div class="news-widget-block">
-													<div class="news-widget_image">
-														<img src="assets/images/resource/post-thumb-2.html" alt="" />
-													</div>
-													<div class="news-widget_post-date">24 Sep 2025  /  Construction</div>
-													<h6 class="news-widget_title"><a href="blog-detail.html">The Dream Construction Innovation News</a></h6>
-												</div>
-												
-												<!--News Widget Block-->
-												<div class="news-widget-block">
-													<div class="news-widget_image">
-														<img src="assets/images/resource/post-thumb-3.html" alt="" />
-													</div>
-													<div class="news-widget_post-date">24 Nov 2025  /  Construction</div>
-													<h6 class="news-widget_title"><a href="blog-detail.html">We Design the Latest construction Materials</a></h6>
-												</div>
-
-											</div>
-										</div>
-
-										<!-- Footer Column -->
-										<div class="footer_column col-lg-5 col-md-6 col-sm-12">
-											<div class="footer-widget links-widget">
-												<h4 class="footer-title">Services</h4>
-												<ul class="footer-list">
-													<li><a href="#">Construction</a></li>
-													<li><a href="#">Renovation</a></li>
-													<li><a href="#">Reconstruction</a></li>
-													<li><a href="#">Consulting</a></li>
-													<li><a href="#">Online App</a></li>
-													<li><a href="#">Counselling</a></li>
-													<li><a href="#">Materials</a></li>
-												</ul>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-							</div>
-						</div>
-						
-						<!-- Gallery Box -->
-						<div class="gallery-box">
-							<div class="instagram-one_carousel swiper-container">
-								<div class="swiper-wrapper">
-									
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<!-- Instagram Block One -->
-										<div class="instagram-block_one">
-											<div class="instagram-block_one-inner">
-												<div class="instagram-block_one-image">
-													<img src="assets/images/gallery/7.html" alt="" />
-													<div class="instagram-block_one-overlay">
-														<a href="assets/images/gallery/7.html" class="lightbox-image instagram-block_one-icon">
-															<i class="flaticon-instagram"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<!-- Instagram Block One -->
-										<div class="instagram-block_one">
-											<div class="instagram-block_one-inner">
-												<div class="instagram-block_one-image">
-													<img src="assets/images/gallery/8.html" alt="" />
-													<div class="instagram-block_one-overlay">
-														<a href="assets/images/gallery/8.html" class="lightbox-image instagram-block_one-icon">
-															<i class="flaticon-instagram"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<!-- Instagram Block One -->
-										<div class="instagram-block_one">
-											<div class="instagram-block_one-inner">
-												<div class="instagram-block_one-image">
-													<img src="assets/images/gallery/9.html" alt="" />
-													<div class="instagram-block_one-overlay">
-														<a href="assets/images/gallery/9.html" class="lightbox-image instagram-block_one-icon">
-															<i class="flaticon-instagram"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									
-									<!-- Slide -->
-									<div class="swiper-slide">
-										<!-- Instagram Block One -->
-										<div class="instagram-block_one">
-											<div class="instagram-block_one-inner">
-												<div class="instagram-block_one-image">
-													<img src="assets/images/gallery/10.html" alt="" />
-													<div class="instagram-block_one-overlay">
-														<a href="assets/images/gallery/10.html" class="lightbox-image instagram-block_one-icon">
-															<i class="flaticon-instagram"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-						<!-- End Gallery Box -->
-						
-					</div>
-					
-				</div>
-				<div class="footer-bottom">
-					<div class="auto-container">
-						<div class="d-flex justify-content-between align-items-center flex-wrap">
-							<div class="main-footer_copyright">Copyright &copy; 2025 - All rights Reserved By Themecraze</a></div>
-							<ul class="footer-bottom_navs">
-								<li><a href="#">Terms & Conditions</a></li>
-								<li><a href="#">Claim</a></li>
-								<li><a href="#">Privacy & Policy</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- End Footer Style -->
+		
+<?php include('layout/footer.php'); ?>
 			
 		</div>
 	</div>
 	
-	<!-- Search Popup -->
-	<div class="search-popup">
-		<div class="color-layer"></div>
-		<button class="close-search"><span class="fa-xmark"></span></button>
-		<form method="post" action="https://themecraze.net/html/qonstruct/blog.html">
-			<div class="form-group">
-				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
-				<button class="fa fa-solid fa-magnifying-glass fa-fw" type="submit"></button>
-			</div>
-		</form>
-	</div>
-	<!-- End Search Popup -->
 	
-	<!-- Color Palate / Color Switcher -->
-	<div class="color-palate">
-		<div class="color-trigger">
-			<i class="fa fa-solid fa-gear fa-fw"></i>
-		</div>
-		<div class="color-palate-inner">
-			<div class="color-palate-head">
-				<h6>Choose Options</h6>
-			</div>
-			
-			<!-- Colors -->
-			<div class="various-color clearfix">
-				<div class="colors-list">
-					<span class="palate default-color active" data-theme-file="assets/css/color-themes/default-color.css"></span>
-					<span class="palate blue-color" data-theme-file="assets/css/color-themes/blue-color.html"></span>
-					<span class="palate olive-color" data-theme-file="assets/css/color-themes/olive-color.html"></span>
-					<span class="palate orange-color" data-theme-file="assets/css/color-themes/orange-color.html"></span>
-					<span class="palate purple-color" data-theme-file="assets/css/color-themes/purple-color.html"></span>
-					<span class="palate green-color" data-theme-file="assets/css/color-themes/green-color.html"></span>
-					<span class="palate brown-color" data-theme-file="assets/css/color-themes/brown-color.html"></span>
-					<span class="palate yellow-color" data-theme-file="assets/css/color-themes/yellow-color.html"></span>
-				</div>
-			</div>
-					
-			<h6>RTL Version</h6>
-			<ul class="rtl-version option-box"> <li class="rtl">RTL Version</li> <li>LTR Version</li> </ul>
-			<h6>Want Sticky Header</h6>
-			<ul class="header-version option-box"> <li class="box">No</li> <li>Yes</li></ul>
-			<h6>Dark Verion</h6>
-			<ul class="dark-version option-box"> <li class="box">Yes</li> <li>No</li></ul>
-			
-			<div class="purchase-box">
-				You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.
-				<a href="#" class="theme-btn btn-style-one">
-					<span class="btn-wrap">
-						<span class="text-one">buy now</span>
-						<span class="text-two">buy now</span>
-					</span>
-				</a>
-			</div>
-			
-		</div>
-	</div>
-	<!-- End Color Palate / Color Switcher -->
 	
 </div>
 <!-- End PageWrapper -->

@@ -141,7 +141,7 @@ body {
 	font-family: "Jost", sans-serif;
 	line-height:1.6em;
 	font-weight:400;
-	font-size:14px;
+	font-size:15px;
 	color: var(--color-three);
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
@@ -277,6 +277,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight:500;
 	color: #14176c;
     font-family: "Jost", sans-serif;
+	font-size:18px
 }
 
 input,button,select,textarea{
@@ -304,32 +305,32 @@ p{
 
 h1{
 	line-height:82px;
-	font-size:72px;
+	font-size:30px;
 }
 
 h2{
 	line-height:70px;
-	font-size:60px;
+	font-size:50px;
 }
 
 h3{
 	line-height:40px;
-	font-size:30px;
+	font-size:27px;
 }
 
 h4{
 	line-height:34px;
-	font-size:24px;
+	font-size:22px;
 }
 
 h5{
 	line-height:30px;
-	font-size:20px;
+	font-size:18px;
 }
 
 h6{
 	line-height:28px;
-	font-size:18px;
+	font-size:16px;
 }
 
 .auto-container{
@@ -506,7 +507,7 @@ img{
 .btn-style-one{ 
 	position: relative;
 	font-weight:500;
-    font-size: 16px;
+    font-size: 14px;
 	overflow: hidden;
 	text-align:center;
 	border-radius:50px;
@@ -614,7 +615,7 @@ img{
 .btn-style-two{ 
 	position: relative;
 	font-weight:500;
-    font-size: 16px;
+    font-size: 14px;
 	overflow: hidden;
 	text-align:center;
 	border-radius:50px;
@@ -721,7 +722,7 @@ img{
 .btn-style-three{
 	position: relative;
 	font-weight:500;
-    font-size: 16px;
+    font-size: 14px;
 	overflow: hidden;
 	text-align:center;
 	border-radius:50px;
@@ -821,7 +822,7 @@ img{
 
 img{
 	display:inline-block;
-	max-width:100%;
+	max-width:400px;
 	height:auto;	
 }
 
@@ -874,7 +875,7 @@ img{
 .sec-title_title{
 	position: relative;
     font-weight:700;
-    font-size:18px;
+    font-size:16px;
 	display: flex;
 	gap:15px;
 	letter-spacing:1px;
@@ -891,7 +892,7 @@ img{
 
 .sec-title_text{
 	line-height:30px; 
-	font-size:16px;
+	font-size:14px;
 	margin-top:20px;
     color:#666666;
 }
@@ -931,7 +932,7 @@ img{
 	padding: 15px 25px;
 	font-weight:500;
 	line-height:28px;
-	font-size:16px;
+	font-size:14px;
 	color:var(--color-four);
 	background-color: var(--white-color);
 	border:1px solid rgba(var(--black-color-rgb), 0.08);

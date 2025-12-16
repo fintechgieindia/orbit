@@ -267,7 +267,7 @@
 }
 
 .project-two .project-block_three .sub-title{
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 500;
 	margin-bottom: 0px;
 	color: var(--white-color);
@@ -275,7 +275,7 @@
 }
 
 .project-two .project-block_three .title {
-	font-size: 30px;
+	font-size: 22px;
 	margin-top: 15px;
 	font-weight: 500;
 	margin-bottom: 20px;
@@ -375,7 +375,7 @@
 
 .project-block_two .inner .content-outer .content .sub-title{
 	position:relative;
-	font-size: 16px;
+	font-size: 14px;
 	margin-bottom: 10px;
 	color: var(--color-two);
 }
@@ -394,7 +394,7 @@
 }
 
 .project-block_two .inner .content-outer .content .text {
-	font-size: 18px;
+	font-size: 14px;
 	margin-top: 10px;
 	color: var(--color-two);
 }
@@ -404,7 +404,7 @@
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
-	font-size: 28px;
+	font-size: 16px;
 	text-align: center;
 	border-radius: 12px;
 	color: var(--white-color);
@@ -445,7 +445,7 @@
 
 .project-detail_location{
 	position:relative;
-	font-size:16px;
+	font-size:15px;
 	display:flex;
 	gap:10px;
 	font-weight:500;
@@ -459,7 +459,7 @@
 
 .project-detail_heading{
 	position:relative;
-	font-weight:700;
+	font-weight:500;
 	margin-top:15px;
 	margin-bottom:35px;
 	color:var(--color-two);
@@ -489,7 +489,7 @@
 	padding-left:80px;
 	color:#1E1E1E;
 	min-height:62px;
-	font-size:16px;
+	font-size:15px;
 	margin-right:35px;
 	margin-bottom:25px;
 	display:inline-block;

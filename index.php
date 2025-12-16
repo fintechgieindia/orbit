@@ -446,13 +446,13 @@ Reliable service at reasonable rates.</div>
     padding-left: 60px;">
               <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
               Address
-              <strong>Burnika Feso</strong>
+              <strong>Burnika Faso, West Africa</strong>
             </li>
             <li style="
     padding-left: 60px;">
               <span class="icon"><i class="fa-regular fa-envelope"></i></span>
               Write email 
-              <strong>Orbitforagesarl@gmail.com</strong>
+              <strong>orbitforagesarl@gmail.com</strong>
             </li>
             <li style="
     padding-left: 60px;">
@@ -547,7 +547,7 @@ Reliable service at reasonable rates.</div>
 
 /* One class controls font-weight for all slide headings */
 .slider-two_heading {
-    font-weight: 700;
+    font-weight: 500;
 }
 .cta-one {
     position: relative;

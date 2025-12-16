@@ -19,9 +19,9 @@
 }
 
 .error-section h2{
-	font-weight:800;
+	font-weight:400;
 	margin-top: 50px;
-	color:var(--black-color);
+	color:#14176c;
 }
 
 .error-section .error-one_text{

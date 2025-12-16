@@ -56,22 +56,22 @@
               <ul class="list-unstyled mb-0">
                 <!-- Address -->
                 <li class="d-flex align-items-start gap-2 mb-2">
-                  <span class="contact-icon location-icon" style="margin-top: 3px;">
-                    <svg width="20" height="20"><use xlink:href="#location-icon"></use></svg>
+                  <span class="contact-icon" style="margin-top: 3px;"><i class="fa-solid fa-location-dot"></i>
+                   
                   </span>
-                  <span style="color:#fff">Burnica Feso</span>
+                  <span style="color:#fff">Burnika Faso, West Africa</span>
                 </li>
                 <!-- Email -->
                 <li class="d-flex align-items-center gap-3 mb-2">
-                  <span class="contact-icon mail-icon">
-                    <svg width="20" height="20"><use xlink:href="#mail-icon"></use></svg>
-                  </span>
-                  <a href="mailto:Orbitforagesarl@gmail.com">Orbitforagesarl@gmail.com</a>
+                  <span class="contact-icon"><i class="fa-regular fa-envelope"></i>
+                   
+   </span>
+                  <a href="mailto:orbitforagesarl@gmail.com">orbitforagesarl@gmail.com</a>
                 </li>
                 <!-- Phone -->
                 <li class="d-flex align-items-center gap-3">
-                  <span class="contact-icon phone-icon">
-                    <svg width="20" height="20"><use xlink:href="#phone-icon"></use></svg>
+                  <span class="contact-icon"><i class="fa-solid fa-phone"></i>
+                   
                   </span>
                   <span>
                     <a href="tel:+91 94428 96237">+91 94428 96237</a> | 
@@ -102,8 +102,8 @@
 			<div class="copyright py-30 py-lg-40 d-flex flex-column flex-md-row gap-3 justify-content-between">
 				<p class="mb-0 copyright-text">&copy; 2025 All Rights Reserved</p>
 				<div class="d-flex gap-4">
-					<a href="privacy-policy" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Privacy">Privacy Policy</a>
-					<a href="terms-conditions" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Terms">Terms & Conditions</a>
+					<a href="privacy.php" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Privacy">Privacy Policy</a>
+					<a href="terms.php" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Terms">Terms & Conditions</a>
 				</div>
 				<div class="d-flex gap-4">
 					<p class="mb-0 copyright-text"></span>Tech & Design Partner <a href="https://wegeni.com/" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Terms" style="color:#e0aa3e;"><b>WeGeni</b></a></p>
@@ -219,6 +219,28 @@
       font-size: 16px;
   }
 }
+/* Contact Us – right side icons only */
+.footer-subscription .contact-icon {
+  color: #f7a400;        /* icon color */
+  width: 20px;           /* equal alignment */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Straight alignment for contact rows */
+.footer-subscription ul li {
+  display: flex;
+  align-items: flex-start;   /* fixes uneven vertical issue */
+  gap: 10px;
+}
+.footer-subscription li:first-child .contact-icon {
+  margin-left: -10px;
+}
+
+
+
 
 </style>
 </footer>

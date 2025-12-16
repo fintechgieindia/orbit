@@ -4,9 +4,9 @@ $meta_description ="Trusted borewell drilling company offering deep borewell, wa
 $meta_keywords = "borewell cost,borewell motor,borewell machine,borewell drilling gallery, water drilling projects, orbit forage sarl gallery">
 $url = "https://orbitforage.com/";
 $image ="assets/images/orbit logo.svg";
-include 'layout/header.php' ?>
-
+ ?>
 <?php include('layout/header.php'); ?>
+
 <?php include('layout/navbar.php'); ?>
 
 	
@@ -19,8 +19,7 @@ include 'layout/header.php' ?>
 				<div class="auto-container">
 					<h2 style="text-align: center;">Gallery</h2>
 					
-					
-				</div>
+					</div>
 			</section>
 			<!-- End Page Title -->
 			
@@ -140,8 +139,7 @@ include 'layout/header.php' ?>
 			</section>
 			<!-- End Blog One -->
 			
-			
-						<?php include('layout/footer.php'); ?>
+			<?php include('layout/footer.php'); ?>
 			
 			
 		</div>

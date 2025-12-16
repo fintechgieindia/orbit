@@ -11,7 +11,7 @@
                 <ul class="header-info_list d-flex align-items-center mb-0">
                     <li>
                         <span>Email : </span>
-                        <a href="mailto:Orbitforagesarl@gmail.com">Orbitforagesarl@gmail.com</a>
+                        <a href="mailto:orbitforagesarl@gmail.com">orbitforagesarl@gmail.com</a>
                     </li>
                     <li class="ms-3">
                         <span>Call : </span>
