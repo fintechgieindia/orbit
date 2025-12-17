@@ -1,12 +1,11 @@
 <?php
-$page_title = "Borewell Drilling Services | Gallery";
-$meta_description = "Trusted borewell drilling company offering deep borewell, water testing, and pump installation services. Quality work with timely completion.";
-$meta_keywords = "borewell cost,borewell motor,borewell machine,borewell drilling gallery, water drilling projects, orbit forage sarl gallery";
-$url = "https://orbitforage.com/";
-$image = "assets/images/orbit logo.svg";
-?>
+$page_title = "Project Gallery | Orbit Forage Sarl";
 
-<?php include('layout/header.php'); ?>
+$meta_description = "View Orbit Forage’s completed borehole drilling, soil testing, and geophysical survey projects across Burkina Faso. Real images of field operations and results.";
+
+$meta_keywords = "drilling project gallery, borehole images, fieldwork Burkina Faso, forage d’eau photos, travaux géotechniques, projets de forage";
+ include('layout/header.php');?>
+
 <?php include('layout/navbar.php'); ?>
 
 <div id="smooth-wrapper">

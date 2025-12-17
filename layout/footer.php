@@ -13,7 +13,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="footer-widget footer-two_logo-widget">
               <div class="footer-logo">
-                <a href="index.php"><img src="assets/images/orbit logo.svg" alt="" title=""></a>
+                <a href="index"><img src="assets/images/orbit logo.svg" alt="" title=""></a>
               </div>
               <div class="footer-text">
                 Our company specializes in electrical wiring and repair. We carry out any projects with our hearts and are not afraid of difficulties!
@@ -27,10 +27,10 @@
             <div class="footer-widget links-widget">
               <h4 class="footer-title">Quick Links</h4>
               <ul class="footer-list">
-                <li><a href="about.php">About</a></li>
-                <li><a href="services.php">Services</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -40,11 +40,11 @@
             <div class="footer-widget links-widget">
               <h4 class="footer-title">Services</h4>
               <ul class="footer-list">
-                <li><a href="services.php">Borewell Drilling</a></li>
-                <li><a href="services.php">Borewell Cleaning</a></li>
-                <li><a href="services.php">Borewell Maintenance</a></li>
-                <li><a href="services.php">Borewell Flushing</a></li>
-                  <li><a href="services.php">Groundwater Survey</a></li>
+                <li><a href="services">Borewell Drilling</a></li>
+                <li><a href="services">Borewell Cleaning</a></li>
+                <li><a href="services">Borewell Maintenance</a></li>
+                <li><a href="services">Borewell Flushing</a></li>
+                  <li><a href="services">Groundwater Survey</a></li>
               </ul>
             </div>
           </div>
@@ -102,8 +102,8 @@
 			<div class="copyright py-30 py-lg-40 d-flex flex-column flex-md-row gap-3 justify-content-between">
 				<p class="mb-0 copyright-text">&copy; 2025 All Rights Reserved</p>
 				<div class="d-flex gap-4">
-					<a href="privacy.php" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Privacy">Privacy Policy</a>
-					<a href="terms.php" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Terms">Terms & Conditions</a>
+					<a href="privacy" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Privacy">Privacy Policy</a>
+					<a href="terms" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Terms">Terms & Conditions</a>
 				</div>
 				<div class="d-flex gap-4">
 					<p class="mb-0 copyright-text"></span>Tech & Design Partner <a href="https://wegeni.com/" class="text-decoration-none link-hover-animation-1 copyright-text" aria-label="Terms" style="color:#e0aa3e;"><b>WeGeni</b></a></p>

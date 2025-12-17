@@ -1,10 +1,9 @@
 
 <?php
-$page_title = "Borewell Drilling Services | Contact Us ";
-$meta_description ="Contact Orbit Forage SARL for professional borewell drilling, cleaning and pump installation services.";
-$meta_keywords = "borewell cost,borewell motor,borewell machine,contact orbit forage sarl, borewell drilling contact, water drilling services.">
-$url = "https://orbitforage.com/";
-$image ="assets/images/orbit logo.svg";
+$page_title = "Contact Us | Orbit Forage Sarl";
+$meta_description = "Contact Orbit Forage for water borehole drilling, soil investigation, and geophysical survey services in Burkina Faso and West Africa.";
+$meta_keywords = "contact drilling company, contact Orbit Forage, borehole services Burkina Faso, forage d’eau contact, entreprise de forage Burkina Faso";
+
 include 'layout/header.php' ?>
 <?php include('layout/navbar.php'); ?>
 

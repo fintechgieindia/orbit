@@ -53,7 +53,7 @@
 						
 						<!-- Logo Box -->
 						<div class="logo-box">
-							<div class="logo"><a href="index.php"><img src="assets/images/orbit logo.svg" alt="" title="Qonstruct"></a></div>
+							<div class="logo"><a href="index"><img src="assets/images/orbit logo.svg" alt="" title="Qonstruct"></a></div>
 						</div>
 						
 						<div class="nav-outer d-flex flex-wrap">
@@ -74,24 +74,24 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 
 <ul class="navigation clearfix">
-    <li class="<?= ($currentPage == 'index.php') ? 'active' : '' ?>">
-        <a href="index.php">Home</a>
+    <li class="<?= ($currentPage == 'index') ? 'active' : '' ?>">
+        <a href="index">Home</a>
     </li>
 
-    <li class="<?= ($currentPage == 'about.php') ? 'active' : '' ?>">
-        <a href="about.php">About</a>
+    <li class="<?= ($currentPage == 'about') ? 'active' : '' ?>">
+        <a href="about">About</a>
     </li>
 
-    <li class="<?= ($currentPage == 'services.php') ? 'active' : '' ?>">
-        <a href="services.php">Services</a>
+    <li class="<?= ($currentPage == 'services') ? 'active' : '' ?>">
+        <a href="services">Services</a>
     </li>
 
-    <li class="<?= ($currentPage == 'gallery.php') ? 'active' : '' ?>">
-        <a href="gallery.php">Gallery</a>
+    <li class="<?= ($currentPage == 'gallery') ? 'active' : '' ?>">
+        <a href="gallery">Gallery</a>
     </li>
 
-    <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>">
-        <a href="contact.php">Contact</a>
+    <li class="<?= ($currentPage == 'contact') ? 'active' : '' ?>">
+        <a href="contact">Contact</a>
     </li>
 </ul>
 
@@ -114,7 +114,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 							
 							<!-- Button Box -->
 							<div class="main-header_button">
-								<a href="contact.php" class="theme-btn btn-style-one">
+								<a href="contact" class="theme-btn btn-style-one">
 									<span class="btn-wrap">
 										<span class="text-one">Schedule Site Visit<i class="fa-classic fa-solid fa-arrow-right"></i></span>
 										<span class="text-two">Schedule Site Visit<i class="fa-classic fa-solid fa-arrow-right"></i></span>
@@ -139,7 +139,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 			<div class="close-btn"><span class="icon fa-xmark"></span></div>
 			
 			<nav class="menu-box">
-				<div class="nav-logo"><a href="index.php"><img src="assets/images/orbit logo.svg" alt="" title=""></a></div>
+				<div class="nav-logo"><a href="index"><img src="assets/images/orbit logo.svg" alt="" title=""></a></div>
 				<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 			</nav>
 		</div>

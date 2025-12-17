@@ -4,32 +4,38 @@
 <!-- Mirrored from themecraze.net/html/qonstruct/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Dec 2025 07:13:27 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Orbit Forage Sarl</title>
-<meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php if(isset($page_title)) { echo "$page_title";}?></title>
-    
-    <!-- <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <meta name="description" content="<?php if(isset($meta_description)) { echo "$meta_description";}?>">
-    <meta name=" keywords" content="<?php if(isset($meta_keywords)) { echo "$meta_keywords";}?>">
-    <link rel="canonical" href="<?php if(isset($url)) { echo "$url";}?>" />
-    <meta property=" og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="<?php if(isset($page_title)) { echo "$page_title";}?>" />
-    <meta property="og:description" content="<?php if(isset($meta_description)) { echo "$meta_description";}?>" />
-    <meta property="og:url" content="<?php if(isset($url)) { echo "$url";}?>" />
-    <meta property="og:site_name" content="<?php if(isset($page_title)) { echo "$page_title";}?>" />
-    <meta property="article:modified_time" content="2022-09-27T15:35:30+00:00" />
-    <meta property="og:image" content="<?php if(isset($image)) { echo "$image";}?>" />
-    <meta property=" og:image:width" content="1200" />
-    <meta property="og:image:height" content="600" />
-    <meta property="og:image:type" content="<?php if(isset($image)) { echo "$image";}?>" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="<?php if(isset($page_title)) { echo "$page_title";}?>" />
-    <meta name=" twitter:description" content="<?php if(isset($meta_description)) { echo "$meta_description";}?>" />
-    <meta name=" twitter:image" content="<?php if(isset($image)) { echo "$image";}?>" />
-    <meta name="p:domain_verify" content="c30c835ebc2e62a9b16b0505c88ffda5" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<title><?php echo isset($page_title) ? $page_title : 'Water & Ground Solutions in West Africa | Orbit Forage'; ?></title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="<?php echo $meta_description; ?>">
+<meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : ''; ?>">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="<?php echo isset($url) ? $url : 'https://orbitforage.com/'; ?>">
+
+<!-- Language -->
+<meta name="language" content="French, English">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="<?php echo isset($page_title) ? $page_title : 'Water & Ground Solutions in West Africa | Orbit Forage'; ?>">
+<meta property="og:description" content="<?php echo isset($meta_description) ? $meta_description : 'Reliable water and ground solutions across West Africa.'; ?>">
+<meta property="og:url" content="<?php echo isset($url) ? $url : 'https://orbitforage.com/'; ?>">
+<meta property="og:site_name" content="Orbit Forage">
+<meta property="og:image" content="<?php echo isset($image) ? $image : 'https://orbitforage.com/assets/images/orbit logo.svg'; ?>">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?php echo isset($page_title) ? $page_title : 'Water & Ground Solutions in West Africa | Orbit Forage'; ?>">
+<meta name="twitter:description" content="<?php echo isset($meta_description) ? $meta_description : 'Reliable water and ground solutions across West Africa.'; ?>">
+<meta name="twitter:image" content="<?php echo isset($image) ? $image : 'https://orbitforage.com/assets/images/orbit logo.svg'; ?>">
+
 <!-- Stylesheets -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">

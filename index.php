@@ -1,14 +1,10 @@
 <?php
-$page_title = "Borewell Drilling Services | Orbit Forage Sarl ";
-$meta_description ="Orbit Forage SARL provides professional borewell drilling services using advanced machinery, skilled technicians and reliable solutions.";
-$meta_keywords = "borewell cost,borewell motor,borewell machine,borewell drilling services, orbit forage sarl, water borewell drilling, borewell contractors.">
-$url = "https://orbitforage.com/";
-$image ="assets/images/orbit logo.svg";
+$page_title = "Water Borehole & Ground Solutions in West Africa | Orbit Forage sarl Burkina Faso";
+$meta_description = "Orbit Forage provides professional water borehole drilling, geophysical survey, and soil testing services across Burkina Faso and West Africa. Reliable, affordable and expert solutions.";
+$meta_keywords = "water borehole drilling Burkina Faso, borehole drilling West Africa, water drilling company, geophysical survey Burkina Faso, soil testing services, groundwater solutions, forage d’eau Burkina Faso, entreprise de forage, prospection géophysique, étude de sol";
+
 include 'layout/header.php' ?>
-
-
-<?php include('layout/header.php'); ?>
-
+                                                                                              
 <div class="page-wrapper">
 	
     <?php include('layout/navbar.php'); ?>
@@ -35,7 +31,7 @@ include 'layout/header.php' ?>
 										<div class="slider-two_title">We have experianced team</div>
 										<h3 class="slider-two_heading text-light trans-900">Groundwater Survey for Accurate <br> Drilling Points</h3>
 										<div class="slider-two_button trans-900">
-											<a href="about.php" class="theme-btn btn-style-three">
+											<a href="about" class="theme-btn btn-style-three">
 												<span class="btn-wrap">
 													<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 													<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -59,7 +55,7 @@ include 'layout/header.php' ?>
 										<div class="slider-two_title">We have experianced team</div>
 										<h3 class="slider-two_heading text-light trans-900">Efficient and dependable water<br> extraction services for all needs.</h3>
 										<div class="slider-two_button trans-900">
-											<a href="about.php" class="theme-btn btn-style-three">
+											<a href="about" class="theme-btn btn-style-three">
 												<span class="btn-wrap">
 													<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 													<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -83,7 +79,7 @@ include 'layout/header.php' ?>
 										<div class="slider-two_title">We have experianced team</div>
 										<h1 class="slider-two_heading text-light trans-900">Pump Installation, Cleaning & <br> Borewell Maintenance</h1>
 										<div class="slider-two_button trans-900">
-											<a href="about.php" class="theme-btn btn-style-three">
+											<a href="about" class="theme-btn btn-style-three">
 												<span class="btn-wrap">
 													<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 													<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -141,7 +137,7 @@ include 'layout/header.php' ?>
 									
 									<div class="text">Orbit Forage Sarl was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last.</div>
 									<div class="welcome-one_button">
-										<a href="about.php" class="theme-btn btn-style-two">
+										<a href="about" class="theme-btn btn-style-two">
 											<span class="btn-wrap">
 												<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 												<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -163,14 +159,14 @@ include 'layout/header.php' ?>
 						<!-- Column -->
 						<div class="column col-lg-4 col-md-12 col-sm-12">
 							<div class="sec-title title-anim">
-								<div class="sec-title_title">Check Services</div>
+								<div class="sec-title_title">Check Services</div> 
 								<h3 style="color: #14176c;">We Deliver Reliable Borewell Solutions for Every Need
 </h3>
 
 								<div class="sec-title_text">At Orbit Forage Sarl, we make water access simple and dependable. From drilling and cleaning to pump installation and groundwater surveys, our services are designed to give you safe, long-lasting, and worry-free water solutions for your home, farm, or business.</div>
 							</div>
 							<div class="service-two_button">
-								<a href="services.php" class="theme-btn btn-style-two">
+								<a href="services" class="theme-btn btn-style-two">
 									<span class="btn-wrap">
 										<span class="text-one">all services <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 										<span class="text-two">all services <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -261,7 +257,7 @@ include 'layout/header.php' ?>
 					<h3 class="cta-one_title text-light">Need a Reliable Borewell or Water Solution? <br> We’re Here to Help.</h3>
 					<div class="cta-one_text">From accurate groundwater surveys to complete borewell drilling and pump installation, Orbit Forage Sarl  <br>provides trusted, professional support for every water requirement.</div>
 					<div class="cta-one_button trans-900">
-						<a href="contact.php" class="theme-btn btn-style-three">
+						<a href="contact" class="theme-btn btn-style-three">
 							<span class="btn-wrap">
 								<span class="text-one">get a quote <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 								<span class="text-two">get a quote <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -294,7 +290,7 @@ include 'layout/header.php' ?>
 							  <div class="text"> At Orbit Forage Sarl, we handle every borewell project with careful planning and accurate field execution. Each site is assessed for groundwater potential, safety conditions, and drilling suitability. Our goal is simple — deliver a stable, long-lasting water source that genuinely supports your home, farm, or commercial needs.</div>
 							  <!-- Btn Box -->
 							  <div class="project-block_three-button">
-								<a href="about.php" class="theme-btn btn-style-three">
+								<a href="about" class="theme-btn btn-style-three">
 									<span class="btn-wrap">
 										<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 										<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -318,7 +314,7 @@ include 'layout/header.php' ?>
 							  <div class="text">At Qanstruct, we design and construct commercial and industrial facilities that respond to your unique business requirements and deliver the best quality, value and performance to help you maximise your success.</div>
 							  <!-- Btn Box -->
 							  <div class="project-block_three-button">
-								<a href="about.php" class="theme-btn btn-style-three">
+								<a href="about" class="theme-btn btn-style-three">
 									<span class="btn-wrap">
 										<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 										<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
@@ -342,7 +338,7 @@ include 'layout/header.php' ?>
 							  <div class="text"> A complete pump installation project where we configured the right capacity pump, electrical panel, and testing to ensure consistent water delivery.</div>
 							  <!-- Btn Box -->
 							  <div class="project-block_three-button">
-								<a href="about.php" class="theme-btn btn-style-three">
+								<a href="about" class="theme-btn btn-style-three">
 									<span class="btn-wrap">
 										<span class="text-one">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 										<span class="text-two">Learn More <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>

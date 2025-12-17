@@ -1,17 +1,11 @@
 <?php
-$page_title = " Orbit Forage Sarl | About Us";
-$meta_description ="Trusted borewell drilling company offering deep borewell, water testing, and pump installation services. Quality work with timely completion.";
-$meta_keywords = "borewell cost,borewell motor,borewell machine,about orbit forage sarl, borewell drilling company, water drilling experts.">
-$url = "https://orbitforage.com/";
-$image ="assets/images/orbit logo.svg";
-include 'layout/header.php' ?>
+$page_title = "About Us | Orbit Forage Sarl ";
+$meta_description = "Learn about Orbit Forage, a reliable drilling and geotechnical company serving Burkina Faso and West Africa with modern equipment and skilled engineers.";
+$meta_keywords = "about Orbit Forage, drilling company Burkina Faso, West Africa drilling experts, forage d’eau Burkina Faso, entreprise de forage, solutions géotechniques, étude de sol";
 
-<?php include('layout/header.php'); ?>
+include 'layout/header.php' ?>
 <div class="page-wrapper">
 	<?php include('layout/navbar.php'); ?>
-	
-	
-	
 	
 	<div id="smooth-wrapper">
       <div id="smooth-content">
@@ -239,7 +233,7 @@ include 'layout/header.php' ?>
 					<h3 class="cta-one_title text-light">Need a Reliable Borewell or Water Solution? <br> We’re Here to Help.</h3>
 					<div class="cta-one_text">From accurate groundwater surveys to complete borewell drilling and pump installation, Orbit Forage Sarl  <br>provides trusted, professional support for every water requirement.</div>
 					<div class="cta-one_button trans-900">
-						<a href="contact.php" class="theme-btn btn-style-three">
+						<a href="contact" class="theme-btn btn-style-three">
 							<span class="btn-wrap">
 								<span class="text-one">get a quote <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
 								<span class="text-two">get a quote <i class="trans-300 fa-classic fa-solid fa-arrow-right"></i></span>
