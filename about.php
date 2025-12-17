@@ -72,6 +72,7 @@ include 'layout/header.php' ?>
 						<div class="feature-block_one col-lg-4 col-md-6 col-sm-12">
 							<div class="feature-block_one-inner wow fadeInLeft" data-wow-delay="0ms">
 								<div class="feature-block_one-content">
+									<div class="feature-block_one-icon trans-300 "><i class="bi bi-shield-check"></i></div>
 									<div class="feature-block_one-designation trans-300">Trusted Expertise</div>
 									<h6 class="feature-block_one-title trans-300">We bring years of hands-on experience to ensure your borewell is done right from day one.</h6>
 								</div>
@@ -82,9 +83,8 @@ include 'layout/header.php' ?>
 						<div class="feature-block_one col-lg-4 col-md-6 col-sm-12">
 							<div class="feature-block_one-inner wow fadeInLeft" data-wow-delay="300ms">
 								<div class="feature-block_one-content">
-									<!-- <div class="feature-block_one-icon trans-300 flaticon-industrial-robot"></div> -->
+								 <div class="feature-block_one-icon trans-300"><i class="bi bi-crosshair"></i></div>
 									<div class="feature-block_one-designation trans-300">
-										
 									Accurate Groundwater Survey</div>
 									<h6 class="feature-block_one-title trans-300">Our assessments help you choose the best drilling point with confidence.</h6>
 								</div>
@@ -95,7 +95,7 @@ include 'layout/header.php' ?>
 						<div class="feature-block_one col-lg-4 col-md-6 col-sm-12">
 							<div class="feature-block_one-inner wow fadeInLeft" data-wow-delay="600ms">
 								<div class="feature-block_one-content">
-									<!-- <div class="feature-block_one-icon trans-300 flaticon-engineer"></div> -->
+									 <div class="feature-block_one-icon trans-300"><i class="bi bi-diagram-3-fill"></i></div> 
 									<div class="feature-block_one-designation trans-300">
 										Complete Water Solutions</div>
 									<h6 class="feature-block_one-title trans-300">From drilling to pump setup, we handle everything so you get a hassle-free experience.</h6>
@@ -125,9 +125,8 @@ include 'layout/header.php' ?>
 								<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="150ms">
-										<!-- <div class="icon">
-										<i class="flaticon-chat-2"></i>
-										</div> -->
+										 <div class="icon">
+									<i class="bi bi-search"></i></div> 
 										<h4 class="title">Site Assessment</h4>
 										<div class="number">01</div>
 										<div class="text"> We assess your site to understand water needs and plan the right drilling strategy.</div>
@@ -137,9 +136,8 @@ include 'layout/header.php' ?>
 								<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="300ms">
-										<!-- <div class="icon">
-										<i class="flaticon-construction-1"></i>
-										</div> -->
+										<div class="icon">
+										<i class="bi bi-droplet-half"></i></div> 
 										<h4 class="title">Groundwater Survey</h4>
 										<div class="number">02</div>
 										<div class="text">We conduct accurate groundwater testing to find the best drilling spot.</div>
@@ -149,9 +147,8 @@ include 'layout/header.php' ?>
 								<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="450ms">
-										<!-- <div class="icon">
-										<i class="flaticon-office"></i>
-										</div> -->
+										 <div class="icon">
+										<i class="bi bi-tools"></i></div> 
 										<h4 class="title">Borewell Drilling </h4>
 										<div class="number">03</div>
 										<div class="text">We drill the borewell with precision and install systems suited for your water demand.</div>
@@ -161,9 +158,10 @@ include 'layout/header.php' ?>
 								<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="600ms">
-										<!-- <div class="icon">
-										<i class="flaticon-project-management"></i>
-										</div> -->
+									 <div class="icon">
+										<i class="bi bi-clipboard-check"></i>
+
+										</div> 
 										<h4 class="title">Testing & Support</h4>
 										<div class="number">04</div>
 										<div class="text">We test output, ensure smooth operation, and offer follow-up support and maintenance.</div>
@@ -204,7 +202,7 @@ include 'layout/header.php' ?>
 										<!-- Fluid Block One -->
 										<div class="fluid-block_one">
 											<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="0ms">
-												<!-- <div class="fluid-block_one-icon flaticon-check-mark"></div> -->
+												 <div class="fluid-block_one-icon"><i class="bi bi-check-circle-fill"></i></div> 
 												<h4 class="fluid-block_one-title">Quality Borewell Drilling</h4>
 												<div class="fluid-block_one-text"> We execute precise and efficient borewell drilling using modern rigs and professional methods to ensure dependable water yield every time.</div>
 											</div>
@@ -213,7 +211,7 @@ include 'layout/header.php' ?>
 										<!-- Fluid Block One -->
 										<div class="fluid-block_one">
 											<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="150ms">
-												<!-- <div class="fluid-block_one-icon flaticon-check-mark"></div> -->
+												<div class="fluid-block_one-icon "><i class="bi bi-check-circle-fill"></i></div> 
 												<h4 class="fluid-block_one-title">Groundwater Survey & Assessment</h4>
 												<div class="fluid-block_one-text">With accurate groundwater surveys, we identify the best drilling points to maximize yield and reduce uncertainty for every project.</div>
 											</div>
@@ -222,7 +220,7 @@ include 'layout/header.php' ?>
 										<!-- Fluid Block One -->
 										<div class="fluid-block_one">
 											<div class="fluid-block_one-inner wow fadeInUp" data-wow-delay="300ms">
-												<!-- <div class="fluid-block_one-icon flaticon-check-mark"></div> -->
+											 <div class="fluid-block_one-icon"><i class="bi bi-check-circle-fill"></i></div> 
 												<h4 class="fluid-block_one-title">Pump Installation & Maintenance</h4>
 												<div class="fluid-block_one-text">Our team installs high-quality submersible pumps and offers ongoing maintenance so your water system keeps running smoothly for years to come.</div>
 											</div>
@@ -353,6 +351,40 @@ include 'layout/header.php' ?>
         font-size: 13px;
         line-height: 18px;
     }
+}
+.welcome-one_image img {
+  width: 620px; /* adjust as needed */
+}
+.welcome-one_image img {
+  width: 100%;
+  max-width: 400%;
+  height: auto;
+}
+/* Process section icons – lighter & smaller (competitor-style) */
+.process-one .process-block_one .icon i {
+  font-size: 38px;        /* size kammi */
+  font-weight: 300;       /* melisa look */
+  line-height: 1;
+  display: inline-block;
+}
+
+/* Remove extra spacing making icon look heavy */
+.process-one .process-block_one .icon {
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.fluid-one {
+  margin-bottom: 80px;
+}
+.fluid-one {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  .fluid-one {
+    margin-bottom: 50px; /* mobile-ல balanced space */
+  }
 }
 
 </style>

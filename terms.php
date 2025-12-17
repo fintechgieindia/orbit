@@ -26,51 +26,97 @@
 					<div class="privacy-content">
 						<h3>Terms & Conditions</h3>
 						<p>For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other who we know will help us create added value for your project.</p>
-						<div class="date">Updated Dec 24, 2025</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue.</p>
-						<h3>Overview</h3>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+						<div class="date">Last updated: 16 December 2025</div>
+						<p>Welcome to Orbit Forage</p>
+						<p>By accessing or using our website https://orbitforage.com/, you agree to these Terms and Conditions. If you do not agree, please do not use this website.</p>
+						<h3>About Us</h3>
+						<p> Business Name: Orbit Forage</p>
+							<p>Location: Burkina Faso</p>
+							<p> <a href="mailto:orbitforagesarl@gmail.com">orbitforagesarl@gmail.com</a></p>
+							<p>Orbit Forage provides borewell drilling, flushing, cleaning, and related drilling services.</p>
 					</div>
 					<!-- Privacy Content -->
 					<div class="privacy-content">
-						<h4>The standard chunk of Lorem Ipsum used since the 1500s is <br> reproduced below for those interested.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Etiam maximus porttitor magna sit amet consectetur. Integer eget ante scelerisque tortor sodales aliquet. Integer in vestibulum leo, vitae tristique orci. Etiam tortor sem, porttitor at pellentesque sit amet, fringilla nec massa. Nunc nec magna sed metus tristique ornare vitae ut nisl. Mauris lacus enim, posuere et tincidunt condimentum, sodales ac elit.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Etiam maximus porttitor magna sit amet consectetur. Integer eget ante scelerisque tortor sodales aliquet. Integer in vestibulum leo, vitae tristique orci. Etiam tortor </p>
-					</div>
+						<h4>Use of the Website</h4>
+						<p>You may use this website only for:</p>
+						<p>Viewing information about our services</p>
+						<p>Contacting us for enquiries </p>
+						<p>You agree not to:</p>
+						<p>Use the website for unlawful purposes</p>
+						<p>Attempt to damage, hack, or disrupt the website</p>
+						<p>Provide false or misleading information through the contact form</p>
+						</div>
 					<!-- Privacy Content -->
 					<div class="privacy-content">
-						<h4>The standard chunk of Lorem Ipsum used since the 1500s is <br> reproduced below for those interested.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut.</p>
+						<h4>Services Information</h4>
+						<p>All information on this website is provided for general information purposes only.</p>
+						<p>Service availability, pricing, and timelines may vary depending on location, site conditions, and other factors.</p>
+						<p>Submitting an enquiry does not create a binding contract.</p>
+						<p>A contract is formed only after direct agreement between you and Orbit Forage.</p>
+						<p>Final service terms, pricing, and timelines are confirmed only after on-site assessment and written or verbal agreement.</p>
+						
+					</div>
+					
+					<!-- Privacy Content -->
+					<div class="privacy-content">
+						<h4>Contact Form & User Responsibilities</h4>
+						<p>When you submit a message through our contact form, you agree that:</p>
+						<p>The information you provide is accurate and truthful</p>
+							<p>We may use your information only to respond to your enquiry</p>
+							<p>For more details, please see our Privacy Policy.</p>
+					</div>
+					
+					<!-- Privacy Content -->
+					<div class="privacy-content">
+						<h3>Intellectual Property</h3>
+						<p>All content on this website, including:</p>
 						<ul class="privacy-list">
-							<li>Discover the Project</li>
-							<li>Strategy Development</li>
-							<li>Implementation the solution</li>
-							<li>Monitoring Progress</li>
+							<li>Text</li>
+							<li>Images</li>
+							<li>Logos</li>
+							<li>Layout and design</li>
 						</ul>
+						<p>is the property of Orbit Forage, unless stated otherwise.</p>
+						<p>You may not copy, reproduce, or reuse content without prior written permission.</p>
 					</div>
 					
 					<!-- Privacy Content -->
 					<div class="privacy-content">
-						<h4>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for <br> those interested.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Etiam maximus porttitor magna sit amet consectetur. Integer eget ante scelerisque tortor sodales aliquet. Integer in vestibulum leo, vitae tristique orci. Etiam tortor sem, porttitor at pellentesque sit amet, fringilla nec massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum.</p>
-					</div>
+						<h3>Limitation of Liability</h3>
+						<p>To the maximum extent permitted by law:</p>
+						<p>Orbit Forage is not responsible for any loss or damage resulting from the use of this website</p>
+						<p>We do not guarantee that the website will always be available or error-free<br>Use of the website is at your own risk.</p>
+						</div>
 					
-					<!-- Privacy Content -->
-					<div class="privacy-content">
-						<h3>Security and Retention</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla.</p>
+						<div class="privacy-content">
+						<h3>External Links (if any)</h3>
+						<p>If our website contains links to other websites:</p>
+						<p>These are provided for convenience only <br> We are not responsible for the content or privacy practices of third-party websites</p>
 					</div>
-					
-					<!-- Privacy Content -->
-					<div class="privacy-content">
+
+
+			<div class="privacy-content">
+						<h3>Termination of Access</h3>
+						<p>We reserve the right to restrict or terminate access to this website at any time if these Terms and Conditions are violated If our website contains links to other websites.</p>
+						</div>
+
+						<div class="privacy-content">
+						<h3>Governing Law</h3>
+						<p> These Terms and Conditions are governed by the laws of Burkina Faso.</p>
+						<p>Any disputes shall be subject to the jurisdiction of the competent courts of Burkina Faso.</p>
+						</div>
+
+						<div class="privacy-content">
+						<h3>Changes to These Terms</h3>
+						<p>We may update these Terms and Conditions from time to time.</p>
+						<p>Any changes will be posted on this page with an updated revision date.</p>
+						</div>
+
+						<div class="privacy-content">
 						<h3>Contact Us</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula. Suspendisse vitae ex fermentum, suscipit sem id, dapibus orci. Cras efficitur mi augue, ut sodales felis rhoncus bibendum. Fusce sagittis nibh orci, id vestibulum tortor aliquet ut. Vivamus maximus felis ac nisl luctus, ut aliquet massa suscipit. Sed scelerisque quam justo, sed volutpat neque tempor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam consequat tellus id risus condimentum fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at nisl ligula.</p>
-					</div>
-					
+						<p>If you have any questions about these Terms and Conditions, please contact us:</p>
+								    <p> <a href="mailto:orbitforagesarl@gmail.com">orbitforagesarl@gmail.com</a></p>
+						</div>
 				</div>
 			</section>
 			<!-- End Privacy Section -->

@@ -139,7 +139,7 @@ include 'layout/header.php' ?>
 								 <div class="welcome-one_experiance"><span class="odometer" data-count="25"></span> Year Experience</div> 
 								<div class="welcome-one_content">
 									
-									<div class="text">Orbit Forage Sarl was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last..</div>
+									<div class="text">Orbit Forage Sarl was built on a simple promise to help people get dependable access to water without stress, confusion, or uncertainty. Over the years, we’ve supported families, farmers, and businesses by giving them clear guidance, honest work, and solutions that truly last.</div>
 									<div class="welcome-one_button">
 										<a href="about.php" class="theme-btn btn-style-two">
 											<span class="btn-wrap">
@@ -164,7 +164,9 @@ include 'layout/header.php' ?>
 						<div class="column col-lg-4 col-md-12 col-sm-12">
 							<div class="sec-title title-anim">
 								<div class="sec-title_title">Check Services</div>
-								<h3>We Deliver Reliable Borewell Solutions for Every Need</h3>
+								<h3 style="color: #14176c;">We Deliver Reliable Borewell Solutions for Every Need
+</h3>
+
 								<div class="sec-title_text">At Orbit Forage Sarl, we make water access simple and dependable. From drilling and cleaning to pump installation and groundwater surveys, our services are designed to give you safe, long-lasting, and worry-free water solutions for your home, farm, or business.</div>
 							</div>
 							<div class="service-two_button">
@@ -186,7 +188,7 @@ include 'layout/header.php' ?>
 							  <div class="service-block_two-content">
 								<!-- <div class="service-block_two-icon trans-500"><i class="fi fi-rr-drill"></i></div> -->
 								<h4 class="service-block_two-title">Borewell Drilling</a></h4>
-								<div class="service-block_two-text"> We drill with precision and care to ensure strong water yield and long-lasting performance for your home, farm, or business.<</div>
+								<div class="service-block_two-text"> We drill with precision and care to ensure strong water yield and long-lasting performance for your home, farm, or business.</div>
 							  </div>
 							</div>
 						</div>
@@ -372,14 +374,12 @@ include 'layout/header.php' ?>
 							<div class="outer-container wow fadeInUp" data-wow-delay="250ms">
 							<div class="auto-container">
 								<div class="row clearfix">
-
-								<!-- Process Block One -->
+<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="150ms">
-										<!-- <div class="icon">
-										<i class="flaticon-chat-2"></i>
-										</div> -->
-										<h5 class="title">Site Assessment</h5>
+										 <div class="icon">
+									<i class="bi bi-search"></i></div> 
+										<h4 class="title">Site Assessment</h4>
 										<div class="number">01</div>
 										<div class="text"> We assess your site to understand water needs and plan the right drilling strategy.</div>
 									</div>
@@ -388,10 +388,9 @@ include 'layout/header.php' ?>
 								<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="300ms">
-										<!-- <div class="icon">
-										<i class="flaticon-construction-1"></i>
-										</div> -->
-										<h5 class="title">Groundwater Survey</h5>
+										<div class="icon">
+										<i class="bi bi-droplet-half"></i></div> 
+										<h4 class="title">Groundwater Survey</h4>
 										<div class="number">02</div>
 										<div class="text">We conduct accurate groundwater testing to find the best drilling spot.</div>
 									</div>
@@ -400,10 +399,9 @@ include 'layout/header.php' ?>
 								<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="450ms">
-										<!-- <div class="icon">
-										<i class="flaticon-office"></i>
-										</div> -->
-										<h5 class="title">Borewell Drilling </h5>
+										 <div class="icon">
+										<i class="bi bi-tools"></i></div> 
+										<h4 class="title">Borewell Drilling </h4>
 										<div class="number">03</div>
 										<div class="text">We drill the borewell with precision and install systems suited for your water demand.</div>
 									</div>
@@ -412,10 +410,11 @@ include 'layout/header.php' ?>
 								<!-- Process Block One -->
 								<div class="process-block_one col-xl-3 col-lg-6 col-md-6 col-sm-12">
 									<div class="inner wow fadeInUp" data-wow-delay="600ms">
-										<!-- <div class="icon">
-										<i class="flaticon-project-management"></i>
-										</div> -->
-										<h5 class="title">Testing & Support</h5>
+									 <div class="icon">
+										<i class="bi bi-clipboard-check"></i>
+
+										</div> 
+										<h4 class="title">Testing & Support</h4>
 										<div class="number">04</div>
 										<div class="text">We test output, ensure smooth operation, and offer follow-up support and maintenance.</div>
 									</div>
@@ -761,6 +760,50 @@ Reliable service at reasonable rates.</div>
       margin-left: -2px !important;
   }
 }
+.welcome-one_image img {
+  width: 620px; /* adjust as needed */
+}
+.welcome-one_image img {
+  width: 100%;
+  max-width: 400%;
+  height: auto;
+}
+
+/* Process section icons – lighter & smaller (competitor-style) */
+.process-one .process-block_one .icon i {
+  font-size: 38px;        /* size kammi */
+  font-weight: 300;       /* melisa look */
+  line-height: 1;
+  display: inline-block;
+}
+
+/* Remove extra spacing making icon look heavy */
+.process-one .process-block_one .icon {
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+/* Default (Desktop – change வேண்டாம்) */
+.contact-one_info-list .icon i {
+  font-size: 24px;
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  .contact-one_info-list .icon i {
+    font-size: 16px;   /* mobile-ல small size */
+  }
+
+  .contact-one_info-list li {
+    padding-left: 45px !important; /* spacing correct ஆக */
+  }
+
+  .contact-one_info-list .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
 
 
 </style>
@@ -771,6 +814,12 @@ Reliable service at reasonable rates.</div>
 	
 </div>
 <!-- End PageWrapper -->
+  <style>
+  .contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-size: 13px;
+}
+</style>
 
 <div class="progress-wrap">
 	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">

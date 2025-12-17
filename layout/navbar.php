@@ -116,8 +116,8 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 							<div class="main-header_button">
 								<a href="contact.php" class="theme-btn btn-style-one">
 									<span class="btn-wrap">
-										<span class="text-one">Get A Quote<i class="fa-classic fa-solid fa-arrow-right"></i></span>
-										<span class="text-two">Get A Quote<i class="fa-classic fa-solid fa-arrow-right"></i></span>
+										<span class="text-one">Schedule Site Visit<i class="fa-classic fa-solid fa-arrow-right"></i></span>
+										<span class="text-two">Schedule Site Visit<i class="fa-classic fa-solid fa-arrow-right"></i></span>
 									</span>
 								</a>
 							</div>

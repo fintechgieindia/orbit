@@ -92,21 +92,21 @@
 	width: 70px;
 	height: 70px;
 	margin: 0 auto;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: 68px;
 	margin-top: 35px;
 	transition: all 500ms ease;
 	border-radius: 50px;
 	color: var(--white-color);
-	background-color: var(--color-two);
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #14176c;
+	border: #14176c;
 }
 
 .process-block_one .inner .text {
 	position: relative;
 	margin-top: 30px;
 	padding: 0px 10px;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 32px;
 }

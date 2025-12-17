@@ -119,7 +119,7 @@ include 'layout/header.php' ?>
 			<!-- End Contact One -->
 			
 			<!-- Map One -->
-			<section class="map-one">
+			<section class="map-one mb-5">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s" allowfullscreen=""></iframe>
 			</section>
 			<!-- End Map One -->
@@ -135,6 +135,34 @@ include 'layout/header.php' ?>
 	
 </div>
 <!-- End PageWrapper -->
+ <style>
+  .contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-size: 13px;
+}
+/* Default (Desktop – change வேண்டாம்) */
+.contact-one_info-list .icon i {
+  font-size: 24px;
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  .contact-one_info-list .icon i {
+    font-size: 16px;   /* mobile-ல small size */
+  }
+
+  .contact-one_info-list li {
+    padding-left: 45px !important; /* spacing correct ஆக */
+  }
+
+  .contact-one_info-list .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+</style>
 
 <div class="progress-wrap">
 	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
